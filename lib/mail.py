@@ -71,20 +71,41 @@ def _send_smtp(smtp_cfg: dict, html_path: Path, subject: str, recipients: List[s
         part = email.mime.text.MIMEText(html_content, "html", "utf-8")
         msg.attach(part)
 
-        log.info("连接 %s:%d 发送邮件...", host, port)
-        if port == 465:
-            import ssl
-            ctx = ssl.create_default_context()
-            with smtplib.SMTP_SSL(host, port, timeout=30, context=ctx) as server:
-                server.login(user, password)
-                server.sendmail(from_addr, recipients, msg.as_string())
-        else:
-            with smtplib.SMTP(host, port, timeout=30) as server:
-                server.starttls()
-                server.login(user, password)
-                server.sendmail(from_addr, recipients, msg.as_string())
-        log.info("邮件已通过 SMTP 发送 → %s", ", ".join(recipients))
-        return True
+        import ssl
+        ctx = ssl.create_default_context()
+
+        def _try_ssl(p):
+            log.info("尝试 SMTP_SSL %s:%d ...", host, p)
+            with smtplib.SMTP_SSL(host, p, timeout=30, context=ctx) as srv:
+                srv.login(user, password)
+                srv.sendmail(from_addr, recipients, msg.as_string())
+
+        def _try_starttls(p):
+            log.info("尝试 STARTTLS %s:%d ...", host, p)
+            with smtplib.SMTP(host, p, timeout=30) as srv:
+                srv.starttls(context=ctx)
+                srv.login(user, password)
+                srv.sendmail(from_addr, recipients, msg.as_string())
+
+        # 始终先试 465/SSL，再试配置端口/STARTTLS
+        attempts = [
+            (lambda: _try_ssl(465), "SSL:465"),
+            (lambda: _try_starttls(587), "STARTTLS:587"),
+        ]
+        if port not in (465, 587):
+            attempts.append((lambda: _try_ssl(port), f"SSL:{port}"))
+
+        last_err = None
+        for fn, label in attempts:
+            try:
+                fn()
+                log.info("邮件已发送 via %s → %s", label, ", ".join(recipients))
+                return True
+            except Exception as e:
+                log.warning("SMTP %s 失败: %s", label, e)
+                last_err = e
+
+        raise last_err
     except Exception as e:
         log.error("SMTP 发送失败: %s", e)
         return False
