@@ -1,0 +1,15 @@
+01:41:05 [WARNING] Ollama 调用失败(第1次): timed out
+01:52:58 [WARNING] Ollama 调用失败(第1次): timed out
+01:58:17 [INFO] 缠论 LLM 进度 10/10，已发现 0 个当日信号
+WROTE /tmp/chan_demo.html | opps=0 structs=10
+--- sample structs (no signal) ---
+中证500 levels: {}
+白银 levels: {}
+中证1000 levels: {}
+沪深300 levels: {}
+上证50 levels: {}
+乙二醇 levels: {}
+铜 levels: {}
+碳酸锂 levels: {}
+纯碱 levels: {}
+螺纹钢 levels: {}

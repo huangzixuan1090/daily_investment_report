@@ -1,0 +1,1558 @@
+{
+  "generated_at": "2026-07-29 08:11:38",
+  "config_recipients": [
+    "irene06@qq.com",
+    "3101928126@qq.com"
+  ],
+  "futures": {
+    "section": "futures",
+    "date": "",
+    "count_ok": 0,
+    "count_total": 55,
+    "by_change": [],
+    "by_change_desc": [],
+    "by_inflow": [],
+    "by_outflow": [],
+    "by_volatility": [],
+    "opportunities": [],
+    "all": [],
+    "chan_structures": []
+  },
+  "data_date": "2026-07-29",
+  "data_weekday": "周三",
+  "data_date_label": "当日收盘",
+  "sectors": {
+    "section": "sectors",
+    "date": "2026-07-29",
+    "boards": [
+      {
+        "key": "industry",
+        "name": "行业板块",
+        "total": 84,
+        "top_gain": [
+          {
+            "code": "hangye_ZE49",
+            "name": "建筑安装业",
+            "change_pct": 1.62,
+            "leading_stock": "圣晖集成",
+            "leading_change": 10.007,
+            "leading_code": "sh603163"
+          },
+          {
+            "code": "hangye_ZJ69",
+            "name": "其他金融业",
+            "change_pct": 1.21,
+            "leading_stock": "指南针",
+            "leading_change": 8.822,
+            "leading_code": "sz300803"
+          },
+          {
+            "code": "hangye_ZI64",
+            "name": "互联网和相关服务",
+            "change_pct": 0.65516129032258,
+            "leading_stock": "返利科技",
+            "leading_change": 10.083,
+            "leading_code": "sh600228"
+          },
+          {
+            "code": "hangye_ZC15",
+            "name": "酒、饮料和精制茶制造业",
+            "change_pct": 0.64196078431373,
+            "leading_stock": "欢乐家",
+            "leading_change": 20.0,
+            "leading_code": "sz300997"
+          },
+          {
+            "code": "hangye_ZB09",
+            "name": "有色金属矿采选业",
+            "change_pct": 0.59851851851852,
+            "leading_stock": "西部黄金",
+            "leading_change": 5.066,
+            "leading_code": "sh601069"
+          },
+          {
+            "code": "hangye_ZC14",
+            "name": "食品制造业",
+            "change_pct": 0.50346153846154,
+            "leading_stock": "熊猫乳品",
+            "leading_change": 10.117,
+            "leading_code": "sz300898"
+          },
+          {
+            "code": "hangye_ZC43",
+            "name": "金属制品、机械和设备修理业",
+            "change_pct": 0.44,
+            "leading_stock": "速达股份",
+            "leading_change": 1.677,
+            "leading_code": "sz001277"
+          },
+          {
+            "code": "hangye_ZC21",
+            "name": "家具制造业",
+            "change_pct": 0.42483870967742,
+            "leading_stock": "志邦家居",
+            "leading_change": 10.019,
+            "leading_code": "sh603801"
+          },
+          {
+            "code": "hangye_ZC37",
+            "name": "铁路、船舶、航空航天和其他运输设备制造业",
+            "change_pct": 0.41596511627907,
+            "leading_stock": "迈信林",
+            "leading_change": 13.779,
+            "leading_code": "sh688685"
+          },
+          {
+            "code": "hangye_ZC38",
+            "name": "电气机械和器材制造业",
+            "change_pct": 0.4085,
+            "leading_stock": "恒太照明",
+            "leading_change": 9.484,
+            "leading_code": "bj920339"
+          },
+          {
+            "code": "hangye_ZB10",
+            "name": "非金属矿采选业",
+            "change_pct": 0.405,
+            "leading_stock": "龙高股份",
+            "leading_change": 2.933,
+            "leading_code": "sh605086"
+          },
+          {
+            "code": "hangye_ZF51",
+            "name": "批发业",
+            "change_pct": 0.40088775510204,
+            "leading_stock": "N千岸",
+            "leading_change": 138.807,
+            "leading_code": "bj920065"
+          },
+          {
+            "code": "hangye_ZC42",
+            "name": "废弃资源综合利用业",
+            "change_pct": 0.40071428571429,
+            "leading_stock": "英科再生",
+            "leading_change": 6.685,
+            "leading_code": "sh688087"
+          },
+          {
+            "code": "hangye_ZC28",
+            "name": "化学纤维制造业",
+            "change_pct": 0.33,
+            "leading_stock": "蒙泰高新",
+            "leading_change": 7.303,
+            "leading_code": "sz300876"
+          },
+          {
+            "code": "hangye_ZR85",
+            "name": "新闻和出版业",
+            "change_pct": 0.315,
+            "leading_stock": "中国科传",
+            "leading_change": 10.029,
+            "leading_code": "sh601858"
+          }
+        ],
+        "top_loss": [
+          {
+            "code": "hangye_ZC40",
+            "name": "仪器仪表制造业",
+            "change_pct": -1.4205102040816,
+            "leading_stock": "武汉蓝电",
+            "leading_change": 16.463,
+            "leading_code": "bj920779"
+          },
+          {
+            "code": "hangye_ZM73",
+            "name": "研究和试验发展",
+            "change_pct": -0.71612903225806,
+            "leading_stock": "皓元医药",
+            "leading_change": 10.874,
+            "leading_code": "sh688131"
+          },
+          {
+            "code": "hangye_ZC35",
+            "name": "专用设备制造业",
+            "change_pct": -0.61257,
+            "leading_stock": "纳科诺尔",
+            "leading_change": 9.715,
+            "leading_code": "bj920522"
+          },
+          {
+            "code": "hangye_ZE50",
+            "name": "建筑装饰和其他建筑业",
+            "change_pct": -0.23615384615385,
+            "leading_stock": "维业股份",
+            "leading_change": 5.627,
+            "leading_code": "sz300621"
+          },
+          {
+            "code": "hangye_ZR87",
+            "name": "文化艺术业",
+            "change_pct": -0.17333333333333,
+            "leading_stock": "宋城演艺",
+            "leading_change": 1.49,
+            "leading_code": "sz300144"
+          },
+          {
+            "code": "hangye_ZC30",
+            "name": "非金属矿物制品业",
+            "change_pct": -0.16597,
+            "leading_stock": "西藏天路",
+            "leading_change": 6.74,
+            "leading_code": "sh600326"
+          },
+          {
+            "code": "hangye_ZQ83",
+            "name": "卫生",
+            "change_pct": -0.16,
+            "leading_stock": "皓宸医疗",
+            "leading_change": 4.225,
+            "leading_code": "sz002622"
+          },
+          {
+            "code": "hangye_ZC20",
+            "name": "木材加工和木、竹、藤、棕、草制品业",
+            "change_pct": -0.14555555555556,
+            "leading_stock": "兔 宝 宝",
+            "leading_change": 6.931,
+            "leading_code": "sz002043"
+          },
+          {
+            "code": "hangye_ZE47",
+            "name": "房屋建筑业",
+            "change_pct": -0.11,
+            "leading_stock": "大龙地产",
+            "leading_change": 2.193,
+            "leading_code": "sh600159"
+          },
+          {
+            "code": "hangye_ZC33",
+            "name": "金属制品业",
+            "change_pct": -0.097979797979798,
+            "leading_stock": "宜安科技",
+            "leading_change": 11.786,
+            "leading_code": "sz300328"
+          },
+          {
+            "code": "hangye_ZC19",
+            "name": "皮革、毛皮、羽毛及其制品和制鞋业",
+            "change_pct": -0.070769230769231,
+            "leading_stock": "明新旭腾",
+            "leading_change": 9.988,
+            "leading_code": "sh605068"
+          },
+          {
+            "code": "hangye_ZJ68",
+            "name": "保险业",
+            "change_pct": -0.07,
+            "leading_stock": "中国太保",
+            "leading_change": 0.726,
+            "leading_code": "sh601601"
+          },
+          {
+            "code": "hangye_ZC34",
+            "name": "通用设备制造业",
+            "change_pct": -0.02257,
+            "leading_stock": "华之杰",
+            "leading_change": 10.012,
+            "leading_code": "sh603400"
+          },
+          {
+            "code": "hangye_ZC26",
+            "name": "化学原料和化学制品制造业",
+            "change_pct": -0.02157,
+            "leading_stock": "东来技术",
+            "leading_change": 7.043,
+            "leading_code": "sh688129"
+          }
+        ],
+        "source": "sina",
+        "date": "2026-07-29"
+      }
+    ]
+  },
+  "etf": {
+    "section": "etf",
+    "date": "2026-07-29",
+    "source": "eastmoney",
+    "top_gain": [
+      {
+        "code": "159728",
+        "name": "在线消费ETF南方",
+        "price": 0.775,
+        "change_pct": 6.02,
+        "main_inflow": -138857.0,
+        "main_inflow_pct": -1.35,
+        "amount": 10258210.9
+      },
+      {
+        "code": "159869",
+        "name": "游戏ETF华夏",
+        "price": 1.081,
+        "change_pct": 5.98,
+        "main_inflow": 210308153.0,
+        "main_inflow_pct": 21.95,
+        "amount": 958002468.516
+      },
+      {
+        "code": "516770",
+        "name": "游戏ETF华泰柏瑞",
+        "price": 1.131,
+        "change_pct": 5.9,
+        "main_inflow": 15639947.0,
+        "main_inflow_pct": 22.43,
+        "amount": 69715334.0
+      },
+      {
+        "code": "516010",
+        "name": "游戏ETF国泰",
+        "price": 1.067,
+        "change_pct": 5.54,
+        "main_inflow": 44193311.0,
+        "main_inflow_pct": 26.67,
+        "amount": 165720793.0
+      },
+      {
+        "code": "159856",
+        "name": "互联网龙头ETF工银",
+        "price": 0.605,
+        "change_pct": 3.77,
+        "main_inflow": 400067.0,
+        "main_inflow_pct": 10.09,
+        "amount": 3963799.1
+      },
+      {
+        "code": "159550",
+        "name": "互联网ETF东财",
+        "price": 0.831,
+        "change_pct": 3.75,
+        "main_inflow": 698794.0,
+        "main_inflow_pct": 5.26,
+        "amount": 13274993.9
+      },
+      {
+        "code": "159787",
+        "name": "建材ETF易方达",
+        "price": 0.594,
+        "change_pct": 3.48,
+        "main_inflow": -225356.0,
+        "main_inflow_pct": -3.98,
+        "amount": 5660744.6
+      },
+      {
+        "code": "517200",
+        "name": "互联网ETF嘉实",
+        "price": 0.61,
+        "change_pct": 3.39,
+        "main_inflow": 489212.0,
+        "main_inflow_pct": 20.26,
+        "amount": 2414411.0
+      },
+      {
+        "code": "516190",
+        "name": "传媒ETF华夏",
+        "price": 0.962,
+        "change_pct": 3.33,
+        "main_inflow": 519690.0,
+        "main_inflow_pct": 3.12,
+        "amount": 16634928.0
+      },
+      {
+        "code": "517050",
+        "name": "互联网ETF华泰柏瑞",
+        "price": 0.688,
+        "change_pct": 3.3,
+        "main_inflow": 119377.0,
+        "main_inflow_pct": 3.91,
+        "amount": 3050933.0
+      },
+      {
+        "code": "159745",
+        "name": "建材ETF国泰",
+        "price": 0.537,
+        "change_pct": 3.27,
+        "main_inflow": -7708514.0,
+        "main_inflow_pct": -14.59,
+        "amount": 52838690.0
+      },
+      {
+        "code": "159729",
+        "name": "互联网ETF汇添富",
+        "price": 0.716,
+        "change_pct": 3.17,
+        "main_inflow": 7279.0,
+        "main_inflow_pct": 0.6,
+        "amount": 1216679.71
+      },
+      {
+        "code": "517880",
+        "name": "品牌消费ETF华泰柏瑞",
+        "price": 0.783,
+        "change_pct": 3.16,
+        "main_inflow": 43655.0,
+        "main_inflow_pct": 0.7,
+        "amount": 6248319.0
+      },
+      {
+        "code": "159151",
+        "name": "食品ETF华夏",
+        "price": 0.92,
+        "change_pct": 3.14,
+        "main_inflow": -1451703.0,
+        "main_inflow_pct": -6.65,
+        "amount": 21836519.128
+      },
+      {
+        "code": "512980",
+        "name": "传媒ETF广发",
+        "price": 0.795,
+        "change_pct": 3.11,
+        "main_inflow": 28753695.0,
+        "main_inflow_pct": 14.23,
+        "amount": 202097996.0
+      }
+    ],
+    "top_loss": [
+      {
+        "code": "517850",
+        "name": "张江ETF汇添富",
+        "price": 1.301,
+        "change_pct": -3.27,
+        "main_inflow": -716235.0,
+        "main_inflow_pct": -36.53,
+        "amount": 1960722.0
+      },
+      {
+        "code": "159533",
+        "name": "中证2000ETF博时",
+        "price": 1.738,
+        "change_pct": -2.91,
+        "main_inflow": 901274.0,
+        "main_inflow_pct": 8.65,
+        "amount": 10420438.8
+      },
+      {
+        "code": "561220",
+        "name": "数字经济ETF工银",
+        "price": 1.757,
+        "change_pct": -2.77,
+        "main_inflow": -50250.0,
+        "main_inflow_pct": -0.71,
+        "amount": 7096000.0
+      },
+      {
+        "code": "588500",
+        "name": "科创100增强ETF易方达",
+        "price": 2.264,
+        "change_pct": -2.41,
+        "main_inflow": -2175904.0,
+        "main_inflow_pct": -15.98,
+        "amount": 13614808.0
+      },
+      {
+        "code": "159075",
+        "name": "工业互联网ETF华夏",
+        "price": 0.894,
+        "change_pct": -2.4,
+        "main_inflow": -908671.0,
+        "main_inflow_pct": -12.85,
+        "amount": 7068990.371
+      },
+      {
+        "code": "159665",
+        "name": "半导体龙头ETF工银",
+        "price": 2.412,
+        "change_pct": -2.27,
+        "main_inflow": -6107118.0,
+        "main_inflow_pct": -5.22,
+        "amount": 117101898.1
+      },
+      {
+        "code": "159560",
+        "name": "芯片ETF景顺",
+        "price": 2.287,
+        "change_pct": -2.26,
+        "main_inflow": -4966132.0,
+        "main_inflow_pct": -16.11,
+        "amount": 30826826.9
+      },
+      {
+        "code": "515400",
+        "name": "大数据ETF富国",
+        "price": 0.835,
+        "change_pct": -2.22,
+        "main_inflow": -12443849.0,
+        "main_inflow_pct": -8.6,
+        "amount": 144701075.0
+      },
+      {
+        "code": "159385",
+        "name": "数字经济ETF富国",
+        "price": 1.765,
+        "change_pct": -2.22,
+        "main_inflow": 1537672.0,
+        "main_inflow_pct": 9.9,
+        "amount": 15535949.8
+      },
+      {
+        "code": "159813",
+        "name": "半导体ETF鹏华",
+        "price": 1.475,
+        "change_pct": -2.19,
+        "main_inflow": -75944306.0,
+        "main_inflow_pct": -8.43,
+        "amount": 900953742.521
+      },
+      {
+        "code": "159538",
+        "name": "信创ETF富国",
+        "price": 0.895,
+        "change_pct": -2.19,
+        "main_inflow": 173693.0,
+        "main_inflow_pct": 1.04,
+        "amount": 16647637.176
+      },
+      {
+        "code": "159801",
+        "name": "芯片ETF广发",
+        "price": 1.142,
+        "change_pct": -2.14,
+        "main_inflow": -38796616.0,
+        "main_inflow_pct": -9.31,
+        "amount": 416709487.34
+      },
+      {
+        "code": "516700",
+        "name": "大数据ETF华宝",
+        "price": 0.871,
+        "change_pct": -2.13,
+        "main_inflow": -2045079.0,
+        "main_inflow_pct": -8.98,
+        "amount": 22771466.0
+      },
+      {
+        "code": "159599",
+        "name": "芯片ETF东财",
+        "price": 2.814,
+        "change_pct": -2.09,
+        "main_inflow": -22222534.0,
+        "main_inflow_pct": -8.21,
+        "amount": 270652734.1
+      },
+      {
+        "code": "560780",
+        "name": "半导体设备ETF广发",
+        "price": 1.041,
+        "change_pct": -2.07,
+        "main_inflow": -91751616.0,
+        "main_inflow_pct": -6.45,
+        "amount": 1422530103.0
+      }
+    ],
+    "top_inflow": [
+      {
+        "code": "512880",
+        "name": "证券ETF国泰",
+        "price": 1.106,
+        "change_pct": 1.94,
+        "main_inflow": 372325072.0,
+        "main_inflow_pct": 14.48,
+        "amount": 2571429213.0
+      },
+      {
+        "code": "510880",
+        "name": "红利ETF华泰柏瑞",
+        "price": 3.273,
+        "change_pct": 1.27,
+        "main_inflow": 228566857.0,
+        "main_inflow_pct": 24.42,
+        "amount": 936020947.0
+      },
+      {
+        "code": "515880",
+        "name": "通信ETF国泰",
+        "price": 0.602,
+        "change_pct": 0.33,
+        "main_inflow": 227585120.0,
+        "main_inflow_pct": 4.84,
+        "amount": 4704481326.0
+      },
+      {
+        "code": "159869",
+        "name": "游戏ETF华夏",
+        "price": 1.081,
+        "change_pct": 5.98,
+        "main_inflow": 210308153.0,
+        "main_inflow_pct": 21.95,
+        "amount": 958002468.516
+      },
+      {
+        "code": "515080",
+        "name": "中证红利ETF招商",
+        "price": 1.561,
+        "change_pct": 1.5,
+        "main_inflow": 144710735.0,
+        "main_inflow_pct": 28.79,
+        "amount": 502652095.0
+      },
+      {
+        "code": "512000",
+        "name": "券商ETF华宝",
+        "price": 0.529,
+        "change_pct": 1.93,
+        "main_inflow": 141017886.0,
+        "main_inflow_pct": 11.74,
+        "amount": 1200967262.0
+      },
+      {
+        "code": "515220",
+        "name": "煤炭ETF国泰",
+        "price": 1.2,
+        "change_pct": 2.21,
+        "main_inflow": 137738520.0,
+        "main_inflow_pct": 23.33,
+        "amount": 590402711.0
+      },
+      {
+        "code": "512890",
+        "name": "红利低波ETF华泰柏瑞",
+        "price": 1.187,
+        "change_pct": 0.94,
+        "main_inflow": 120445264.0,
+        "main_inflow_pct": 13.4,
+        "amount": 898707497.0
+      },
+      {
+        "code": "515180",
+        "name": "红利ETF易方达",
+        "price": 1.414,
+        "change_pct": 1.58,
+        "main_inflow": 97907045.0,
+        "main_inflow_pct": 19.05,
+        "amount": 513993336.0
+      },
+      {
+        "code": "515050",
+        "name": "通信ETF华夏",
+        "price": 0.956,
+        "change_pct": 0.1,
+        "main_inflow": 92781392.0,
+        "main_inflow_pct": 6.96,
+        "amount": 1333319173.0
+      },
+      {
+        "code": "512070",
+        "name": "证券保险ETF易方达",
+        "price": 0.811,
+        "change_pct": 1.25,
+        "main_inflow": 68447144.0,
+        "main_inflow_pct": 13.61,
+        "amount": 502842565.0
+      },
+      {
+        "code": "159611",
+        "name": "电力ETF广发",
+        "price": 1.07,
+        "change_pct": 1.52,
+        "main_inflow": 62953400.0,
+        "main_inflow_pct": 10.95,
+        "amount": 574933985.06
+      },
+      {
+        "code": "159326",
+        "name": "电网设备ETF华夏",
+        "price": 1.602,
+        "change_pct": 1.46,
+        "main_inflow": 62250768.0,
+        "main_inflow_pct": 7.23,
+        "amount": 860854491.457
+      },
+      {
+        "code": "512690",
+        "name": "酒ETF鹏华",
+        "price": 0.436,
+        "change_pct": 1.4,
+        "main_inflow": 61745631.0,
+        "main_inflow_pct": 7.5,
+        "amount": 823820793.0
+      },
+      {
+        "code": "159841",
+        "name": "证券ETF天弘",
+        "price": 1.002,
+        "change_pct": 1.83,
+        "main_inflow": 59599094.0,
+        "main_inflow_pct": 18.88,
+        "amount": 315737370.57
+      }
+    ],
+    "top_outflow": [
+      {
+        "code": "588000",
+        "name": "科创50ETF华夏",
+        "price": 1.776,
+        "change_pct": -0.5,
+        "main_inflow": -1471367184.0,
+        "main_inflow_pct": -11.35,
+        "amount": 12958762521.0
+      },
+      {
+        "code": "510300",
+        "name": "沪深300ETF华泰柏瑞",
+        "price": 4.657,
+        "change_pct": 0.65,
+        "main_inflow": -1193261136.0,
+        "main_inflow_pct": -17.08,
+        "amount": 6987965715.0
+      },
+      {
+        "code": "588170",
+        "name": "科创半导体ETF华夏",
+        "price": 0.98,
+        "change_pct": -0.2,
+        "main_inflow": -807008656.0,
+        "main_inflow_pct": -8.5,
+        "amount": 9493996515.0
+      },
+      {
+        "code": "159915",
+        "name": "创业板ETF易方达",
+        "price": 3.402,
+        "change_pct": 1.4,
+        "main_inflow": -656755136.0,
+        "main_inflow_pct": -5.28,
+        "amount": 12446158036.896
+      },
+      {
+        "code": "159516",
+        "name": "半导体设备ETF国泰",
+        "price": 0.706,
+        "change_pct": -1.94,
+        "main_inflow": -552809248.0,
+        "main_inflow_pct": -8.2,
+        "amount": 6738435113.374
+      },
+      {
+        "code": "512100",
+        "name": "中证1000ETF南方",
+        "price": 2.878,
+        "change_pct": 1.05,
+        "main_inflow": -530984912.0,
+        "main_inflow_pct": -6.57,
+        "amount": 8083231833.0
+      },
+      {
+        "code": "588710",
+        "name": "科创半导体设备ETF华泰柏瑞",
+        "price": 3.026,
+        "change_pct": -0.82,
+        "main_inflow": -365085792.0,
+        "main_inflow_pct": -11.73,
+        "amount": 3112393691.0
+      },
+      {
+        "code": "588080",
+        "name": "科创50ETF易方达",
+        "price": 1.723,
+        "change_pct": -0.58,
+        "main_inflow": -341590048.0,
+        "main_inflow_pct": -13.47,
+        "amount": 2535481665.0
+      },
+      {
+        "code": "159949",
+        "name": "创业板50ETF华安",
+        "price": 1.604,
+        "change_pct": 1.58,
+        "main_inflow": -285160832.0,
+        "main_inflow_pct": -7.37,
+        "amount": 3868352267.529
+      },
+      {
+        "code": "159558",
+        "name": "半导体设备ETF易方达",
+        "price": 1.107,
+        "change_pct": -1.95,
+        "main_inflow": -281976816.0,
+        "main_inflow_pct": -9.62,
+        "amount": 2931670222.771
+      },
+      {
+        "code": "510500",
+        "name": "中证500ETF南方",
+        "price": 7.54,
+        "change_pct": 1.03,
+        "main_inflow": -277554000.0,
+        "main_inflow_pct": -5.3,
+        "amount": 5240945444.0
+      },
+      {
+        "code": "563360",
+        "name": "A500ETF华泰柏瑞",
+        "price": 1.275,
+        "change_pct": 0.71,
+        "main_inflow": -237807072.0,
+        "main_inflow_pct": -4.6,
+        "amount": 5172389913.0
+      },
+      {
+        "code": "512480",
+        "name": "半导体ETF国联安",
+        "price": 1.027,
+        "change_pct": -1.34,
+        "main_inflow": -232376496.0,
+        "main_inflow_pct": -10.92,
+        "amount": 2128669278.0
+      },
+      {
+        "code": "159919",
+        "name": "沪深300ETF嘉实",
+        "price": 4.857,
+        "change_pct": 0.56,
+        "main_inflow": -165342560.0,
+        "main_inflow_pct": -16.37,
+        "amount": 1010141897.456
+      },
+      {
+        "code": "159995",
+        "name": "芯片ETF华夏",
+        "price": 1.152,
+        "change_pct": -2.04,
+        "main_inflow": -149745440.0,
+        "main_inflow_pct": -10.9,
+        "amount": 1373902645.907
+      }
+    ]
+  },
+  "global_markets": {
+    "ok": true,
+    "date": "2026-07-28",
+    "bonds": [
+      {
+        "key": "US2Y",
+        "name": "美国2年期国债",
+        "symbol": "美国国债收益率2年",
+        "yield": 4.26,
+        "change": -0.05,
+        "change_pct": -1.1601,
+        "date": "2026-07-28"
+      },
+      {
+        "key": "US5Y",
+        "name": "美国5年期国债",
+        "symbol": "美国国债收益率5年",
+        "yield": 4.35,
+        "change": -0.05,
+        "change_pct": -1.1364,
+        "date": "2026-07-28"
+      },
+      {
+        "key": "US10Y",
+        "name": "美国10年期国债",
+        "symbol": "美国国债收益率10年",
+        "yield": 4.61,
+        "change": -0.04,
+        "change_pct": -0.8602,
+        "date": "2026-07-28"
+      },
+      {
+        "key": "US30Y",
+        "name": "美国30年期国债",
+        "symbol": "美国国债收益率30年",
+        "yield": 5.09,
+        "change": -0.03,
+        "change_pct": -0.5859,
+        "date": "2026-07-28"
+      },
+      {
+        "key": "CN10Y",
+        "name": "中国10年期国债",
+        "symbol": "中国国债收益率10年",
+        "yield": 1.7329,
+        "change": -0.0022,
+        "change_pct": -0.1268,
+        "date": "2026-07-29"
+      },
+      {
+        "key": "CN2Y",
+        "name": "中国2年期国债",
+        "symbol": "中国国债收益率2年",
+        "yield": 1.2689,
+        "change": -0.0002,
+        "change_pct": -0.0158,
+        "date": "2026-07-29"
+      }
+    ],
+    "fx": [
+      {
+        "key": "EURUSD",
+        "name": "欧元/美元",
+        "symbol": "fx_seurusd",
+        "price": 1.1403,
+        "change": 0.0018,
+        "change_pct": 0.1581
+      },
+      {
+        "key": "GBPUSD",
+        "name": "英镑/美元",
+        "symbol": "fx_sgbpusd",
+        "price": 1.3308,
+        "change": 0.0023,
+        "change_pct": 0.1731
+      },
+      {
+        "key": "USDJPY",
+        "name": "美元/日元",
+        "symbol": "fx_susdjpy",
+        "price": 163.88,
+        "change": 0.06,
+        "change_pct": 0.0366
+      },
+      {
+        "key": "USDCNY",
+        "name": "美元/人民币",
+        "symbol": "fx_susdcny",
+        "price": 6.7728,
+        "change": 0.0005,
+        "change_pct": 0.0074
+      },
+      {
+        "key": "USDCHF",
+        "name": "美元/瑞郎",
+        "symbol": "fx_susdchf",
+        "price": 0.8205,
+        "change": 0.0016,
+        "change_pct": 0.1954
+      },
+      {
+        "key": "AUDUSD",
+        "name": "澳元/美元",
+        "symbol": "fx_saudusd",
+        "price": 0.6979,
+        "change": 0.0006,
+        "change_pct": 0.086
+      },
+      {
+        "key": "USDCAD",
+        "name": "美元/加元",
+        "symbol": "fx_susdcad",
+        "price": 1.4109,
+        "change": 0.0003,
+        "change_pct": 0.0213
+      }
+    ],
+    "error": null
+  },
+  "us_stocks": {
+    "ok": true,
+    "quotes_ok": false,
+    "date": "2026-07-28",
+    "date_label": "2026-07-28（周二，美股交易日）",
+    "sectors": [],
+    "sector_source": "yahoo",
+    "sector_date": null,
+    "stocks": [
+      {
+        "symbol": "MSFT",
+        "name_cn": "微软",
+        "name_en": "",
+        "price": null,
+        "change": null,
+        "change_pct": null,
+        "currency": "USD",
+        "market_cap": null,
+        "news_query": "Microsoft stock"
+      },
+      {
+        "symbol": "NVDA",
+        "name_cn": "英伟达",
+        "name_en": "",
+        "price": null,
+        "change": null,
+        "change_pct": null,
+        "currency": "USD",
+        "market_cap": null,
+        "news_query": "NVIDIA stock"
+      },
+      {
+        "symbol": "BABA",
+        "name_cn": "阿里巴巴",
+        "name_en": "",
+        "price": null,
+        "change": null,
+        "change_pct": null,
+        "currency": "USD",
+        "market_cap": null,
+        "news_query": "Alibaba stock"
+      }
+    ],
+    "news": {
+      "MSFT": [],
+      "NVDA": [],
+      "BABA": []
+    },
+    "error": "行情价格暂缺（Yahoo 限流），新闻正常获取；价格将于恢复后补全。"
+  },
+  "bloggers": {
+    "section": "bloggers",
+    "has_auth": true,
+    "target_days": [
+      "2026-07-29"
+    ],
+    "data_date": "2026-07-29",
+    "bloggers": [
+      {
+        "name": "Serenity",
+        "handle": "aleabitoreddit",
+        "posts": [],
+        "error": null,
+        "count": 0
+      },
+      {
+        "name": "Ariston Wang",
+        "handle": "Ariston_Macro",
+        "posts": [],
+        "error": null,
+        "count": 0
+      },
+      {
+        "name": "Michael Burry",
+        "handle": "michaeljburry",
+        "posts": [],
+        "error": null,
+        "count": 0
+      }
+    ]
+  },
+  "wechat": {
+    "ok": true,
+    "accounts": [
+      {
+        "name": "地平线全球策略",
+        "articles": [
+          {
+            "title": "大众+地平线白盒授权:L3智驾2027交付背后,是用中国方案重写自己的剧本",
+            "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9zM7uvAVj3Xz5Twt09W1P73PjxXS92IaVqXa8Fplpd9AXCBEI6l3onHyEJXUIn5xV8-qsdzQNx6KR5vTpXhiev3-cGMU1Vif6vA3uNqsm8x9qQDrBoaBMiMvxfhpruKrA-jt5t9FHR5xwcHNyze5muVA_Nvj65l6SVoKV7Rs0D4-aJsUKN9XayLQ_Mx36ioNJnAvGwSDxkyk7GEA_5cF18GX_iHL9MadA..&type=2&query=%E5%9C%B0%E5%B9%B3%E7%BA%BF%E5%85%A8%E7%90%83%E7%AD%96%E7%95%A5&token=C57CD0D7079434A4DCDD8C634763F11BDC4ED9F26A69FAA4",
+            "date": "2026-07-22",
+            "snippet": "结论:大众+地平线的白盒授权合作,不是一笔普通的中国市场技术采购合同,而是大众在全球智驾竞争格局下的一次关键战略转向....",
+            "source": "Ai电车",
+            "in_window": false
+          },
+          {
+            "title": "大众终于正名地平线,智驾差异化溢价时代的到来的地平线价值提升",
+            "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9zM7uvAVj3Xz5Twt09W1P73PjxXS92IaVqXa8Fplpd9mVVddFwSq_9eeXRx-mKVX-NAjHIQmwmZngyQYnH7BVkBN6-5z2A2LDa_uhODm-KRQ05ZfPOsy5SfAXJKeqAga45GYq4W1uwCGDbp8Pe_EDQLAGv-kk7onI9RYbMcoUfPhHpmf0kKrlmFmp0yIh9TalKmKCdZIsCcUzF-cmY7W__2CsG6-xMgzQ..&type=2&query=%E5%9C%B0%E5%B9%B3%E7%BA%BF%E5%85%A8%E7%90%83%E7%AD%96%E7%95%A5&token=C57CD0D7079434A4DCDD8C634763F11BDC4ED9F26A69FAA4",
+            "date": "2026-07-22",
+            "snippet": "我们本次结合 7 月的小鹏和理想新车售卖策略以及大众集团 7 月 22 日跟地平线官宣深度合作的喜讯来重新验证下这个智驾市场:地平...",
+            "source": "千军论股",
+            "in_window": false
+          }
+        ],
+        "aliases": [
+          "Mundell的分享圈",
+          "Mundell"
+        ],
+        "manual_articles": [],
+        "error": null,
+        "indirect": true,
+        "target_date": "2026-07-29",
+        "target_dates": [
+          "2026-07-29",
+          "2026-07-28",
+          "2026-07-27"
+        ],
+        "source": "sogou_session",
+        "summary": "总体来看，“地平线全球策略”近期关注的主题是智能驾驶技术的发展与应用，并且倾向于看好中国企业在这一领域的崛起。文章态度较为积极。\n\n- 大众与地平线的合作标志着中国方案在全球智驾竞争中的重要性提升，大众通过此次合作进行战略转向，表明其对中国市场的重视和对本土企业的认可。态度：看多，依据是双方在智能驾驶技术上的深度合作预示着未来可能带来更多的市场机会。\n- 地平线的价值得到进一步提升，尤其是在智能驾驶差异化溢价时代来临的背景下。小鹏和理想的新车售卖策略也显示出市场对于智能驾驶技术的高度关注。态度：看多，依据是地平线在智能驾驶领域的技术优势及其在中国市场的应用前景。\n\n总体而言，“地平线全球策略”对智能驾驶领域持乐观态度，并认为中国企业在这一领域的崛起将带来更多的商业机会和技术创新。"
+      },
+      {
+        "name": "行知交易员",
+        "articles": [
+          {
+            "title": "外资交易台:下跌只是拥挤出清,观察到有资金逢低买入.. 260729",
+            "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS9zM7uvAVj3X6DJ6W8iRFHn3PjxXS92IaVqXa8Fplpd9q3RblUtqI0LNKy_2WcsbUDxXh8h-CiorEa6_rGpiaJ-Cp3Fk8heqTG1RjfRtpNbZkThdAFXeuqWxUlyzbp_mjurPOwLR7bJz2b3M6IF45qsvAB_-Bdn_VSvKAerWnQGa5kYedgDsPgfGdED2r1pDCq-4V4zuk-a6BRn1QNAS2_1e0WC6Sbi7DA..&type=2&query=%E8%A1%8C%E7%9F%A5%E4%BA%A4%E6%98%93%E5%91%98&token=C57CDFD6079434A4DCDD8C634763F11BDC4ED9F26A69FAA6",
+            "date": "2026-07-29",
+            "snippet": "昨夜开盘45分钟后科技股被集中砸盘,瑞银连发三篇文章强调这只是拥挤AI正在经历一次仓位清洗...1/隔夜数据标普 500 涨了 0.21%,...",
+            "source": "行知交易员",
+            "in_window": true
+          }
+        ],
+        "aliases": [],
+        "manual_articles": [],
+        "error": null,
+        "indirect": false,
+        "target_date": "2026-07-29",
+        "target_dates": [
+          "2026-07-29",
+          "2026-07-28",
+          "2026-07-27"
+        ],
+        "source": "sogou_session",
+        "summary": "总体来看，行知交易员近期关注点主要集中在市场情绪和技术面分析上，并倾向于认为当前的下跌只是短期拥挤资金出清的过程。\n\n- 昨夜开盘45分钟后科技股被集中砸盘，瑞银连发三篇文章强调这只是拥挤AI正在经历一次仓位清洗。态度：中性。该号指出虽然短期内存在技术性调整压力，但整体来看，这种调整可能是为了后续更健康上涨做准备。\n- 隔夜数据显示标普 500 涨了 0.21%，表明市场在经过短暂的下跌后仍显示出一定的韧性。态度：中性。这说明市场并未因短期波动而大幅下挫，整体趋势依然保持稳定。\n- 整体来看，行知交易员认为当前市场的调整是正常的，投资者无需过度恐慌。态度：偏积极。该号认为随着拥挤资金的出清，后续有望迎来反弹机会。\n\n综上所述，行知交易员近期关注点主要集中在市场情绪和技术面分析上，并倾向于认为当前的下跌只是短期拥挤资金出清的过程，整体态度偏向于中性至偏积极。对于投资者而言，可以继续观察市场动态并适当逢低布局科技股等板块。"
+      }
+    ],
+    "error": null
+  },
+  "chanlun_a": {
+    "ok": true,
+    "date": "2026-07-29",
+    "count_total": 27,
+    "count_ok": 26,
+    "opportunities": [],
+    "all": [
+      {
+        "code": "600519",
+        "name": "贵州茅台",
+        "date": "2026-07-29",
+        "last_close": 1321.0,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "601318",
+        "name": "中国平安",
+        "date": "2026-07-29",
+        "last_close": 54.3,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "600036",
+        "name": "招商银行",
+        "date": "2026-07-29",
+        "last_close": 39.66,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "600276",
+        "name": "恒瑞医药",
+        "date": "2026-07-29",
+        "last_close": 53.89,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "600900",
+        "name": "长江电力",
+        "date": "2026-07-29",
+        "last_close": 28.93,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "601899",
+        "name": "紫金矿业",
+        "date": "2026-07-29",
+        "last_close": 32.15,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "600030",
+        "name": "中信证券",
+        "date": "2026-07-29",
+        "last_close": 28.5,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "600887",
+        "name": "伊利股份",
+        "date": "2026-07-29",
+        "last_close": 27.31,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "601012",
+        "name": "隆基绿能",
+        "error": "HTTPSConnectionPool(host='money.finance.sina.com.cn', port=443): Read timed out."
+      },
+      {
+        "code": "600009",
+        "name": "上海机场",
+        "date": "2026-07-29",
+        "last_close": 24.37,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "600585",
+        "name": "海螺水泥",
+        "date": "2026-07-29",
+        "last_close": 18.34,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "601166",
+        "name": "兴业银行",
+        "date": "2026-07-29",
+        "last_close": 18.59,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "600048",
+        "name": "保利发展",
+        "date": "2026-07-29",
+        "last_close": 5.24,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "601888",
+        "name": "中国中免",
+        "date": "2026-07-29",
+        "last_close": 57.38,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "688981",
+        "name": "中芯国际",
+        "date": "2026-07-29",
+        "last_close": 130.9,
+        "trend": "上涨",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "000858",
+        "name": "五粮液",
+        "date": "2026-07-29",
+        "last_close": 75.17,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "000333",
+        "name": "美的集团",
+        "date": "2026-07-29",
+        "last_close": 87.01,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "000651",
+        "name": "格力电器",
+        "date": "2026-07-29",
+        "last_close": 41.65,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "300750",
+        "name": "宁德时代",
+        "date": "2026-07-29",
+        "last_close": 396.84,
+        "trend": "上涨",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "002594",
+        "name": "比亚迪",
+        "date": "2026-07-29",
+        "last_close": 94.85,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "000001",
+        "name": "平安银行",
+        "date": "2026-07-29",
+        "last_close": 11.28,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "000725",
+        "name": "京东方A",
+        "date": "2026-07-29",
+        "last_close": 5.71,
+        "trend": "上涨",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "002415",
+        "name": "海康威视",
+        "date": "2026-07-29",
+        "last_close": 35.74,
+        "trend": "上涨",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "000002",
+        "name": "万科A",
+        "date": "2026-07-29",
+        "last_close": 3.28,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "300059",
+        "name": "东方财富",
+        "date": "2026-07-29",
+        "last_close": 19.9,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "002714",
+        "name": "牧原股份",
+        "date": "2026-07-29",
+        "last_close": 38.88,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      },
+      {
+        "code": "300760",
+        "name": "迈瑞医疗",
+        "date": "2026-07-29",
+        "last_close": 154.88,
+        "trend": "下跌",
+        "signal": null,
+        "point": null,
+        "bias": null,
+        "signal_price": null,
+        "signal_date": "",
+        "signal_age": null,
+        "reason": "结构成立但未出现标准背驰买卖点（一/二买或一/二卖）",
+        "score": 0,
+        "fresh": false,
+        "has_signal": false
+      }
+    ]
+  },
+  "holdings": {
+    "ok": false,
+    "error": "IBKR 连接/持仓获取失败: [Errno 61] Connect call failed ('127.0.0.1', 7496)",
+    "as_of": "2026-07-29",
+    "generated_at": "",
+    "holdings": [],
+    "sectors": null
+  },
+  "commentary": "- 建筑安装业表现突出，涨幅达1.62%，显示出市场对该行业持续看好。\n- 其他金融业紧随其后，上涨1.21%，表明投资者对金融行业的关注有所增加。\n- 互联网和相关服务板块也表现出一定活力，小幅上涨0.66%。\n- 整体来看，资金流入主要集中在建筑安装业与金融业，分别录得35亿与28亿的资金净流入。"
+}

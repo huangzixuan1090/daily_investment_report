@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c ' *)",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\('daily_report.py'\\).read\\(\\)\\); print\\('daily_report.py OK'\\)\")",
+      "Bash(python3 -c \"import ast; ast.parse\\(open\\('lib/chan.py'\\).read\\(\\)\\); print\\('chan.py OK'\\)\")",
+      "Bash(python3 -c \"import json; json.load\\(open\\('config.json'\\)\\); print\\('config.json OK'\\)\")"
+    ]
+  }
+}

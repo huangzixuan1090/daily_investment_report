@@ -1,0 +1,4028 @@
+{
+  "generated_at": "2026-07-23 08:00:04",
+  "config_recipients": [
+    "irene06@qq.com",
+    "3101928126@qq.com"
+  ],
+  "futures": {
+    "section": "futures",
+    "date": "2026-07-22",
+    "count_ok": 55,
+    "count_total": 55,
+    "by_change": [
+      {
+        "code": "lu",
+        "name": "低硫燃油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 4917.0,
+        "change_pct": 5.36,
+        "open_interest": 75049.0,
+        "oi_change": 2169,
+        "oi_change_pct": 2.98,
+        "volume": 148333.0,
+        "inflow": 106649730.0,
+        "chan": {}
+      },
+      {
+        "code": "sc",
+        "name": "原油",
+        "mult": 1000,
+        "date": "2026-07-22",
+        "last_close": 559.4,
+        "change_pct": 5.35,
+        "open_interest": 48670.0,
+        "oi_change": 1963,
+        "oi_change_pct": 4.2,
+        "volume": 140296.0,
+        "inflow": 1098102200.0,
+        "chan": {}
+      },
+      {
+        "code": "fu",
+        "name": "燃油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 3794.0,
+        "change_pct": 4.58,
+        "open_interest": 237168.0,
+        "oi_change": 34031,
+        "oi_change_pct": 16.75,
+        "volume": 973591.0,
+        "inflow": 1291136140.0,
+        "chan": {}
+      },
+      {
+        "code": "pg",
+        "name": "LPG",
+        "mult": 20,
+        "date": "2026-07-22",
+        "last_close": 5733.0,
+        "change_pct": 2.19,
+        "open_interest": 74920.0,
+        "oi_change": 2256,
+        "oi_change_pct": 3.1,
+        "volume": 54150.0,
+        "inflow": 258672960.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 5783.0,
+          "reason": "LPG(pg)虽多空倾向偏空，但大级别仍处于上涨趋势，当前一卖顶背驰，建议谨慎追空。",
+          "signal_date": "2026-07-22 22:00:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "多头，近5根下跌",
+            "1h": "多头，近5根下跌",
+            "daily": "多头，近5根上涨",
+            "weekly": "多头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          }
+        }
+      },
+      {
+        "code": "ta",
+        "name": "PTA",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 5890.0,
+        "change_pct": 1.8,
+        "open_interest": 927187.0,
+        "oi_change": 19934,
+        "oi_change_pct": 2.2,
+        "volume": 889949.0,
+        "inflow": 587056300.0,
+        "chan": {}
+      },
+      {
+        "code": "eg",
+        "name": "乙二醇",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 4776.0,
+        "change_pct": 1.51,
+        "open_interest": 323258.0,
+        "oi_change": 14971,
+        "oi_change_pct": 4.86,
+        "volume": 375637.0,
+        "inflow": 715014960.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 4787.0,
+          "reason": "乙二醇(eg)出现一卖顶背驰，尽管多空倾向偏空，但大级别仍处于上涨趋势，需谨慎追空。",
+          "signal_date": "2026-07-22 21:30:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "空头，近5根下跌",
+            "1h": "空头，近5根下跌",
+            "daily": "多头，近5根上涨",
+            "weekly": "多头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          }
+        }
+      },
+      {
+        "code": "bu",
+        "name": "沥青",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 4222.0,
+        "change_pct": 1.39,
+        "open_interest": 259107.0,
+        "oi_change": 2284,
+        "oi_change_pct": 0.89,
+        "volume": 403260.0,
+        "inflow": 96430480.0,
+        "chan": {}
+      },
+      {
+        "code": "lc",
+        "name": "碳酸锂",
+        "mult": 1,
+        "date": "2026-07-22",
+        "last_close": 143300.0,
+        "change_pct": 1.19,
+        "open_interest": 370958.0,
+        "oi_change": -4227,
+        "oi_change_pct": -1.13,
+        "volume": 282781.0,
+        "inflow": -605729100.0,
+        "chan": {}
+      },
+      {
+        "code": "au",
+        "name": "黄金",
+        "mult": 1000,
+        "date": "2026-07-22",
+        "last_close": 901.74,
+        "change_pct": 1.05,
+        "open_interest": 139043.0,
+        "oi_change": 10364,
+        "oi_change_pct": 8.05,
+        "volume": 116815.0,
+        "inflow": 9345633360.0,
+        "chan": {}
+      },
+      {
+        "code": "fg",
+        "name": "玻璃",
+        "mult": 20,
+        "date": "2026-07-22",
+        "last_close": 913.0,
+        "change_pct": 1.0,
+        "open_interest": 1902564.0,
+        "oi_change": -108149,
+        "oi_change_pct": -5.38,
+        "volume": 1467493.0,
+        "inflow": -1974800740.0,
+        "chan": {}
+      },
+      {
+        "code": "sf",
+        "name": "硅铁",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 5840.0,
+        "change_pct": 1.0,
+        "open_interest": 216703.0,
+        "oi_change": 7087,
+        "oi_change_pct": 3.38,
+        "volume": 223066.0,
+        "inflow": 206940400.0,
+        "chan": {}
+      },
+      {
+        "code": "ap",
+        "name": "苹果",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 7603.0,
+        "change_pct": 0.96,
+        "open_interest": 99425.0,
+        "oi_change": -6415,
+        "oi_change_pct": -6.06,
+        "volume": 83368.0,
+        "inflow": -487732450.0,
+        "chan": {}
+      }
+    ],
+    "by_change_desc": [
+      {
+        "code": "im",
+        "name": "中证1000",
+        "mult": 200,
+        "date": "2026-07-22",
+        "last_close": 7028.8,
+        "change_pct": -1.89,
+        "open_interest": 255044.0,
+        "oi_change": -14634,
+        "oi_change_pct": -5.43,
+        "volume": 231584.0,
+        "inflow": -20571891840.0,
+        "chan": {}
+      },
+      {
+        "code": "sm",
+        "name": "锰硅",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 5712.0,
+        "change_pct": -1.31,
+        "open_interest": 507586.0,
+        "oi_change": 58600,
+        "oi_change_pct": 13.05,
+        "volume": 307395.0,
+        "inflow": 1673616000.0,
+        "chan": {}
+      },
+      {
+        "code": "i",
+        "name": "铁矿石",
+        "mult": 100,
+        "date": "2026-07-22",
+        "last_close": 739.5,
+        "change_pct": -1.27,
+        "open_interest": 505102.0,
+        "oi_change": 9788,
+        "oi_change_pct": 1.98,
+        "volume": 209611.0,
+        "inflow": 723822600.0,
+        "chan": {}
+      },
+      {
+        "code": "y",
+        "name": "豆油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 8442.0,
+        "change_pct": -1.17,
+        "open_interest": 452912.0,
+        "oi_change": -34638,
+        "oi_change_pct": -7.1,
+        "volume": 328530.0,
+        "inflow": -2924139960.0,
+        "chan": {}
+      },
+      {
+        "code": "pb",
+        "name": "铅",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 15725.0,
+        "change_pct": -1.01,
+        "open_interest": 116713.0,
+        "oi_change": 6143,
+        "oi_change_pct": 5.56,
+        "volume": 75960.0,
+        "inflow": 482993375.0,
+        "chan": {}
+      },
+      {
+        "code": "ic",
+        "name": "中证500",
+        "mult": 200,
+        "date": "2026-07-22",
+        "last_close": 7611.0,
+        "change_pct": -0.97,
+        "open_interest": 190900.0,
+        "oi_change": -12914,
+        "oi_change_pct": -6.34,
+        "volume": 157364.0,
+        "inflow": -19657690800.0,
+        "chan": {}
+      },
+      {
+        "code": "oi",
+        "name": "菜油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 9949.0,
+        "change_pct": -0.88,
+        "open_interest": 327114.0,
+        "oi_change": -21978,
+        "oi_change_pct": -6.3,
+        "volume": 274771.0,
+        "inflow": -2186591220.0,
+        "chan": {}
+      },
+      {
+        "code": "jm",
+        "name": "焦煤",
+        "mult": 60,
+        "date": "2026-07-22",
+        "last_close": 1266.0,
+        "change_pct": -0.71,
+        "open_interest": 407586.0,
+        "oi_change": -9956,
+        "oi_change_pct": -2.38,
+        "volume": 442421.0,
+        "inflow": -756257760.0,
+        "chan": {}
+      },
+      {
+        "code": "j",
+        "name": "焦炭",
+        "mult": 100,
+        "date": "2026-07-22",
+        "last_close": 1824.5,
+        "change_pct": -0.68,
+        "open_interest": 62237.0,
+        "oi_change": -615,
+        "oi_change_pct": -0.98,
+        "volume": 27365.0,
+        "inflow": -112206750.0,
+        "chan": {}
+      },
+      {
+        "code": "cj",
+        "name": "红枣",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 7850.0,
+        "change_pct": -0.63,
+        "open_interest": 165289.0,
+        "oi_change": 1332,
+        "oi_change_pct": 0.81,
+        "volume": 94382.0,
+        "inflow": 52281000.0,
+        "chan": {}
+      },
+      {
+        "code": "v",
+        "name": "PVC",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 4565.0,
+        "change_pct": -0.48,
+        "open_interest": 1030211.0,
+        "oi_change": 23043,
+        "oi_change_pct": 2.29,
+        "volume": 969666.0,
+        "inflow": 525956475.0,
+        "chan": {}
+      },
+      {
+        "code": "hc",
+        "name": "热轧卷板",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 3282.0,
+        "change_pct": -0.45,
+        "open_interest": 1473626.0,
+        "oi_change": 30829,
+        "oi_change_pct": 2.14,
+        "volume": 302621.0,
+        "inflow": 1011807780.0,
+        "chan": {}
+      }
+    ],
+    "by_inflow": [
+      {
+        "code": "au",
+        "name": "黄金",
+        "mult": 1000,
+        "date": "2026-07-22",
+        "last_close": 901.74,
+        "change_pct": 1.05,
+        "open_interest": 139043.0,
+        "oi_change": 10364,
+        "oi_change_pct": 8.05,
+        "volume": 116815.0,
+        "inflow": 9345633360.0,
+        "chan": {}
+      },
+      {
+        "code": "cu",
+        "name": "铜",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 105820.0,
+        "change_pct": 0.34,
+        "open_interest": 227686.0,
+        "oi_change": 11819,
+        "oi_change_pct": 5.48,
+        "volume": 120893.0,
+        "inflow": 6253432900.0,
+        "chan": {}
+      },
+      {
+        "code": "ih",
+        "name": "上证50",
+        "mult": 300,
+        "date": "2026-07-22",
+        "last_close": 2946.2,
+        "change_pct": 0.77,
+        "open_interest": 74986.0,
+        "oi_change": 3927,
+        "oi_change_pct": 5.53,
+        "volume": 47307.0,
+        "inflow": 3470918220.0,
+        "chan": {}
+      },
+      {
+        "code": "rb",
+        "name": "螺纹钢",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 3083.0,
+        "change_pct": -0.39,
+        "open_interest": 1884032.0,
+        "oi_change": 56745,
+        "oi_change_pct": 3.11,
+        "volume": 597393.0,
+        "inflow": 1749448350.0,
+        "chan": {}
+      },
+      {
+        "code": "sm",
+        "name": "锰硅",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 5712.0,
+        "change_pct": -1.31,
+        "open_interest": 507586.0,
+        "oi_change": 58600,
+        "oi_change_pct": 13.05,
+        "volume": 307395.0,
+        "inflow": 1673616000.0,
+        "chan": {}
+      },
+      {
+        "code": "ag",
+        "name": "白银",
+        "mult": 15,
+        "date": "2026-07-22",
+        "last_close": 14531.0,
+        "change_pct": 0.77,
+        "open_interest": 236745.0,
+        "oi_change": 6407,
+        "oi_change_pct": 2.78,
+        "volume": 731513.0,
+        "inflow": 1396501755.0,
+        "chan": {}
+      },
+      {
+        "code": "fu",
+        "name": "燃油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 3794.0,
+        "change_pct": 4.58,
+        "open_interest": 237168.0,
+        "oi_change": 34031,
+        "oi_change_pct": 16.75,
+        "volume": 973591.0,
+        "inflow": 1291136140.0,
+        "chan": {}
+      },
+      {
+        "code": "sc",
+        "name": "原油",
+        "mult": 1000,
+        "date": "2026-07-22",
+        "last_close": 559.4,
+        "change_pct": 5.35,
+        "open_interest": 48670.0,
+        "oi_change": 1963,
+        "oi_change_pct": 4.2,
+        "volume": 140296.0,
+        "inflow": 1098102200.0,
+        "chan": {}
+      },
+      {
+        "code": "hc",
+        "name": "热轧卷板",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 3282.0,
+        "change_pct": -0.45,
+        "open_interest": 1473626.0,
+        "oi_change": 30829,
+        "oi_change_pct": 2.14,
+        "volume": 302621.0,
+        "inflow": 1011807780.0,
+        "chan": {}
+      },
+      {
+        "code": "ma",
+        "name": "甲醇",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 2718.0,
+        "change_pct": 0.41,
+        "open_interest": 638579.0,
+        "oi_change": 35204,
+        "oi_change_pct": 5.83,
+        "volume": 1404678.0,
+        "inflow": 956844720.0,
+        "chan": {}
+      },
+      {
+        "code": "sn",
+        "name": "锡",
+        "mult": 1,
+        "date": "2026-07-22",
+        "last_close": 416970.0,
+        "change_pct": -0.28,
+        "open_interest": 38732.0,
+        "oi_change": 1911,
+        "oi_change_pct": 5.19,
+        "volume": 96646.0,
+        "inflow": 796829670.0,
+        "chan": {}
+      },
+      {
+        "code": "i",
+        "name": "铁矿石",
+        "mult": 100,
+        "date": "2026-07-22",
+        "last_close": 739.5,
+        "change_pct": -1.27,
+        "open_interest": 505102.0,
+        "oi_change": 9788,
+        "oi_change_pct": 1.98,
+        "volume": 209611.0,
+        "inflow": 723822600.0,
+        "chan": {}
+      }
+    ],
+    "by_outflow": [
+      {
+        "code": "im",
+        "name": "中证1000",
+        "mult": 200,
+        "date": "2026-07-22",
+        "last_close": 7028.8,
+        "change_pct": -1.89,
+        "open_interest": 255044.0,
+        "oi_change": -14634,
+        "oi_change_pct": -5.43,
+        "volume": 231584.0,
+        "inflow": -20571891840.0,
+        "chan": {}
+      },
+      {
+        "code": "ic",
+        "name": "中证500",
+        "mult": 200,
+        "date": "2026-07-22",
+        "last_close": 7611.0,
+        "change_pct": -0.97,
+        "open_interest": 190900.0,
+        "oi_change": -12914,
+        "oi_change_pct": -6.34,
+        "volume": 157364.0,
+        "inflow": -19657690800.0,
+        "chan": {}
+      },
+      {
+        "code": "if",
+        "name": "沪深300",
+        "mult": 300,
+        "date": "2026-07-22",
+        "last_close": 4648.0,
+        "change_pct": -0.31,
+        "open_interest": 158447.0,
+        "oi_change": -4085,
+        "oi_change_pct": -2.51,
+        "volume": 83980.0,
+        "inflow": -5696124000.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 4707.6,
+          "reason": "沪深300(if)一卖顶背驰，虽大级别趋势上涨，但多空倾向偏空，建议谨慎操作。",
+          "signal_date": "2026-07-22 11:30:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "多头，近5根上涨",
+            "1h": "多头，近5根下跌",
+            "daily": "空头，近5根下跌",
+            "weekly": "空头，近5根上涨",
+            "monthly": "多头，近5根下跌"
+          }
+        }
+      },
+      {
+        "code": "y",
+        "name": "豆油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 8442.0,
+        "change_pct": -1.17,
+        "open_interest": 452912.0,
+        "oi_change": -34638,
+        "oi_change_pct": -7.1,
+        "volume": 328530.0,
+        "inflow": -2924139960.0,
+        "chan": {}
+      },
+      {
+        "code": "oi",
+        "name": "菜油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 9949.0,
+        "change_pct": -0.88,
+        "open_interest": 327114.0,
+        "oi_change": -21978,
+        "oi_change_pct": -6.3,
+        "volume": 274771.0,
+        "inflow": -2186591220.0,
+        "chan": {}
+      },
+      {
+        "code": "fg",
+        "name": "玻璃",
+        "mult": 20,
+        "date": "2026-07-22",
+        "last_close": 913.0,
+        "change_pct": 1.0,
+        "open_interest": 1902564.0,
+        "oi_change": -108149,
+        "oi_change_pct": -5.38,
+        "volume": 1467493.0,
+        "inflow": -1974800740.0,
+        "chan": {}
+      },
+      {
+        "code": "sr",
+        "name": "白糖",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 5169.0,
+        "change_pct": 0.0,
+        "open_interest": 689521.0,
+        "oi_change": -22853,
+        "oi_change_pct": -3.21,
+        "volume": 286309.0,
+        "inflow": -1181271570.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 5178.0,
+          "reason": "白糖(sr)一卖顶背驰，虽大级别趋势偏涨但短期偏空，建议谨慎追多。",
+          "signal_date": "2026-07-22 22:30:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "中枢震荡区间5158–5174",
+            "1h": "中枢震荡区间5163–5174",
+            "daily": "空头，近5根走平",
+            "weekly": "空头，近5根上涨",
+            "monthly": "空头，近5根下跌"
+          }
+        }
+      },
+      {
+        "code": "m",
+        "name": "豆粕",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 3146.0,
+        "change_pct": -0.06,
+        "open_interest": 2006767.0,
+        "oi_change": -33283,
+        "oi_change_pct": -1.63,
+        "volume": 1163869.0,
+        "inflow": -1047083180.0,
+        "chan": {}
+      },
+      {
+        "code": "sa",
+        "name": "纯碱",
+        "mult": 20,
+        "date": "2026-07-22",
+        "last_close": 1013.0,
+        "change_pct": 0.4,
+        "open_interest": 1372312.0,
+        "oi_change": -37446,
+        "oi_change_pct": -2.66,
+        "volume": 1432537.0,
+        "inflow": -758655960.0,
+        "chan": {}
+      },
+      {
+        "code": "jm",
+        "name": "焦煤",
+        "mult": 60,
+        "date": "2026-07-22",
+        "last_close": 1266.0,
+        "change_pct": -0.71,
+        "open_interest": 407586.0,
+        "oi_change": -9956,
+        "oi_change_pct": -2.38,
+        "volume": 442421.0,
+        "inflow": -756257760.0,
+        "chan": {}
+      },
+      {
+        "code": "rm",
+        "name": "菜粕",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 2350.0,
+        "change_pct": 0.34,
+        "open_interest": 651185.0,
+        "oi_change": -26578,
+        "oi_change_pct": -3.92,
+        "volume": 769072.0,
+        "inflow": -624583000.0,
+        "chan": {}
+      },
+      {
+        "code": "ni",
+        "name": "镍",
+        "mult": 1,
+        "date": "2026-07-22",
+        "last_close": 131480.0,
+        "change_pct": 0.66,
+        "open_interest": 215905.0,
+        "oi_change": -4644,
+        "oi_change_pct": -2.11,
+        "volume": 186610.0,
+        "inflow": -610593120.0,
+        "chan": {}
+      }
+    ],
+    "opportunities": [
+      {
+        "code": "eg",
+        "name": "乙二醇",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 4776.0,
+        "change_pct": 1.51,
+        "open_interest": 323258.0,
+        "oi_change": 14971,
+        "oi_change_pct": 4.86,
+        "volume": 375637.0,
+        "inflow": 715014960.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 4787.0,
+          "reason": "乙二醇(eg)出现一卖顶背驰，尽管多空倾向偏空，但大级别仍处于上涨趋势，需谨慎追空。",
+          "signal_date": "2026-07-22 21:30:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "空头，近5根下跌",
+            "1h": "空头，近5根下跌",
+            "daily": "多头，近5根上涨",
+            "weekly": "多头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          }
+        }
+      },
+      {
+        "code": "pg",
+        "name": "LPG",
+        "mult": 20,
+        "date": "2026-07-22",
+        "last_close": 5733.0,
+        "change_pct": 2.19,
+        "open_interest": 74920.0,
+        "oi_change": 2256,
+        "oi_change_pct": 3.1,
+        "volume": 54150.0,
+        "inflow": 258672960.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 5783.0,
+          "reason": "LPG(pg)虽多空倾向偏空，但大级别仍处于上涨趋势，当前一卖顶背驰，建议谨慎追空。",
+          "signal_date": "2026-07-22 22:00:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "多头，近5根下跌",
+            "1h": "多头，近5根下跌",
+            "daily": "多头，近5根上涨",
+            "weekly": "多头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          }
+        }
+      },
+      {
+        "code": "sr",
+        "name": "白糖",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 5169.0,
+        "change_pct": 0.0,
+        "open_interest": 689521.0,
+        "oi_change": -22853,
+        "oi_change_pct": -3.21,
+        "volume": 286309.0,
+        "inflow": -1181271570.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 5178.0,
+          "reason": "白糖(sr)一卖顶背驰，虽大级别趋势偏涨但短期偏空，建议谨慎追多。",
+          "signal_date": "2026-07-22 22:30:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "中枢震荡区间5158–5174",
+            "1h": "中枢震荡区间5163–5174",
+            "daily": "空头，近5根走平",
+            "weekly": "空头，近5根上涨",
+            "monthly": "空头，近5根下跌"
+          }
+        }
+      },
+      {
+        "code": "if",
+        "name": "沪深300",
+        "mult": 300,
+        "date": "2026-07-22",
+        "last_close": 4648.0,
+        "change_pct": -0.31,
+        "open_interest": 158447.0,
+        "oi_change": -4085,
+        "oi_change_pct": -2.51,
+        "volume": 83980.0,
+        "inflow": -5696124000.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 4707.6,
+          "reason": "沪深300(if)一卖顶背驰，虽大级别趋势上涨，但多空倾向偏空，建议谨慎操作。",
+          "signal_date": "2026-07-22 11:30:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "多头，近5根上涨",
+            "1h": "多头，近5根下跌",
+            "daily": "空头，近5根下跌",
+            "weekly": "空头，近5根上涨",
+            "monthly": "多头，近5根下跌"
+          }
+        }
+      }
+    ],
+    "all": [
+      {
+        "code": "rb",
+        "name": "螺纹钢",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 3083.0,
+        "change_pct": -0.39,
+        "open_interest": 1884032.0,
+        "oi_change": 56745,
+        "oi_change_pct": 3.11,
+        "volume": 597393.0,
+        "inflow": 1749448350.0,
+        "chan": {}
+      },
+      {
+        "code": "hc",
+        "name": "热轧卷板",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 3282.0,
+        "change_pct": -0.45,
+        "open_interest": 1473626.0,
+        "oi_change": 30829,
+        "oi_change_pct": 2.14,
+        "volume": 302621.0,
+        "inflow": 1011807780.0,
+        "chan": {}
+      },
+      {
+        "code": "i",
+        "name": "铁矿石",
+        "mult": 100,
+        "date": "2026-07-22",
+        "last_close": 739.5,
+        "change_pct": -1.27,
+        "open_interest": 505102.0,
+        "oi_change": 9788,
+        "oi_change_pct": 1.98,
+        "volume": 209611.0,
+        "inflow": 723822600.0,
+        "chan": {}
+      },
+      {
+        "code": "j",
+        "name": "焦炭",
+        "mult": 100,
+        "date": "2026-07-22",
+        "last_close": 1824.5,
+        "change_pct": -0.68,
+        "open_interest": 62237.0,
+        "oi_change": -615,
+        "oi_change_pct": -0.98,
+        "volume": 27365.0,
+        "inflow": -112206750.0,
+        "chan": {}
+      },
+      {
+        "code": "jm",
+        "name": "焦煤",
+        "mult": 60,
+        "date": "2026-07-22",
+        "last_close": 1266.0,
+        "change_pct": -0.71,
+        "open_interest": 407586.0,
+        "oi_change": -9956,
+        "oi_change_pct": -2.38,
+        "volume": 442421.0,
+        "inflow": -756257760.0,
+        "chan": {}
+      },
+      {
+        "code": "fu",
+        "name": "燃油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 3794.0,
+        "change_pct": 4.58,
+        "open_interest": 237168.0,
+        "oi_change": 34031,
+        "oi_change_pct": 16.75,
+        "volume": 973591.0,
+        "inflow": 1291136140.0,
+        "chan": {}
+      },
+      {
+        "code": "bu",
+        "name": "沥青",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 4222.0,
+        "change_pct": 1.39,
+        "open_interest": 259107.0,
+        "oi_change": 2284,
+        "oi_change_pct": 0.89,
+        "volume": 403260.0,
+        "inflow": 96430480.0,
+        "chan": {}
+      },
+      {
+        "code": "ru",
+        "name": "橡胶",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 16930.0,
+        "change_pct": 0.68,
+        "open_interest": 106910.0,
+        "oi_change": -230,
+        "oi_change_pct": -0.21,
+        "volume": 230082.0,
+        "inflow": -38939000.0,
+        "chan": {}
+      },
+      {
+        "code": "nr",
+        "name": "20号胶",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 14645.0,
+        "change_pct": 0.76,
+        "open_interest": 48614.0,
+        "oi_change": -2364,
+        "oi_change_pct": -4.64,
+        "volume": 72055.0,
+        "inflow": -346207800.0,
+        "chan": {}
+      },
+      {
+        "code": "ss",
+        "name": "不锈钢",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 14780.0,
+        "change_pct": -0.14,
+        "open_interest": 105984.0,
+        "oi_change": -4154,
+        "oi_change_pct": -3.77,
+        "volume": 155034.0,
+        "inflow": -306980600.0,
+        "chan": {}
+      },
+      {
+        "code": "sn",
+        "name": "锡",
+        "mult": 1,
+        "date": "2026-07-22",
+        "last_close": 416970.0,
+        "change_pct": -0.28,
+        "open_interest": 38732.0,
+        "oi_change": 1911,
+        "oi_change_pct": 5.19,
+        "volume": 96646.0,
+        "inflow": 796829670.0,
+        "chan": {}
+      },
+      {
+        "code": "cu",
+        "name": "铜",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 105820.0,
+        "change_pct": 0.34,
+        "open_interest": 227686.0,
+        "oi_change": 11819,
+        "oi_change_pct": 5.48,
+        "volume": 120893.0,
+        "inflow": 6253432900.0,
+        "chan": {}
+      },
+      {
+        "code": "al",
+        "name": "铝",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 23190.0,
+        "change_pct": 0.13,
+        "open_interest": 257964.0,
+        "oi_change": -3981,
+        "oi_change_pct": -1.52,
+        "volume": 138643.0,
+        "inflow": -461596950.0,
+        "chan": {}
+      },
+      {
+        "code": "zn",
+        "name": "锌",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 24565.0,
+        "change_pct": 0.2,
+        "open_interest": 97559.0,
+        "oi_change": 1613,
+        "oi_change_pct": 1.68,
+        "volume": 89033.0,
+        "inflow": 198116725.0,
+        "chan": {}
+      },
+      {
+        "code": "pb",
+        "name": "铅",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 15725.0,
+        "change_pct": -1.01,
+        "open_interest": 116713.0,
+        "oi_change": 6143,
+        "oi_change_pct": 5.56,
+        "volume": 75960.0,
+        "inflow": 482993375.0,
+        "chan": {}
+      },
+      {
+        "code": "ni",
+        "name": "镍",
+        "mult": 1,
+        "date": "2026-07-22",
+        "last_close": 131480.0,
+        "change_pct": 0.66,
+        "open_interest": 215905.0,
+        "oi_change": -4644,
+        "oi_change_pct": -2.11,
+        "volume": 186610.0,
+        "inflow": -610593120.0,
+        "chan": {}
+      },
+      {
+        "code": "ao",
+        "name": "氧化铝",
+        "mult": 20,
+        "date": "2026-07-22",
+        "last_close": 2721.0,
+        "change_pct": -0.22,
+        "open_interest": 301861.0,
+        "oi_change": -5046,
+        "oi_change_pct": -1.64,
+        "volume": 196178.0,
+        "inflow": -274603320.0,
+        "chan": {}
+      },
+      {
+        "code": "ag",
+        "name": "白银",
+        "mult": 15,
+        "date": "2026-07-22",
+        "last_close": 14531.0,
+        "change_pct": 0.77,
+        "open_interest": 236745.0,
+        "oi_change": 6407,
+        "oi_change_pct": 2.78,
+        "volume": 731513.0,
+        "inflow": 1396501755.0,
+        "chan": {}
+      },
+      {
+        "code": "au",
+        "name": "黄金",
+        "mult": 1000,
+        "date": "2026-07-22",
+        "last_close": 901.74,
+        "change_pct": 1.05,
+        "open_interest": 139043.0,
+        "oi_change": 10364,
+        "oi_change_pct": 8.05,
+        "volume": 116815.0,
+        "inflow": 9345633360.0,
+        "chan": {}
+      },
+      {
+        "code": "sp",
+        "name": "纸浆",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 4830.0,
+        "change_pct": -0.33,
+        "open_interest": 252848.0,
+        "oi_change": -3302,
+        "oi_change_pct": -1.29,
+        "volume": 300922.0,
+        "inflow": -159486600.0,
+        "chan": {}
+      },
+      {
+        "code": "bc",
+        "name": "国际铜",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 94740.0,
+        "change_pct": 0.63,
+        "open_interest": 11235.0,
+        "oi_change": 376,
+        "oi_change_pct": 3.46,
+        "volume": 8720.0,
+        "inflow": 178111200.0,
+        "chan": {}
+      },
+      {
+        "code": "lu",
+        "name": "低硫燃油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 4917.0,
+        "change_pct": 5.36,
+        "open_interest": 75049.0,
+        "oi_change": 2169,
+        "oi_change_pct": 2.98,
+        "volume": 148333.0,
+        "inflow": 106649730.0,
+        "chan": {}
+      },
+      {
+        "code": "sc",
+        "name": "原油",
+        "mult": 1000,
+        "date": "2026-07-22",
+        "last_close": 559.4,
+        "change_pct": 5.35,
+        "open_interest": 48670.0,
+        "oi_change": 1963,
+        "oi_change_pct": 4.2,
+        "volume": 140296.0,
+        "inflow": 1098102200.0,
+        "chan": {}
+      },
+      {
+        "code": "c",
+        "name": "玉米",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 2269.0,
+        "change_pct": -0.13,
+        "open_interest": 981151.0,
+        "oi_change": -14616,
+        "oi_change_pct": -1.47,
+        "volume": 464937.0,
+        "inflow": -331637040.0,
+        "chan": {}
+      },
+      {
+        "code": "cs",
+        "name": "淀粉",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 2644.0,
+        "change_pct": -0.19,
+        "open_interest": 226305.0,
+        "oi_change": -2560,
+        "oi_change_pct": -1.12,
+        "volume": 92971.0,
+        "inflow": -67686400.0,
+        "chan": {}
+      },
+      {
+        "code": "a",
+        "name": "豆一",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 4711.0,
+        "change_pct": -0.08,
+        "open_interest": 246198.0,
+        "oi_change": -8307,
+        "oi_change_pct": -3.26,
+        "volume": 105483.0,
+        "inflow": -391342770.0,
+        "chan": {}
+      },
+      {
+        "code": "m",
+        "name": "豆粕",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 3146.0,
+        "change_pct": -0.06,
+        "open_interest": 2006767.0,
+        "oi_change": -33283,
+        "oi_change_pct": -1.63,
+        "volume": 1163869.0,
+        "inflow": -1047083180.0,
+        "chan": {}
+      },
+      {
+        "code": "y",
+        "name": "豆油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 8442.0,
+        "change_pct": -1.17,
+        "open_interest": 452912.0,
+        "oi_change": -34638,
+        "oi_change_pct": -7.1,
+        "volume": 328530.0,
+        "inflow": -2924139960.0,
+        "chan": {}
+      },
+      {
+        "code": "p",
+        "name": "棕榈油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 9250.0,
+        "change_pct": 0.11,
+        "open_interest": 458939.0,
+        "oi_change": -1299,
+        "oi_change_pct": -0.28,
+        "volume": 491003.0,
+        "inflow": -120157500.0,
+        "chan": {}
+      },
+      {
+        "code": "rm",
+        "name": "菜粕",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 2350.0,
+        "change_pct": 0.34,
+        "open_interest": 651185.0,
+        "oi_change": -26578,
+        "oi_change_pct": -3.92,
+        "volume": 769072.0,
+        "inflow": -624583000.0,
+        "chan": {}
+      },
+      {
+        "code": "oi",
+        "name": "菜油",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 9949.0,
+        "change_pct": -0.88,
+        "open_interest": 327114.0,
+        "oi_change": -21978,
+        "oi_change_pct": -6.3,
+        "volume": 274771.0,
+        "inflow": -2186591220.0,
+        "chan": {}
+      },
+      {
+        "code": "l",
+        "name": "塑料",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 7810.0,
+        "change_pct": 0.21,
+        "open_interest": 343874.0,
+        "oi_change": 3614,
+        "oi_change_pct": 1.06,
+        "volume": 545301.0,
+        "inflow": 141126700.0,
+        "chan": {}
+      },
+      {
+        "code": "v",
+        "name": "PVC",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 4565.0,
+        "change_pct": -0.48,
+        "open_interest": 1030211.0,
+        "oi_change": 23043,
+        "oi_change_pct": 2.29,
+        "volume": 969666.0,
+        "inflow": 525956475.0,
+        "chan": {}
+      },
+      {
+        "code": "pp",
+        "name": "聚丙烯",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 8339.0,
+        "change_pct": 0.8,
+        "open_interest": 474174.0,
+        "oi_change": 15327,
+        "oi_change_pct": 3.34,
+        "volume": 691367.0,
+        "inflow": 639059265.0,
+        "chan": {}
+      },
+      {
+        "code": "eb",
+        "name": "苯乙烯",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 8738.0,
+        "change_pct": 0.84,
+        "open_interest": 199790.0,
+        "oi_change": 13435,
+        "oi_change_pct": 7.21,
+        "volume": 446964.0,
+        "inflow": 586975150.0,
+        "chan": {}
+      },
+      {
+        "code": "eg",
+        "name": "乙二醇",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 4776.0,
+        "change_pct": 1.51,
+        "open_interest": 323258.0,
+        "oi_change": 14971,
+        "oi_change_pct": 4.86,
+        "volume": 375637.0,
+        "inflow": 715014960.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 4787.0,
+          "reason": "乙二醇(eg)出现一卖顶背驰，尽管多空倾向偏空，但大级别仍处于上涨趋势，需谨慎追空。",
+          "signal_date": "2026-07-22 21:30:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "空头，近5根下跌",
+            "1h": "空头，近5根下跌",
+            "daily": "多头，近5根上涨",
+            "weekly": "多头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          }
+        }
+      },
+      {
+        "code": "pg",
+        "name": "LPG",
+        "mult": 20,
+        "date": "2026-07-22",
+        "last_close": 5733.0,
+        "change_pct": 2.19,
+        "open_interest": 74920.0,
+        "oi_change": 2256,
+        "oi_change_pct": 3.1,
+        "volume": 54150.0,
+        "inflow": 258672960.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 5783.0,
+          "reason": "LPG(pg)虽多空倾向偏空，但大级别仍处于上涨趋势，当前一卖顶背驰，建议谨慎追空。",
+          "signal_date": "2026-07-22 22:00:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "多头，近5根下跌",
+            "1h": "多头，近5根下跌",
+            "daily": "多头，近5根上涨",
+            "weekly": "多头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          }
+        }
+      },
+      {
+        "code": "ta",
+        "name": "PTA",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 5890.0,
+        "change_pct": 1.8,
+        "open_interest": 927187.0,
+        "oi_change": 19934,
+        "oi_change_pct": 2.2,
+        "volume": 889949.0,
+        "inflow": 587056300.0,
+        "chan": {}
+      },
+      {
+        "code": "ma",
+        "name": "甲醇",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 2718.0,
+        "change_pct": 0.41,
+        "open_interest": 638579.0,
+        "oi_change": 35204,
+        "oi_change_pct": 5.83,
+        "volume": 1404678.0,
+        "inflow": 956844720.0,
+        "chan": {}
+      },
+      {
+        "code": "sa",
+        "name": "纯碱",
+        "mult": 20,
+        "date": "2026-07-22",
+        "last_close": 1013.0,
+        "change_pct": 0.4,
+        "open_interest": 1372312.0,
+        "oi_change": -37446,
+        "oi_change_pct": -2.66,
+        "volume": 1432537.0,
+        "inflow": -758655960.0,
+        "chan": {}
+      },
+      {
+        "code": "fg",
+        "name": "玻璃",
+        "mult": 20,
+        "date": "2026-07-22",
+        "last_close": 913.0,
+        "change_pct": 1.0,
+        "open_interest": 1902564.0,
+        "oi_change": -108149,
+        "oi_change_pct": -5.38,
+        "volume": 1467493.0,
+        "inflow": -1974800740.0,
+        "chan": {}
+      },
+      {
+        "code": "sr",
+        "name": "白糖",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 5169.0,
+        "change_pct": 0.0,
+        "open_interest": 689521.0,
+        "oi_change": -22853,
+        "oi_change_pct": -3.21,
+        "volume": 286309.0,
+        "inflow": -1181271570.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 5178.0,
+          "reason": "白糖(sr)一卖顶背驰，虽大级别趋势偏涨但短期偏空，建议谨慎追多。",
+          "signal_date": "2026-07-22 22:30:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "中枢震荡区间5158–5174",
+            "1h": "中枢震荡区间5163–5174",
+            "daily": "空头，近5根走平",
+            "weekly": "空头，近5根上涨",
+            "monthly": "空头，近5根下跌"
+          }
+        }
+      },
+      {
+        "code": "cf",
+        "name": "棉花",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 15955.0,
+        "change_pct": -0.06,
+        "open_interest": 418187.0,
+        "oi_change": -4425,
+        "oi_change_pct": -1.05,
+        "volume": 184575.0,
+        "inflow": -353004375.0,
+        "chan": {}
+      },
+      {
+        "code": "ap",
+        "name": "苹果",
+        "mult": 10,
+        "date": "2026-07-22",
+        "last_close": 7603.0,
+        "change_pct": 0.96,
+        "open_interest": 99425.0,
+        "oi_change": -6415,
+        "oi_change_pct": -6.06,
+        "volume": 83368.0,
+        "inflow": -487732450.0,
+        "chan": {}
+      },
+      {
+        "code": "cj",
+        "name": "红枣",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 7850.0,
+        "change_pct": -0.63,
+        "open_interest": 165289.0,
+        "oi_change": 1332,
+        "oi_change_pct": 0.81,
+        "volume": 94382.0,
+        "inflow": 52281000.0,
+        "chan": {}
+      },
+      {
+        "code": "sf",
+        "name": "硅铁",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 5840.0,
+        "change_pct": 1.0,
+        "open_interest": 216703.0,
+        "oi_change": 7087,
+        "oi_change_pct": 3.38,
+        "volume": 223066.0,
+        "inflow": 206940400.0,
+        "chan": {}
+      },
+      {
+        "code": "sm",
+        "name": "锰硅",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 5712.0,
+        "change_pct": -1.31,
+        "open_interest": 507586.0,
+        "oi_change": 58600,
+        "oi_change_pct": 13.05,
+        "volume": 307395.0,
+        "inflow": 1673616000.0,
+        "chan": {}
+      },
+      {
+        "code": "ur",
+        "name": "尿素",
+        "mult": 20,
+        "date": "2026-07-22",
+        "last_close": 1741.0,
+        "change_pct": 0.93,
+        "open_interest": 269920.0,
+        "oi_change": -6619,
+        "oi_change_pct": -2.39,
+        "volume": 158556.0,
+        "inflow": -230473580.0,
+        "chan": {}
+      },
+      {
+        "code": "pk",
+        "name": "花生",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 8224.0,
+        "change_pct": -0.36,
+        "open_interest": 186622.0,
+        "oi_change": -36,
+        "oi_change_pct": -0.02,
+        "volume": 109278.0,
+        "inflow": -1480320.0,
+        "chan": {}
+      },
+      {
+        "code": "if",
+        "name": "沪深300",
+        "mult": 300,
+        "date": "2026-07-22",
+        "last_close": 4648.0,
+        "change_pct": -0.31,
+        "open_interest": 158447.0,
+        "oi_change": -4085,
+        "oi_change_pct": -2.51,
+        "volume": 83980.0,
+        "inflow": -5696124000.0,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 4707.6,
+          "reason": "沪深300(if)一卖顶背驰，虽大级别趋势上涨，但多空倾向偏空，建议谨慎操作。",
+          "signal_date": "2026-07-22 11:30:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule+llm",
+          "levels": {
+            "30m": "多头，近5根上涨",
+            "1h": "多头，近5根下跌",
+            "daily": "空头，近5根下跌",
+            "weekly": "空头，近5根上涨",
+            "monthly": "多头，近5根下跌"
+          }
+        }
+      },
+      {
+        "code": "ic",
+        "name": "中证500",
+        "mult": 200,
+        "date": "2026-07-22",
+        "last_close": 7611.0,
+        "change_pct": -0.97,
+        "open_interest": 190900.0,
+        "oi_change": -12914,
+        "oi_change_pct": -6.34,
+        "volume": 157364.0,
+        "inflow": -19657690800.0,
+        "chan": {}
+      },
+      {
+        "code": "ih",
+        "name": "上证50",
+        "mult": 300,
+        "date": "2026-07-22",
+        "last_close": 2946.2,
+        "change_pct": 0.77,
+        "open_interest": 74986.0,
+        "oi_change": 3927,
+        "oi_change_pct": 5.53,
+        "volume": 47307.0,
+        "inflow": 3470918220.0,
+        "chan": {}
+      },
+      {
+        "code": "im",
+        "name": "中证1000",
+        "mult": 200,
+        "date": "2026-07-22",
+        "last_close": 7028.8,
+        "change_pct": -1.89,
+        "open_interest": 255044.0,
+        "oi_change": -14634,
+        "oi_change_pct": -5.43,
+        "volume": 231584.0,
+        "inflow": -20571891840.0,
+        "chan": {}
+      },
+      {
+        "code": "si",
+        "name": "工业硅",
+        "mult": 5,
+        "date": "2026-07-22",
+        "last_close": 8250.0,
+        "change_pct": -0.3,
+        "open_interest": 279500.0,
+        "oi_change": 14447,
+        "oi_change_pct": 5.45,
+        "volume": 139753.0,
+        "inflow": 595938750.0,
+        "chan": {}
+      },
+      {
+        "code": "lc",
+        "name": "碳酸锂",
+        "mult": 1,
+        "date": "2026-07-22",
+        "last_close": 143300.0,
+        "change_pct": 1.19,
+        "open_interest": 370958.0,
+        "oi_change": -4227,
+        "oi_change_pct": -1.13,
+        "volume": 282781.0,
+        "inflow": -605729100.0,
+        "chan": {}
+      }
+    ],
+    "chan_structures": [
+      {
+        "name": "低硫燃油",
+        "code": "lu",
+        "change_pct": 5.36,
+        "chan": {
+          "levels": {
+            "30m": "多头，近5根下跌",
+            "1h": "多头，近5根下跌",
+            "daily": "多头，近5根上涨",
+            "weekly": "多头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          },
+          "has_signal": false,
+          "signal": "none",
+          "point": "None"
+        }
+      },
+      {
+        "name": "原油",
+        "code": "sc",
+        "change_pct": 5.35,
+        "chan": {
+          "levels": {
+            "30m": "多头，近5根上涨",
+            "1h": "多头，近5根上涨",
+            "daily": "多头，近5根上涨",
+            "weekly": "空头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          },
+          "has_signal": false,
+          "signal": "none",
+          "point": "None"
+        }
+      },
+      {
+        "name": "燃油",
+        "code": "fu",
+        "change_pct": 4.58,
+        "chan": {
+          "levels": {
+            "30m": "多头，近5根下跌",
+            "1h": "多头，近5根上涨",
+            "daily": "多头，近5根上涨",
+            "weekly": "空头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          },
+          "has_signal": false,
+          "signal": "none",
+          "point": "None"
+        }
+      },
+      {
+        "name": "LPG",
+        "code": "pg",
+        "change_pct": 2.19,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 5783.0,
+          "reason": "LPG(pg)虽多空倾向偏空，但大级别仍处于上涨趋势，当前一卖顶背驰，建议谨慎追空。",
+          "signal_date": "2026-07-22 22:00:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule",
+          "levels": {
+            "30m": "多头，近5根下跌",
+            "1h": "多头，近5根下跌",
+            "daily": "多头，近5根上涨",
+            "weekly": "多头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          }
+        }
+      },
+      {
+        "name": "中证1000",
+        "code": "im",
+        "change_pct": -1.89,
+        "chan": {
+          "levels": {
+            "30m": "多头，近5根上涨",
+            "1h": "空头，近5根上涨",
+            "daily": "空头，近5根下跌",
+            "weekly": "空头，近5根下跌",
+            "monthly": "空头，近5根下跌"
+          },
+          "has_signal": false,
+          "signal": "none",
+          "point": "None"
+        }
+      },
+      {
+        "name": "PTA",
+        "code": "ta",
+        "change_pct": 1.8,
+        "chan": {
+          "levels": {
+            "30m": "多头，近5根下跌",
+            "1h": "多头，近5根下跌",
+            "daily": "多头，近5根上涨",
+            "weekly": "空头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          },
+          "has_signal": false,
+          "signal": "none",
+          "point": "None"
+        }
+      },
+      {
+        "name": "乙二醇",
+        "code": "eg",
+        "change_pct": 1.51,
+        "chan": {
+          "signal": "sell",
+          "point": "一卖(顶背驰)",
+          "trend": "上涨",
+          "bias": "偏空",
+          "signal_price": 4787.0,
+          "reason": "乙二醇(eg)出现一卖顶背驰，尽管多空倾向偏空，但大级别仍处于上涨趋势，需谨慎追空。",
+          "signal_date": "2026-07-22 21:30:00",
+          "has_signal": true,
+          "fresh": true,
+          "score": 80,
+          "source": "rule",
+          "levels": {
+            "30m": "空头，近5根下跌",
+            "1h": "空头，近5根下跌",
+            "daily": "多头，近5根上涨",
+            "weekly": "多头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          }
+        }
+      },
+      {
+        "name": "沥青",
+        "code": "bu",
+        "change_pct": 1.39,
+        "chan": {
+          "levels": {
+            "30m": "空头，近5根下跌",
+            "1h": "空头，近5根下跌",
+            "daily": "多头，近5根上涨",
+            "weekly": "多头，近5根上涨",
+            "monthly": "多头，近5根上涨"
+          },
+          "has_signal": false,
+          "signal": "none",
+          "point": "None"
+        }
+      },
+      {
+        "name": "锰硅",
+        "code": "sm",
+        "change_pct": -1.31,
+        "chan": {
+          "levels": {
+            "30m": "空头，近5根走平",
+            "1h": "空头，近5根下跌",
+            "daily": "空头，近5根下跌",
+            "weekly": "空头，近5根下跌",
+            "monthly": "空头，近5根下跌"
+          },
+          "has_signal": false,
+          "signal": "none",
+          "point": "None"
+        }
+      },
+      {
+        "name": "铁矿石",
+        "code": "i",
+        "change_pct": -1.27,
+        "chan": {
+          "levels": {
+            "30m": "中枢震荡区间738–745",
+            "1h": "空头，近5根下跌",
+            "daily": "空头，近5根下跌",
+            "weekly": "空头，近5根下跌",
+            "monthly": "空头，近5根下跌"
+          },
+          "has_signal": false,
+          "signal": "none",
+          "point": "None"
+        }
+      },
+      {
+        "name": "碳酸锂",
+        "code": "lc",
+        "change_pct": 1.19,
+        "chan": {
+          "levels": {
+            "30m": "多头，近5根下跌",
+            "1h": "空头，近5根走平",
+            "daily": "空头，近5根上涨",
+            "weekly": "空头，近5根下跌",
+            "monthly": "多头，近5根下跌"
+          },
+          "has_signal": false,
+          "signal": "none",
+          "point": "None"
+        }
+      },
+      {
+        "name": "豆油",
+        "code": "y",
+        "change_pct": -1.17,
+        "chan": {
+          "levels": {
+            "30m": "空头，近5根走平",
+            "1h": "空头，近5根上涨",
+            "daily": "空头，近5根下跌",
+            "weekly": "空头，近5根下跌",
+            "monthly": "多头，近5根下跌"
+          },
+          "has_signal": false,
+          "signal": "none",
+          "point": "None"
+        }
+      }
+    ]
+  },
+  "data_date": "2026-07-22",
+  "data_weekday": "周三",
+  "data_date_label": "前一交易日",
+  "sectors": {
+    "section": "sectors",
+    "date": "2026-07-22",
+    "boards": [
+      {
+        "key": "industry",
+        "name": "行业板块",
+        "total": 496,
+        "top_gain": [
+          {
+            "code": "BK1616",
+            "name": "白银",
+            "price": 3905.93,
+            "change_pct": 6.43,
+            "amount": 5889560777.0,
+            "amplitude": 6.61,
+            "main_inflow": 502941808.0,
+            "main_inflow_pct": 8.54,
+            "up_count": 3
+          },
+          {
+            "code": "BK0732",
+            "name": "贵金属",
+            "price": 2100.81,
+            "change_pct": 6.38,
+            "amount": 26739980257.0,
+            "amplitude": 6.31,
+            "main_inflow": 1898165312.0,
+            "main_inflow_pct": 7.1,
+            "up_count": 13
+          },
+          {
+            "code": "BK1617",
+            "name": "黄金",
+            "price": 5615.76,
+            "change_pct": 6.37,
+            "amount": 20850419480.0,
+            "amplitude": 6.22,
+            "main_inflow": 1395223568.0,
+            "main_inflow_pct": 6.69,
+            "up_count": 10
+          },
+          {
+            "code": "BK1434",
+            "name": "钾肥",
+            "price": 2347.31,
+            "change_pct": 6.34,
+            "amount": 6086697314.0,
+            "amplitude": 6.42,
+            "main_inflow": 196621552.0,
+            "main_inflow_pct": 3.23,
+            "up_count": 4
+          },
+          {
+            "code": "BK1500",
+            "name": "医美耗材",
+            "price": 1489.72,
+            "change_pct": 5.73,
+            "amount": 1947466256.0,
+            "amplitude": 8.3,
+            "main_inflow": 107055064.0,
+            "main_inflow_pct": 5.5,
+            "up_count": 3
+          },
+          {
+            "code": "BK1412",
+            "name": "氨纶",
+            "price": 2778.33,
+            "change_pct": 5.34,
+            "amount": 777841653.0,
+            "amplitude": 6.87,
+            "main_inflow": 18453913.0,
+            "main_inflow_pct": 2.37,
+            "up_count": 1
+          },
+          {
+            "code": "BK1253",
+            "name": "医疗美容",
+            "price": 1075.82,
+            "change_pct": 4.73,
+            "amount": 1962198537.0,
+            "amplitude": 6.21,
+            "main_inflow": 107588066.0,
+            "main_inflow_pct": 5.48,
+            "up_count": 4
+          },
+          {
+            "code": "BK1318",
+            "name": "光伏主材",
+            "price": 10123.54,
+            "change_pct": 4.41,
+            "amount": 3877240213.0,
+            "amplitude": 6.26,
+            "main_inflow": 536696272.0,
+            "main_inflow_pct": 13.84,
+            "up_count": 2
+          },
+          {
+            "code": "BK1573",
+            "name": "油田服务",
+            "price": 1606.21,
+            "change_pct": 4.21,
+            "amount": 3101867811.0,
+            "amplitude": 3.42,
+            "main_inflow": 201145280.0,
+            "main_inflow_pct": 6.48,
+            "up_count": 8
+          },
+          {
+            "code": "BK1342",
+            "name": "房地产综合服务",
+            "price": 1233.5,
+            "change_pct": 4.18,
+            "amount": 129294930.0,
+            "amplitude": 11.25,
+            "main_inflow": 12612585.0,
+            "main_inflow_pct": 9.75,
+            "up_count": 1
+          },
+          {
+            "code": "BK1275",
+            "name": "油服工程",
+            "price": 1825.82,
+            "change_pct": 4.01,
+            "amount": 7332120723.0,
+            "amplitude": 3.45,
+            "main_inflow": 200375280.0,
+            "main_inflow_pct": 2.73,
+            "up_count": 14
+          },
+          {
+            "code": "BK1572",
+            "name": "油气及炼化工程",
+            "price": 1708.82,
+            "change_pct": 3.73,
+            "amount": 4230252912.0,
+            "amplitude": 3.56,
+            "main_inflow": -770000.0,
+            "main_inflow_pct": -0.02,
+            "up_count": 6
+          },
+          {
+            "code": "BK1615",
+            "name": "铜",
+            "price": 3463.5,
+            "change_pct": 3.09,
+            "amount": 46502077937.0,
+            "amplitude": 4.3,
+            "main_inflow": 3513515776.0,
+            "main_inflow_pct": 7.56,
+            "up_count": 17
+          },
+          {
+            "code": "BK1574",
+            "name": "油气开采Ⅲ",
+            "price": 3393.48,
+            "change_pct": 2.99,
+            "amount": 4226372644.0,
+            "amplitude": 1.92,
+            "main_inflow": 134560672.0,
+            "main_inflow_pct": 3.18,
+            "up_count": 5
+          },
+          {
+            "code": "BK1276",
+            "name": "油气开采Ⅱ",
+            "price": 3393.48,
+            "change_pct": 2.99,
+            "amount": 4226372644.0,
+            "amplitude": 1.92,
+            "main_inflow": 134560672.0,
+            "main_inflow_pct": 3.18,
+            "up_count": 5
+          }
+        ],
+        "top_loss": [
+          {
+            "code": "BK1298",
+            "name": "文字媒体",
+            "price": 2201.42,
+            "change_pct": -5.06,
+            "amount": 1320136347.0,
+            "amplitude": 4.93,
+            "main_inflow": -173801685.0,
+            "main_inflow_pct": -13.17,
+            "up_count": 2
+          },
+          {
+            "code": "BK1592",
+            "name": "通信线缆及配套",
+            "price": 20718.13,
+            "change_pct": -4.59,
+            "amount": 44235144544.0,
+            "amplitude": 5.38,
+            "main_inflow": -5093261824.0,
+            "main_inflow_pct": -11.51,
+            "up_count": 13
+          },
+          {
+            "code": "BK1295",
+            "name": "其他数字媒体",
+            "price": 867.54,
+            "change_pct": -4.54,
+            "amount": 1066353170.0,
+            "amplitude": 5.33,
+            "main_inflow": -109758103.0,
+            "main_inflow_pct": -10.29,
+            "up_count": 2
+          },
+          {
+            "code": "BK1354",
+            "name": "鞋帽及其他",
+            "price": 574.18,
+            "change_pct": -4.5,
+            "amount": 1536165803.0,
+            "amplitude": 4.54,
+            "main_inflow": -153814949.0,
+            "main_inflow_pct": -10.01,
+            "up_count": 11
+          },
+          {
+            "code": "BK1462",
+            "name": "玻纤制造",
+            "price": 14385.88,
+            "change_pct": -4.47,
+            "amount": 23211898631.0,
+            "amplitude": 7.02,
+            "main_inflow": -2228455952.0,
+            "main_inflow_pct": -9.6,
+            "up_count": 8
+          },
+          {
+            "code": "BK1305",
+            "name": "燃料电池",
+            "price": 237.11,
+            "change_pct": -4.09,
+            "amount": 53305856.0,
+            "amplitude": 3.68,
+            "main_inflow": -4078218.0,
+            "main_inflow_pct": -7.65,
+            "up_count": 1
+          },
+          {
+            "code": "BK1425",
+            "name": "胶黏剂及胶带",
+            "price": 2508.63,
+            "change_pct": -3.89,
+            "amount": 1289616870.0,
+            "amplitude": 2.95,
+            "main_inflow": -322798290.0,
+            "main_inflow_pct": -25.03,
+            "up_count": 5
+          },
+          {
+            "code": "BK1431",
+            "name": "有机硅",
+            "price": 2859.06,
+            "change_pct": -3.53,
+            "amount": 2656280067.0,
+            "amplitude": 3.92,
+            "main_inflow": -200846758.0,
+            "main_inflow_pct": -7.56,
+            "up_count": 10
+          },
+          {
+            "code": "BK1364",
+            "name": "资产管理",
+            "price": 3117.26,
+            "change_pct": -3.49,
+            "amount": 554605021.0,
+            "amplitude": 3.67,
+            "main_inflow": -16817976.0,
+            "main_inflow_pct": -3.03,
+            "up_count": 4
+          },
+          {
+            "code": "BK1408",
+            "name": "机器人",
+            "price": 8819.88,
+            "change_pct": -3.36,
+            "amount": 11213945383.0,
+            "amplitude": 3.56,
+            "main_inflow": -216661584.0,
+            "main_inflow_pct": -1.93,
+            "up_count": 21
+          },
+          {
+            "code": "BK1410",
+            "name": "其他自动化设备",
+            "price": 5863.81,
+            "change_pct": -3.19,
+            "amount": 8097165824.0,
+            "amplitude": 4.09,
+            "main_inflow": 110386384.0,
+            "main_inflow_pct": 1.36,
+            "up_count": 30
+          },
+          {
+            "code": "BK1355",
+            "name": "运动服装",
+            "price": 2388.08,
+            "change_pct": -3.16,
+            "amount": 1618445435.0,
+            "amplitude": 2.97,
+            "main_inflow": -135453433.0,
+            "main_inflow_pct": -8.37,
+            "up_count": 4
+          },
+          {
+            "code": "BK1046",
+            "name": "游戏Ⅱ",
+            "price": 1204.8,
+            "change_pct": -3.09,
+            "amount": 13819663423.0,
+            "amplitude": 2.54,
+            "main_inflow": -995580144.0,
+            "main_inflow_pct": -7.2,
+            "up_count": 24
+          },
+          {
+            "code": "BK1301",
+            "name": "游戏Ⅲ",
+            "price": 1204.8,
+            "change_pct": -3.09,
+            "amount": 13819663423.0,
+            "amplitude": 2.54,
+            "main_inflow": -995580144.0,
+            "main_inflow_pct": -7.2,
+            "up_count": 24
+          },
+          {
+            "code": "BK1491",
+            "name": "端到端供应链服务",
+            "price": 1385.27,
+            "change_pct": -3.07,
+            "amount": 641856664.0,
+            "amplitude": 3.8,
+            "main_inflow": -15865742.0,
+            "main_inflow_pct": -2.47,
+            "up_count": 7
+          }
+        ],
+        "top_inflow": [
+          {
+            "code": "BK0478",
+            "name": "有色金属",
+            "price": 24614.47,
+            "change_pct": 0.57,
+            "amount": 161893888348.0,
+            "amplitude": 2.66,
+            "main_inflow": 6576477184.0,
+            "main_inflow_pct": 4.06,
+            "up_count": 144
+          },
+          {
+            "code": "BK1287",
+            "name": "工业金属",
+            "price": 2952.33,
+            "change_pct": 0.92,
+            "amount": 70723081952.0,
+            "amplitude": 2.64,
+            "main_inflow": 4061961216.0,
+            "main_inflow_pct": 5.74,
+            "up_count": 58
+          },
+          {
+            "code": "BK1615",
+            "name": "铜",
+            "price": 3463.5,
+            "change_pct": 3.09,
+            "amount": 46502077937.0,
+            "amplitude": 4.3,
+            "main_inflow": 3513515776.0,
+            "main_inflow_pct": 7.56,
+            "up_count": 17
+          },
+          {
+            "code": "BK0732",
+            "name": "贵金属",
+            "price": 2100.81,
+            "change_pct": 6.38,
+            "amount": 26739980257.0,
+            "amplitude": 6.31,
+            "main_inflow": 1898165312.0,
+            "main_inflow_pct": 7.1,
+            "up_count": 13
+          },
+          {
+            "code": "BK0428",
+            "name": "电力",
+            "price": 19369.21,
+            "change_pct": 2.37,
+            "amount": 72449891140.0,
+            "amplitude": 3.84,
+            "main_inflow": 1762760448.0,
+            "main_inflow_pct": 2.43,
+            "up_count": 109
+          },
+          {
+            "code": "BK0427",
+            "name": "公用事业",
+            "price": 9302.18,
+            "change_pct": 1.91,
+            "amount": 77077413852.0,
+            "amplitude": 3.12,
+            "main_inflow": 1633793024.0,
+            "main_inflow_pct": 2.12,
+            "up_count": 139
+          },
+          {
+            "code": "BK1328",
+            "name": "集成电路封测",
+            "price": 8612.86,
+            "change_pct": 0.05,
+            "amount": 66894194894.0,
+            "amplitude": 5.87,
+            "main_inflow": 1602931456.0,
+            "main_inflow_pct": 2.4,
+            "up_count": 13
+          },
+          {
+            "code": "BK1617",
+            "name": "黄金",
+            "price": 5615.76,
+            "change_pct": 6.37,
+            "amount": 20850419480.0,
+            "amplitude": 6.22,
+            "main_inflow": 1395223568.0,
+            "main_inflow_pct": 6.69,
+            "up_count": 10
+          },
+          {
+            "code": "BK1377",
+            "name": "火力发电",
+            "price": 2550.84,
+            "change_pct": 2.63,
+            "amount": 34809749142.0,
+            "amplitude": 4.7,
+            "main_inflow": 1393265984.0,
+            "main_inflow_pct": 4.0,
+            "up_count": 31
+          },
+          {
+            "code": "BK1326",
+            "name": "半导体设备",
+            "price": 50497.96,
+            "change_pct": -1.81,
+            "amount": 91688354789.0,
+            "amplitude": 6.37,
+            "main_inflow": 1274936832.0,
+            "main_inflow_pct": 1.39,
+            "up_count": 24
+          },
+          {
+            "code": "BK1036",
+            "name": "半导体",
+            "price": 2706.07,
+            "change_pct": -0.9,
+            "amount": 521349974130.0,
+            "amplitude": 5.23,
+            "main_inflow": 1055395840.0,
+            "main_inflow_pct": 0.2,
+            "up_count": 183
+          },
+          {
+            "code": "BK1330",
+            "name": "模拟芯片设计",
+            "price": 6038.09,
+            "change_pct": -0.2,
+            "amount": 22196500531.0,
+            "amplitude": 5.28,
+            "main_inflow": 999788848.0,
+            "main_inflow_pct": 4.5,
+            "up_count": 36
+          },
+          {
+            "code": "BK1320",
+            "name": "逆变器",
+            "price": 13849.19,
+            "change_pct": 0.51,
+            "amount": 12906261036.0,
+            "amplitude": 4.19,
+            "main_inflow": 871421360.0,
+            "main_inflow_pct": 6.75,
+            "up_count": 10
+          },
+          {
+            "code": "BK1031",
+            "name": "光伏设备",
+            "price": 1051.99,
+            "change_pct": -0.82,
+            "amount": 33486978109.0,
+            "amplitude": 2.74,
+            "main_inflow": 807060736.0,
+            "main_inflow_pct": 2.41,
+            "up_count": 68
+          },
+          {
+            "code": "BK1019",
+            "name": "化学原料",
+            "price": 943.48,
+            "change_pct": 0.2,
+            "amount": 19056272766.0,
+            "amplitude": 1.43,
+            "main_inflow": 583281376.0,
+            "main_inflow_pct": 3.06,
+            "up_count": 61
+          }
+        ],
+        "top_outflow": [
+          {
+            "code": "BK1215",
+            "name": "通信",
+            "price": 6775.48,
+            "change_pct": -0.85,
+            "amount": 239881033535.0,
+            "amplitude": 2.74,
+            "main_inflow": -9635357184.0,
+            "main_inflow_pct": -4.02,
+            "up_count": 128
+          },
+          {
+            "code": "BK0448",
+            "name": "通信设备",
+            "price": 20683.35,
+            "change_pct": -1.17,
+            "amount": 218315277283.0,
+            "amplitude": 3.19,
+            "main_inflow": -9539451136.0,
+            "main_inflow_pct": -4.37,
+            "up_count": 89
+          },
+          {
+            "code": "BK1201",
+            "name": "电子",
+            "price": 11988.4,
+            "change_pct": -1.71,
+            "amount": 876888259983.0,
+            "amplitude": 4.26,
+            "main_inflow": -6201864192.0,
+            "main_inflow_pct": -0.71,
+            "up_count": 514
+          },
+          {
+            "code": "BK1592",
+            "name": "通信线缆及配套",
+            "price": 20718.13,
+            "change_pct": -4.59,
+            "amount": 44235144544.0,
+            "amplitude": 5.38,
+            "main_inflow": -5093261824.0,
+            "main_inflow_pct": -11.51,
+            "up_count": 13
+          },
+          {
+            "code": "BK1591",
+            "name": "通信网络设备及器件",
+            "price": 12760.84,
+            "change_pct": -1.43,
+            "amount": 155432557835.0,
+            "amplitude": 4.09,
+            "main_inflow": -4867847680.0,
+            "main_inflow_pct": -3.13,
+            "up_count": 37
+          },
+          {
+            "code": "BK1038",
+            "name": "光学光电子",
+            "price": 1838.84,
+            "change_pct": -2.61,
+            "amount": 60239699267.0,
+            "amplitude": 4.08,
+            "main_inflow": -3955688192.0,
+            "main_inflow_pct": -6.57,
+            "up_count": 95
+          },
+          {
+            "code": "BK1335",
+            "name": "面板",
+            "price": 2947.28,
+            "change_pct": -2.54,
+            "amount": 33433697894.0,
+            "amplitude": 3.9,
+            "main_inflow": -3600183808.0,
+            "main_inflow_pct": -10.77,
+            "up_count": 39
+          },
+          {
+            "code": "BK0486",
+            "name": "传媒",
+            "price": 8606.98,
+            "change_pct": -2.07,
+            "amount": 40655881781.0,
+            "amplitude": 2.12,
+            "main_inflow": -3014066560.0,
+            "main_inflow_pct": -7.41,
+            "up_count": 128
+          },
+          {
+            "code": "BK1340",
+            "name": "印制电路板",
+            "price": 10049.13,
+            "change_pct": -2.16,
+            "amount": 116262215469.0,
+            "amplitude": 5.47,
+            "main_inflow": -2854390528.0,
+            "main_inflow_pct": -2.46,
+            "up_count": 48
+          },
+          {
+            "code": "BK0459",
+            "name": "元件",
+            "price": 48694.1,
+            "change_pct": -2.28,
+            "amount": 146729391763.0,
+            "amplitude": 5.49,
+            "main_inflow": -2787614464.0,
+            "main_inflow_pct": -1.9,
+            "up_count": 67
+          },
+          {
+            "code": "BK0546",
+            "name": "玻璃玻纤",
+            "price": 60239.38,
+            "change_pct": -2.82,
+            "amount": 24434599338.0,
+            "amplitude": 4.11,
+            "main_inflow": -2320551024.0,
+            "main_inflow_pct": -9.5,
+            "up_count": 15
+          },
+          {
+            "code": "BK1208",
+            "name": "建筑材料",
+            "price": 3258.16,
+            "change_pct": -1.39,
+            "amount": 30836941850.0,
+            "amplitude": 2.44,
+            "main_inflow": -2311152880.0,
+            "main_inflow_pct": -7.49,
+            "up_count": 75
+          },
+          {
+            "code": "BK1216",
+            "name": "医药生物",
+            "price": 4287.0,
+            "change_pct": -0.23,
+            "amount": 153648365532.0,
+            "amplitude": 2.93,
+            "main_inflow": -2294766336.0,
+            "main_inflow_pct": -1.49,
+            "up_count": 504
+          },
+          {
+            "code": "BK1200",
+            "name": "电力设备",
+            "price": 5371.45,
+            "change_pct": -1.51,
+            "amount": 163068228671.0,
+            "amplitude": 2.47,
+            "main_inflow": -2234780416.0,
+            "main_inflow_pct": -1.37,
+            "up_count": 410
+          },
+          {
+            "code": "BK1462",
+            "name": "玻纤制造",
+            "price": 14385.88,
+            "change_pct": -4.47,
+            "amount": 23211898631.0,
+            "amplitude": 7.02,
+            "main_inflow": -2228455952.0,
+            "main_inflow_pct": -9.6,
+            "up_count": 8
+          }
+        ],
+        "source": "eastmoney",
+        "date": "2026-07-22"
+      }
+    ]
+  },
+  "etf": {
+    "section": "etf",
+    "date": "2026-07-22",
+    "source": "eastmoney",
+    "top_gain": [
+      {
+        "code": "159321",
+        "name": "黄金股ETF华安",
+        "price": 1.426,
+        "change_pct": 6.42,
+        "main_inflow": 7620530.0,
+        "main_inflow_pct": 8.67,
+        "amount": 87925256.4
+      },
+      {
+        "code": "517400",
+        "name": "黄金股ETF国泰",
+        "price": 1.466,
+        "change_pct": 6.31,
+        "main_inflow": 4166384.0,
+        "main_inflow_pct": 3.74,
+        "amount": 111423099.0
+      },
+      {
+        "code": "159315",
+        "name": "黄金股ETF工银",
+        "price": 1.512,
+        "change_pct": 6.03,
+        "main_inflow": 2498221.0,
+        "main_inflow_pct": 5.79,
+        "amount": 43170118.794
+      },
+      {
+        "code": "159322",
+        "name": "黄金股ETF平安",
+        "price": 1.498,
+        "change_pct": 5.94,
+        "main_inflow": 3990640.0,
+        "main_inflow_pct": 11.71,
+        "amount": 34078976.5
+      },
+      {
+        "code": "517520",
+        "name": "黄金股ETF永赢",
+        "price": 1.854,
+        "change_pct": 5.7,
+        "main_inflow": -57785683.0,
+        "main_inflow_pct": -6.82,
+        "amount": 847815944.0
+      },
+      {
+        "code": "159562",
+        "name": "黄金股ETF华夏",
+        "price": 2.01,
+        "change_pct": 5.51,
+        "main_inflow": 10294585.0,
+        "main_inflow_pct": 4.0,
+        "amount": 257396462.334
+      },
+      {
+        "code": "159049",
+        "name": "有色ETF工银",
+        "price": 0.947,
+        "change_pct": 4.3,
+        "main_inflow": 1400356.0,
+        "main_inflow_pct": 8.49,
+        "amount": 16489945.107
+      },
+      {
+        "code": "159558",
+        "name": "半导体设备ETF易方达",
+        "price": 1.174,
+        "change_pct": 3.99,
+        "main_inflow": 4180576.0,
+        "main_inflow_pct": 0.12,
+        "amount": 3574815099.83
+      },
+      {
+        "code": "560290",
+        "name": "有色ETF景顺",
+        "price": 0.767,
+        "change_pct": 3.93,
+        "main_inflow": 2389288.0,
+        "main_inflow_pct": 16.16,
+        "amount": 14786185.0
+      },
+      {
+        "code": "562590",
+        "name": "半导体设备ETF华夏",
+        "price": 1.059,
+        "change_pct": 3.93,
+        "main_inflow": 44791008.0,
+        "main_inflow_pct": 3.61,
+        "amount": 1241678978.0
+      },
+      {
+        "code": "159029",
+        "name": "有色ETF广发",
+        "price": 0.855,
+        "change_pct": 3.89,
+        "main_inflow": 5806267.0,
+        "main_inflow_pct": 21.15,
+        "amount": 27449864.473
+      },
+      {
+        "code": "560470",
+        "name": "有色ETF易方达",
+        "price": 0.84,
+        "change_pct": 3.83,
+        "main_inflow": 937414.0,
+        "main_inflow_pct": 4.04,
+        "amount": 23182274.0
+      },
+      {
+        "code": "561330",
+        "name": "矿业ETF国泰",
+        "price": 0.897,
+        "change_pct": 3.82,
+        "main_inflow": 5633847.0,
+        "main_inflow_pct": 8.23,
+        "amount": 68418693.0
+      },
+      {
+        "code": "560780",
+        "name": "半导体设备ETF广发",
+        "price": 1.103,
+        "change_pct": 3.76,
+        "main_inflow": 75179952.0,
+        "main_inflow_pct": 4.48,
+        "amount": 1676296268.0
+      },
+      {
+        "code": "159690",
+        "name": "有色矿业ETF招商",
+        "price": 1.831,
+        "change_pct": 3.74,
+        "main_inflow": 675541.0,
+        "main_inflow_pct": 2.07,
+        "amount": 32622521.95
+      }
+    ],
+    "top_loss": [
+      {
+        "code": "589060",
+        "name": "科创综指ETF东财",
+        "price": 1.697,
+        "change_pct": -9.59,
+        "main_inflow": -26938490.0,
+        "main_inflow_pct": -46.67,
+        "amount": 57719058.0
+      },
+      {
+        "code": "588070",
+        "name": "科创成长ETF万家",
+        "price": 2.162,
+        "change_pct": -5.84,
+        "main_inflow": -3361437.0,
+        "main_inflow_pct": -29.22,
+        "amount": 11505740.0
+      },
+      {
+        "code": "588110",
+        "name": "科创成长ETF广发",
+        "price": 0.613,
+        "change_pct": -5.11,
+        "main_inflow": -4075863.0,
+        "main_inflow_pct": -9.36,
+        "amount": 43523584.0
+      },
+      {
+        "code": "588710",
+        "name": "科创半导体设备ETF华泰柏瑞",
+        "price": 3.16,
+        "change_pct": -5.11,
+        "main_inflow": -593186944.0,
+        "main_inflow_pct": -23.28,
+        "amount": 2548496451.0
+      },
+      {
+        "code": "589020",
+        "name": "科创半导体设备ETF鹏华",
+        "price": 2.478,
+        "change_pct": -4.88,
+        "main_inflow": -494982192.0,
+        "main_inflow_pct": -23.73,
+        "amount": 2086304844.0
+      },
+      {
+        "code": "588170",
+        "name": "科创半导体ETF华夏",
+        "price": 1.02,
+        "change_pct": -4.67,
+        "main_inflow": -2066753440.0,
+        "main_inflow_pct": -20.29,
+        "amount": 10187760911.0
+      },
+      {
+        "code": "589160",
+        "name": "科创芯片ETF广发",
+        "price": 1.412,
+        "change_pct": -4.59,
+        "main_inflow": -19455897.0,
+        "main_inflow_pct": -13.4,
+        "amount": 145150792.0
+      },
+      {
+        "code": "589180",
+        "name": "科创新材料ETF汇添富",
+        "price": 1.663,
+        "change_pct": -4.59,
+        "main_inflow": -569912.0,
+        "main_inflow_pct": -1.19,
+        "amount": 47830285.0
+      },
+      {
+        "code": "588010",
+        "name": "科创新材料ETF博时",
+        "price": 1.011,
+        "change_pct": -4.35,
+        "main_inflow": -12536149.0,
+        "main_inflow_pct": -4.83,
+        "amount": 259481247.0
+      },
+      {
+        "code": "159967",
+        "name": "创业板成长ETF华夏",
+        "price": 0.814,
+        "change_pct": -4.35,
+        "main_inflow": -40641568.0,
+        "main_inflow_pct": -2.61,
+        "amount": 1555646251.797
+      },
+      {
+        "code": "515880",
+        "name": "通信ETF国泰",
+        "price": 0.671,
+        "change_pct": -4.28,
+        "main_inflow": -28859936.0,
+        "main_inflow_pct": -0.48,
+        "amount": 6014618029.0
+      },
+      {
+        "code": "515050",
+        "name": "通信ETF华夏",
+        "price": 1.061,
+        "change_pct": -4.24,
+        "main_inflow": 24246736.0,
+        "main_inflow_pct": 1.29,
+        "amount": 1881678226.0
+      },
+      {
+        "code": "588290",
+        "name": "科创芯片ETF华安",
+        "price": 3.83,
+        "change_pct": -4.15,
+        "main_inflow": -42108151.0,
+        "main_inflow_pct": -8.92,
+        "amount": 472043232.0
+      },
+      {
+        "code": "588020",
+        "name": "科创成长ETF易方达",
+        "price": 0.837,
+        "change_pct": -4.12,
+        "main_inflow": -3383295.0,
+        "main_inflow_pct": -0.85,
+        "amount": 398499346.0
+      },
+      {
+        "code": "589700",
+        "name": "科创成长ETF南方",
+        "price": 2.095,
+        "change_pct": -4.03,
+        "main_inflow": -16984.0,
+        "main_inflow_pct": -0.27,
+        "amount": 6380298.0
+      }
+    ],
+    "top_inflow": [
+      {
+        "code": "510300",
+        "name": "沪深300ETF华泰柏瑞",
+        "price": 4.765,
+        "change_pct": -0.46,
+        "main_inflow": 508187456.0,
+        "main_inflow_pct": 8.39,
+        "amount": 6059305801.0
+      },
+      {
+        "code": "159516",
+        "name": "半导体设备ETF国泰",
+        "price": 0.747,
+        "change_pct": 2.75,
+        "main_inflow": 272576928.0,
+        "main_inflow_pct": 3.38,
+        "amount": 8064742301.858
+      },
+      {
+        "code": "510210",
+        "name": "上证指数ETF富国",
+        "price": 0.975,
+        "change_pct": -0.2,
+        "main_inflow": 209309440.0,
+        "main_inflow_pct": 13.95,
+        "amount": 1499921149.0
+      },
+      {
+        "code": "510050",
+        "name": "上证50ETF华夏",
+        "price": 3.086,
+        "change_pct": 0.23,
+        "main_inflow": 180390144.0,
+        "main_inflow_pct": 6.15,
+        "amount": 2934456628.0
+      },
+      {
+        "code": "512100",
+        "name": "中证1000ETF南方",
+        "price": 2.891,
+        "change_pct": -1.43,
+        "main_inflow": 173663456.0,
+        "main_inflow_pct": 2.12,
+        "amount": 8180947603.0
+      },
+      {
+        "code": "510760",
+        "name": "上证指数ETF国泰",
+        "price": 1.278,
+        "change_pct": 0.55,
+        "main_inflow": 152822092.0,
+        "main_inflow_pct": 27.69,
+        "amount": 551888663.0
+      },
+      {
+        "code": "560010",
+        "name": "中证1000ETF广发",
+        "price": 2.967,
+        "change_pct": -1.36,
+        "main_inflow": 131242368.0,
+        "main_inflow_pct": 7.68,
+        "amount": 1709487839.0
+      },
+      {
+        "code": "510980",
+        "name": "上证指数ETF汇添富",
+        "price": 1.36,
+        "change_pct": 0.37,
+        "main_inflow": 127831383.0,
+        "main_inflow_pct": 34.4,
+        "amount": 371627064.0
+      },
+      {
+        "code": "511990",
+        "name": "华宝添益ETF",
+        "price": 100.003,
+        "change_pct": 0.01,
+        "main_inflow": 123046096.0,
+        "main_inflow_pct": 0.95,
+        "amount": 12920183841.0
+      },
+      {
+        "code": "510880",
+        "name": "红利ETF华泰柏瑞",
+        "price": 3.253,
+        "change_pct": 1.5,
+        "main_inflow": 122061670.0,
+        "main_inflow_pct": 12.13,
+        "amount": 1005971778.0
+      },
+      {
+        "code": "510310",
+        "name": "沪深300ETF易方达",
+        "price": 4.621,
+        "change_pct": -0.58,
+        "main_inflow": 112347718.0,
+        "main_inflow_pct": 9.07,
+        "amount": 1238417441.0
+      },
+      {
+        "code": "563300",
+        "name": "中证2000ETF华泰柏瑞",
+        "price": 1.275,
+        "change_pct": -1.62,
+        "main_inflow": 82260797.0,
+        "main_inflow_pct": 7.02,
+        "amount": 1172479753.0
+      },
+      {
+        "code": "159919",
+        "name": "沪深300ETF嘉实",
+        "price": 4.97,
+        "change_pct": -0.5,
+        "main_inflow": 77639024.0,
+        "main_inflow_pct": 8.39,
+        "amount": 925415331.603
+      },
+      {
+        "code": "510720",
+        "name": "红利国企ETF国泰",
+        "price": 1.016,
+        "change_pct": 2.11,
+        "main_inflow": 77118423.0,
+        "main_inflow_pct": 26.88,
+        "amount": 286912772.0
+      },
+      {
+        "code": "560780",
+        "name": "半导体设备ETF广发",
+        "price": 1.103,
+        "change_pct": 3.76,
+        "main_inflow": 75179952.0,
+        "main_inflow_pct": 4.48,
+        "amount": 1676296268.0
+      }
+    ],
+    "top_outflow": [
+      {
+        "code": "588170",
+        "name": "科创半导体ETF华夏",
+        "price": 1.02,
+        "change_pct": -4.67,
+        "main_inflow": -2066753440.0,
+        "main_inflow_pct": -20.29,
+        "amount": 10187760911.0
+      },
+      {
+        "code": "588710",
+        "name": "科创半导体设备ETF华泰柏瑞",
+        "price": 3.16,
+        "change_pct": -5.11,
+        "main_inflow": -593186944.0,
+        "main_inflow_pct": -23.28,
+        "amount": 2548496451.0
+      },
+      {
+        "code": "589020",
+        "name": "科创半导体设备ETF鹏华",
+        "price": 2.478,
+        "change_pct": -4.88,
+        "main_inflow": -494982192.0,
+        "main_inflow_pct": -23.73,
+        "amount": 2086304844.0
+      },
+      {
+        "code": "159915",
+        "name": "创业板ETF易方达",
+        "price": 3.586,
+        "change_pct": -3.32,
+        "main_inflow": -351944608.0,
+        "main_inflow_pct": -3.71,
+        "amount": 9480428887.55
+      },
+      {
+        "code": "512880",
+        "name": "证券ETF国泰",
+        "price": 1.114,
+        "change_pct": -0.8,
+        "main_inflow": -293929616.0,
+        "main_inflow_pct": -12.73,
+        "amount": 2309127598.0
+      },
+      {
+        "code": "588200",
+        "name": "科创芯片ETF嘉实",
+        "price": 1.304,
+        "change_pct": -3.34,
+        "main_inflow": -285077968.0,
+        "main_inflow_pct": -3.08,
+        "amount": 9253522802.0
+      },
+      {
+        "code": "588080",
+        "name": "科创50ETF易方达",
+        "price": 1.894,
+        "change_pct": -2.97,
+        "main_inflow": -205357376.0,
+        "main_inflow_pct": -6.57,
+        "amount": 3125102025.0
+      },
+      {
+        "code": "159869",
+        "name": "游戏ETF华夏",
+        "price": 1.048,
+        "change_pct": -4.03,
+        "main_inflow": -161299494.0,
+        "main_inflow_pct": -21.72,
+        "amount": 742461854.755
+      },
+      {
+        "code": "159326",
+        "name": "电网设备ETF华夏",
+        "price": 1.577,
+        "change_pct": -2.29,
+        "main_inflow": -158199316.0,
+        "main_inflow_pct": -24.7,
+        "amount": 640462926.972
+      },
+      {
+        "code": "159949",
+        "name": "创业板50ETF华安",
+        "price": 1.703,
+        "change_pct": -3.57,
+        "main_inflow": -112462448.0,
+        "main_inflow_pct": -3.56,
+        "amount": 3162986585.743
+      },
+      {
+        "code": "588000",
+        "name": "科创50ETF华夏",
+        "price": 1.955,
+        "change_pct": -3.03,
+        "main_inflow": -111688752.0,
+        "main_inflow_pct": -0.81,
+        "amount": 13736182064.0
+      },
+      {
+        "code": "159530",
+        "name": "机器人ETF易方达",
+        "price": 1.31,
+        "change_pct": -2.17,
+        "main_inflow": -93173262.0,
+        "main_inflow_pct": -10.19,
+        "amount": 914700243.361
+      },
+      {
+        "code": "159682",
+        "name": "创业板50ETF景顺",
+        "price": 1.658,
+        "change_pct": -3.6,
+        "main_inflow": -79965078.0,
+        "main_inflow_pct": -14.16,
+        "amount": 564619314.548
+      },
+      {
+        "code": "562500",
+        "name": "机器人ETF华夏",
+        "price": 0.961,
+        "change_pct": -1.74,
+        "main_inflow": -57894492.0,
+        "main_inflow_pct": -9.0,
+        "amount": 643408083.0
+      },
+      {
+        "code": "517520",
+        "name": "黄金股ETF永赢",
+        "price": 1.854,
+        "change_pct": 5.7,
+        "main_inflow": -57785683.0,
+        "main_inflow_pct": -6.82,
+        "amount": 847815944.0
+      }
+    ]
+  },
+  "global_markets": {
+    "ok": true,
+    "date": "2026-07-22",
+    "bonds": [
+      {
+        "key": "US2Y",
+        "name": "美国2年期国债",
+        "symbol": "美国国债收益率2年",
+        "yield": 4.31,
+        "change": 0.05,
+        "change_pct": 1.1737,
+        "date": "2026-07-22"
+      },
+      {
+        "key": "US5Y",
+        "name": "美国5年期国债",
+        "symbol": "美国国债收益率5年",
+        "yield": 4.41,
+        "change": 0.04,
+        "change_pct": 0.9153,
+        "date": "2026-07-22"
+      },
+      {
+        "key": "US10Y",
+        "name": "美国10年期国债",
+        "symbol": "美国国债收益率10年",
+        "yield": 4.67,
+        "change": 0.04,
+        "change_pct": 0.8639,
+        "date": "2026-07-22"
+      },
+      {
+        "key": "US30Y",
+        "name": "美国30年期国债",
+        "symbol": "美国国债收益率30年",
+        "yield": 5.15,
+        "change": 0.02,
+        "change_pct": 0.3899,
+        "date": "2026-07-22"
+      },
+      {
+        "key": "CN10Y",
+        "name": "中国10年期国债",
+        "symbol": "中国国债收益率10年",
+        "yield": 1.7297,
+        "change": -0.0153,
+        "change_pct": -0.8768,
+        "date": "2026-07-22"
+      },
+      {
+        "key": "CN2Y",
+        "name": "中国2年期国债",
+        "symbol": "中国国债收益率2年",
+        "yield": 1.2649,
+        "change": -0.004,
+        "change_pct": -0.3152,
+        "date": "2026-07-22"
+      }
+    ],
+    "fx": [
+      {
+        "key": "EURUSD",
+        "name": "欧元/美元",
+        "symbol": "fx_seurusd",
+        "price": 1.1413,
+        "change": 0.0003,
+        "change_pct": 0.0263
+      },
+      {
+        "key": "GBPUSD",
+        "name": "英镑/美元",
+        "symbol": "fx_sgbpusd",
+        "price": 1.338,
+        "change": 0.0009,
+        "change_pct": 0.0673
+      },
+      {
+        "key": "USDJPY",
+        "name": "美元/日元",
+        "symbol": "fx_susdjpy",
+        "price": 163.15,
+        "change": 0.02,
+        "change_pct": 0.0123
+      },
+      {
+        "key": "USDCNY",
+        "name": "美元/人民币",
+        "symbol": "fx_susdcny",
+        "price": 6.7781,
+        "change": 0.0,
+        "change_pct": 0.0
+      },
+      {
+        "key": "USDCHF",
+        "name": "美元/瑞郎",
+        "symbol": "fx_susdchf",
+        "price": 0.8146,
+        "change": 0.0005,
+        "change_pct": 0.0614
+      },
+      {
+        "key": "AUDUSD",
+        "name": "澳元/美元",
+        "symbol": "fx_saudusd",
+        "price": 0.6996,
+        "change": 0.0,
+        "change_pct": 0.0
+      },
+      {
+        "key": "USDCAD",
+        "name": "美元/加元",
+        "symbol": "fx_susdcad",
+        "price": 1.4089,
+        "change": 0.0002,
+        "change_pct": 0.0142
+      }
+    ],
+    "error": null
+  },
+  "us_stocks": {
+    "ok": true,
+    "quotes_ok": false,
+    "date": "2026-07-21",
+    "date_label": "2026-07-21（周二，美股交易日）",
+    "sectors": [
+      {
+        "symbol": "XLU",
+        "name_cn": "公用事业",
+        "name_en": "Utilities",
+        "price": 45.93,
+        "prev_close": 44.92,
+        "change": 1.01,
+        "change_pct": 2.25,
+        "currency": "USD",
+        "date": "2026-07-22"
+      },
+      {
+        "symbol": "XLB",
+        "name_cn": "原材料",
+        "name_en": "Materials",
+        "price": 50.82,
+        "prev_close": 50.1,
+        "change": 0.72,
+        "change_pct": 1.44,
+        "currency": "USD",
+        "date": "2026-07-22"
+      },
+      {
+        "symbol": "XLE",
+        "name_cn": "能源",
+        "name_en": "Energy",
+        "price": 59.2,
+        "prev_close": 58.5,
+        "change": 0.7,
+        "change_pct": 1.2,
+        "currency": "USD",
+        "date": "2026-07-22"
+      },
+      {
+        "symbol": "XLP",
+        "name_cn": "必需消费",
+        "name_en": "Consumer Staples",
+        "price": 84.38,
+        "prev_close": 84.06,
+        "change": 0.32,
+        "change_pct": 0.38,
+        "currency": "USD",
+        "date": "2026-07-22"
+      },
+      {
+        "symbol": "XLI",
+        "name_cn": "工业",
+        "name_en": "Industrials",
+        "price": 178.85,
+        "prev_close": 178.66,
+        "change": 0.19,
+        "change_pct": 0.11,
+        "currency": "USD",
+        "date": "2026-07-22"
+      },
+      {
+        "symbol": "XLF",
+        "name_cn": "金融",
+        "name_en": "Financials",
+        "price": 56.05,
+        "prev_close": 56.11,
+        "change": -0.06,
+        "change_pct": -0.11,
+        "currency": "USD",
+        "date": "2026-07-22"
+      },
+      {
+        "symbol": "XLK",
+        "name_cn": "科技",
+        "name_en": "Technology",
+        "price": 180.27,
+        "prev_close": 180.78,
+        "change": -0.51,
+        "change_pct": -0.28,
+        "currency": "USD",
+        "date": "2026-07-22"
+      },
+      {
+        "symbol": "XLRE",
+        "name_cn": "房地产",
+        "name_en": "Real Estate",
+        "price": 45.01,
+        "prev_close": 45.2,
+        "change": -0.19,
+        "change_pct": -0.42,
+        "currency": "USD",
+        "date": "2026-07-22"
+      },
+      {
+        "symbol": "XLV",
+        "name_cn": "医疗健康",
+        "name_en": "Health Care",
+        "price": 159.43,
+        "prev_close": 160.25,
+        "change": -0.82,
+        "change_pct": -0.51,
+        "currency": "USD",
+        "date": "2026-07-22"
+      },
+      {
+        "symbol": "XLY",
+        "name_cn": "可选消费",
+        "name_en": "Consumer Discretionary",
+        "price": 114.02,
+        "prev_close": 114.87,
+        "change": -0.85,
+        "change_pct": -0.74,
+        "currency": "USD",
+        "date": "2026-07-22"
+      },
+      {
+        "symbol": "XLC",
+        "name_cn": "通信服务",
+        "name_en": "Communication Services",
+        "price": 109.2,
+        "prev_close": 110.03,
+        "change": -0.83,
+        "change_pct": -0.75,
+        "currency": "USD",
+        "date": "2026-07-22"
+      }
+    ],
+    "sector_source": "ibkr",
+    "sector_date": "2026-07-22",
+    "stocks": [
+      {
+        "symbol": "MSFT",
+        "name_cn": "微软",
+        "name_en": "",
+        "price": null,
+        "change": null,
+        "change_pct": null,
+        "currency": "USD",
+        "market_cap": null,
+        "news_query": "Microsoft stock"
+      },
+      {
+        "symbol": "NVDA",
+        "name_cn": "英伟达",
+        "name_en": "",
+        "price": null,
+        "change": null,
+        "change_pct": null,
+        "currency": "USD",
+        "market_cap": null,
+        "news_query": "NVIDIA stock"
+      },
+      {
+        "symbol": "BABA",
+        "name_cn": "阿里巴巴",
+        "name_en": "",
+        "price": null,
+        "change": null,
+        "change_pct": null,
+        "currency": "USD",
+        "market_cap": null,
+        "news_query": "Alibaba stock"
+      }
+    ],
+    "news": {
+      "MSFT": [
+        {
+          "title": "Concerns Rise as Copilot Loses Free Features, Microsoft Stock (NASDAQ:MSFT) Slides - TipRanks",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYnZhQVBoaDNXeGtHZzZtYVdoYUlCS3FiNVVXYW1mc1pzQlprZnNEQXZ3bTM2ZFVqZ1RqTFNOQnA0RGplR0R1Q2xYUTVxWDU1RVBOdlBGN1d0eld6WmN5T25UOVh5YWNNU18yVUdsLWRfQldESUdQcXZHYXprNVpPVzZvNkJ2VjV6VTFYaFQzaHpVbjFpUG9FM0tZY3FYMFFxMGJ6QXZXUEhjZ244?oc=5",
+          "published": "Wed, 22 Jul 2026 18:31:21 GMT",
+          "published_cn": "2026-07-22 14:31",
+          "et_date": "2026-07-22",
+          "summary": "Concerns Rise as Copilot Loses Free Features, Microsoft Stock (NASDAQ:MSFT) Slides&nbsp;&nbsp;TipRanks"
+        },
+        {
+          "title": "Going Into Earnings, Is Microsoft Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUzNBTkhXakNuQnR3aHhOd3NWbWhRZnlkVEcwc2lEQm0ybFJ4U0NQaS1wMG9JODBtbi1XdEw4T0VlRF9oTEcwYzJIMlBCTW0zV0FMdTQwQWVXbTF6QzJQS043UXNTWTVzTm5sejA4S2dZTnBQNnVKOVNSOFBHZUl5REhwMWZIWm1CR0RfTFEyZ3U2Vlh4ZTdEcWtaaHAxSTVEbExpZnJxMkJzTWNyZml3?oc=5",
+          "published": "Wed, 22 Jul 2026 08:47:26 GMT",
+          "published_cn": "2026-07-22 04:47",
+          "et_date": "2026-07-22",
+          "summary": "Going Into Earnings, Is Microsoft Stock a Buy, a Sell, or Fairly Valued?&nbsp;&nbsp;MorningstarPrediction: Microsoft Stock Will Go Parabolic After July 29. Here"
+        },
+        {
+          "title": "Microsoft Stock And 2 Defense Names Facing SpaceX Volatility Exposure - simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQeUN6S19sRUxjcmY1UGdDZFVPakdtQnFxdnpESE1veUUwUDU0U1RGckVoNkp5a1B3YXhqNWdUSnpoV0U4RFVSazlXbFhSOEtOZDFDNGVNVVoyX2xDaDBKTlpxOEJDakM3TXdYcGtQQXg0alJlVFZKYTJEQ2xoMkVvRXVlUDNfZGt6ZnJyZk1jNG1YNkYyYWhrVjV4bWJwZ1ZUejBRZTY1d3lZdV9ScnJBYkdRUFZ5UFVNVklJU3hBR0tncFYwdk000gHMAUFVX3lxTFBSNEZxbXQ4Zy1IUTdZV1hVMlFiWVR2ZGQzOHZBcWNqRzdYRElvWXEtOVYwUm9OeHlWLWZxUUhKLTgxMjdZTG9BbWxLdlROTWVkUW9oZUU5ajlvYlB5dXpTNGlCLTdOZldJVTVnWnNhN2xCc0NwbF85MVBPdS16ellvTGZNTHJyNGV5TWpTZzhhMWFUb1RQNGkwOV9wSWxZbWFZckdBZktGVk9LMlhHbjNoLUwzQ0U2UDg2ajgwWnNuYXNldWt5dDZleUZCaw?oc=5",
+          "published": "Tue, 21 Jul 2026 19:39:58 GMT",
+          "published_cn": "2026-07-21 15:39",
+          "et_date": "2026-07-21",
+          "summary": "Microsoft Stock And 2 Defense Names Facing SpaceX Volatility Exposure&nbsp;&nbsp;simplywall.st"
+        },
+        {
+          "title": "Bernstein reiterates Microsoft stock rating on AI growth outlook - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPb0MxZFZlM0NGVmhZd3RNY19XZ1pYZDk4ZmptZWE3cWJtRUpmWlgxOHJYYml0VHh6Wjg2RlRGNDF1TnB1ZEJ1RFFneHRKMEc3RzZxQ1Z6TlllaDk5ZWh1eEh5VVRiRDZOeDRsMkdWWkZodElQVGNqNmpSYVdCa1RpVGdkSFFLNU1RLTI1UkJlSVM5aUF2anNaS0NTaERveGtySHdkZXFvZ2xuUEpYZWtkLUhrNzhUZ2huWHFsOGRpYnFXZw?oc=5",
+          "published": "Wed, 22 Jul 2026 14:55:42 GMT",
+          "published_cn": "2026-07-22 10:55",
+          "et_date": "2026-07-22",
+          "summary": "Bernstein reiterates Microsoft stock rating on AI growth outlook&nbsp;&nbsp;Investing.com"
+        },
+        {
+          "title": "Prediction: Broadcom Stock Will Be Worth More Than Apple and Microsoft 10 Years From Now - The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPcmdmTXBULVpxWGRoSm5sZTdNemdVeUJBRzNSYmtudjJlSTlKbUszeWVlQnQzamdSajNJU3I3SmhzTFFNYXZwa2x1ZHM1T2NIZjNacmlDdldNaDlQSC1aaEpTTVJLZWtIb1FWN0FxaUpibEpBOVFmYnVvczlyLUszSkJxV0haM005TndkZFI0QnFtNTdyUnRj?oc=5",
+          "published": "Tue, 21 Jul 2026 09:30:00 GMT",
+          "published_cn": "2026-07-21 05:30",
+          "et_date": "2026-07-21",
+          "summary": "Prediction: Broadcom Stock Will Be Worth More Than Apple and Microsoft 10 Years From Now&nbsp;&nbsp;The Motley Fool"
+        },
+        {
+          "title": "Microsoft Stock (MSFT) Dips as Manulife’s Expanded AI Bet Fails to Lift Sentiment - TipRanks",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVmZVUW1vS2VEWmdUSkZaaEl2Yl9WM3dMRDNXcGVUYXp4eXdQc1h4a3dnWFFuU3dJMzRjN1VvYy1DTFZJZlU5QUg5RmNFUklKNWN5R1lpWnZ3NzdzVXlNaktYNXFCVFI4RXVodjduMlk3WEQxZWpvSWZDT200ZVJxMEVPZURlYWRiQURGVURtcS1vRGhNU3ZIcXU3NlF2YUhEcUdBdGhBQ25ON0hK?oc=5",
+          "published": "Wed, 22 Jul 2026 17:29:04 GMT",
+          "published_cn": "2026-07-22 13:29",
+          "et_date": "2026-07-22",
+          "summary": "Microsoft Stock (MSFT) Dips as Manulife’s Expanded AI Bet Fails to Lift Sentiment&nbsp;&nbsp;TipRanks"
+        }
+      ],
+      "NVDA": [
+        {
+          "title": "Nvidia Stock: Tie-Up With Google on Robot Venture Fails to Boost Shares - Barron's",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xSWZJZW9YcXRiRmM3MWpsb2pTbWlqUmNsNnJwUkFUTF9rZW9JbHZ2bFlyYkhmem40UEpFay1IS1lOVDhCeDhOODU3clk5cE1idTdfaS1ERVg3YkwxUDFkVm1QSGpZcmJzSGJOVWR5RGlndDNnVVBnSlVBMXJ3UQ?oc=5",
+          "published": "Wed, 22 Jul 2026 13:57:00 GMT",
+          "published_cn": "2026-07-22 09:57",
+          "et_date": "2026-07-22",
+          "summary": "Nvidia Stock: Tie-Up With Google on Robot Venture Fails to Boost Shares&nbsp;&nbsp;Barron's"
+        },
+        {
+          "title": "Nvidia Just Revealed It Owns 9.3% of Nebius. The Stock Jumped Nearly 19% on Tuesday -- Here's What Nvidia Is Actually Buying. - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcktKWG9hZ2g4RDhXRjhWWmtKTGZYZHpwUHpuRU9tQ1gwLVdvNnI5RnMtQWdBeDVTcVBhVHhodGxFaGZnN0pWNFJ6U2RJMThxVjVLc1FGcVVPQU94NTZob1h3STZ5ZjVLOVR1TkRXbVZrdFdHY04wMnlPYldyVHhwX2pWMWRfc2NEN1FjTzhDTURlR3ROQVI0?oc=5",
+          "published": "Wed, 22 Jul 2026 22:57:00 GMT",
+          "published_cn": "2026-07-22 18:57",
+          "et_date": "2026-07-22",
+          "summary": "Nvidia Just Revealed It Owns 9.3% of Nebius. The Stock Jumped Nearly 19% on Tuesday -- Here's What Nvidia Is Actually Buying.&nbsp;&nbsp;Yahoo Finance"
+        },
+        {
+          "title": "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel - CNBC",
+          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBCbmVqVGRCbVNSa24yODRDdU9YVWVLbFdiNWg2UWVPVE9hcHZwNlIxRlVSSS1JSWpkNlZsWS1GeDZRNEdXMndVUTIzNC1Ddy1oTElYdFpXcmIzVjlaaUlPWHdrSWczdU12NjZ6WkRvMUZ0WE3SAXhBVV95cUxOcGNtV3EzLXFWdmFQaFVQR1JDWlpXcWd5NHZ5U3BYUDg3RG1XbVlpRWVzQ0R2V3FBeVdsZXZQRWVIMUFvQjdxWHJFdEVOMXFqSWZnNGtuR2t3b05lOG9jV3lSUDlMSHh1TjhJb2dJWWltUnVCdjd6cFg?oc=5",
+          "published": "Tue, 21 Jul 2026 15:00:02 GMT",
+          "published_cn": "2026-07-21 11:00",
+          "et_date": "2026-07-21",
+          "summary": "Nvidia details its next-generation Vera CPU for AI, setting up challenge to AMD and Intel&nbsp;&nbsp;CNBC"
+        },
+        {
+          "title": "Nvidia Stock Hits Buy Trigger With Alphabet Earnings Due - Investor's Business Daily",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQQkdKMFZWRUxPZFhHOEtnWDFtbXl4ZURfQkJOX2dSbENpM2NVRmlUTjVibWU4aThoNXBjRXF5R1g5WGlpQlZteUJGYmI3OEtiZzFyaEk1TUZ4QnFnMU1rODZ0RjdGYzlyS0VXMW1rS3ZFWVppa1prUWo0ZlpsR1BEdEYyaUJYVDhUN3dPNlV0NEZyUDl3S3pkaGVhbm8yWUpGOEE?oc=5",
+          "published": "Wed, 22 Jul 2026 19:25:00 GMT",
+          "published_cn": "2026-07-22 15:25",
+          "et_date": "2026-07-22",
+          "summary": "Nvidia Stock Hits Buy Trigger With Alphabet Earnings Due&nbsp;&nbsp;Investor's Business DailyWhy Nvidia Stock Can ‘Lead the Charge’ This Earnings Season&nbsp;&n"
+        },
+        {
+          "title": "Nvidia: The Dividend Growth Stock Masquerading As A Growth Company (NASDAQ:NVDA) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM2Q0WWlFc0hwMEs0MGRiZGtJMTI4NlVmQkFMVlRIV0VvOGQ1dUxVX2RQQXI2bVpMeC01NnAtUHpyRXhVNDJ2VGdVeWk3ZnBua3Zfc1JqOG1wcHROTGl0QTd1U2NjcmpHT1llOFJ3N1dCS3luWENRR1ZvTE84ZnlmVmw2TTQ2eUlfUmQ4bUZmVkdLNVVoNEdKc3dmLXdjTDFfcEI1bGpmZGthUQ?oc=5",
+          "published": "Wed, 22 Jul 2026 12:00:00 GMT",
+          "published_cn": "2026-07-22 08:00",
+          "et_date": "2026-07-22",
+          "summary": "Nvidia: The Dividend Growth Stock Masquerading As A Growth Company (NASDAQ:NVDA)&nbsp;&nbsp;Seeking Alpha"
+        },
+        {
+          "title": "Nvidia, SpaceX among market cap stock movers on Wednesday - Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT2xzTlIxX0tDUURfSEdzM0R5SWhnTVRmTFFxU2VaOHBQZ0x4b3Nlb2dCXzd1SC12M1RyR0gxZWlBcS1BVGdiR2dnbnVxeDVqNVVkU1h2aFBFWDNaXzRReFBmZEN6eEhpbVlNc29SRkFzNzRxel85bkFIemFoT1NLd0RkclRla3laNFJ1dFNJb0IzUDhHWVZOQmlHN3FNUkliQXdGVFdqWFFIMDc1dHlUVjBUdllOV3NhZ1E?oc=5",
+          "published": "Wed, 22 Jul 2026 18:11:37 GMT",
+          "published_cn": "2026-07-22 14:11",
+          "et_date": "2026-07-22",
+          "summary": "Nvidia, SpaceX among market cap stock movers on Wednesday&nbsp;&nbsp;Investing.com"
+        }
+      ],
+      "BABA": [
+        {
+          "title": "Alibaba's Apple tie-up adds fuel to China's hottest ETF: Chart of the Day - Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQMkFUOTlJZXRNUWl0ZzIyN3NMQmMyUnZ0VUJHLUxWTWRQeXBMN010Wm44TzVfQkNvMkNiUVRwN1ZwT19qUlpfSmlvdHFBVVJsTjMxeEhYNFBQNnFGenptTC1zYkhKeWh1T2FmWURkS0NjYVFrc19lZDcxMjN5bjB0MU8waVFqNHZzeG1ZNGx5QXJDMkJsand0U2s2bWpaMWtIbXl4NmNPeUVhbVpGSTBUZFpzdDBBbDZVTlM1ZGNKalpaN1ViQVE?oc=5",
+          "published": "Tue, 21 Jul 2026 10:00:00 GMT",
+          "published_cn": "2026-07-21 06:00",
+          "et_date": "2026-07-21",
+          "summary": "Alibaba's Apple tie-up adds fuel to China's hottest ETF: Chart of the Day&nbsp;&nbsp;Yahoo Finance"
+        },
+        {
+          "title": "Alibaba Group Holding Limited $BABA Stock Holdings Increased by Jennison Associates LLC - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUG9qZlh6OFZNLVpvQWx2eTZkQmpoZXlJaWw4aE9ERVFTWXlVX2x0SklZVVBnMmxrTmloUUFxUmdQVXUwRzV1bjhmVmk3cU5iZXNSaFdGM0NOR2FqRTJmLXhwbUo5aldWVEdJTkNsLWhNeWZ5TmdwTmppc1FoRExDNW5uM3A1allmbm45cGdiSU5tVHNKdDZ4dHFlVUU1UUhsU19DdGZ3VWdJQUlVVFprX2FBRy1YWTc0bEZxZGwyaWlyeTF1V0s0N1Vvc25NN2R1WlpiZm4xZXFuVnRjUWE3dA?oc=5",
+          "published": "Wed, 22 Jul 2026 09:09:53 GMT",
+          "published_cn": "2026-07-22 05:09",
+          "et_date": "2026-07-22",
+          "summary": "Alibaba Group Holding Limited $BABA Stock Holdings Increased by Jennison Associates LLC&nbsp;&nbsp;MarketBeat"
+        },
+        {
+          "title": "Alibaba-backed Moonshot considering new funding at $50B valuation: report (BABA:NYSE) - Seeking Alpha",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVTRFMFpldUhTLWhDOFpNeEdGWDVLemgyNkRENWVRb2I0bFg4MWROaXhtQktOSkFDLVJjZTN5XzlQUzZ6SmlTRmV4Q04zbzVkb1gwR0sxWXVab3NVVklMcGRjVW95elFrMTJXMnFaNlhSUWRvVUN0YnQxR2ZRaDRveTFza3RISGgwcThJU3BUZ0tTMlRPd0U2VU1XbHB3TndmNWpsdlZSdlJmTkdES1E?oc=5",
+          "published": "Tue, 21 Jul 2026 15:17:32 GMT",
+          "published_cn": "2026-07-21 11:17",
+          "et_date": "2026-07-21",
+          "summary": "Alibaba-backed Moonshot considering new funding at $50B valuation: report (BABA:NYSE)&nbsp;&nbsp;Seeking Alpha"
+        },
+        {
+          "title": "How to Play BABA Stock as Alibaba Unveils New Qwen AI Model - Barchart.com",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDVseDlCYzNkOHZPWFF4N1VXci1jeExCNjhZd2w3NlpDMnRDbkI5SWhVeEpHMzhZQmRWN3hYWjNySHR5UEw3VmRCbmpwV2tXTS01cmdiMnBEY19uYW5fNUp3OXlUWjFpVkRMM3N0LVlCN3YtcDc0ZGtodVJrMlV0S3FUc3pycUlSZ1FnR0hvTG1PLW4tNXBDUktZNEJvOW5peXZwLW1R?oc=5",
+          "published": "Wed, 22 Jul 2026 15:23:20 GMT",
+          "published_cn": "2026-07-22 11:23",
+          "et_date": "2026-07-22",
+          "summary": "How to Play BABA Stock as Alibaba Unveils New Qwen AI Model&nbsp;&nbsp;Barchart.com"
+        },
+        {
+          "title": "Alibaba Group (NYSE:BABA) Shares Down 1.3% - Here's Why - MarketBeat",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOM08wUHM3ZTdTTTRnUVRBX3B0T2ZQYnluWFA4NDlfdXQ5cXBwUkJvZHdUTkMzelNReTlsQUFQLU9yaTBMdk9zSGNEQVQ3LVkyY0VQTk5kaTVyVHg4UzF5VndqeXpveU9CZzZPdFF1NElKZG5LN0dBNUxkZFU3TUNVNkxNT0VMRUJERHRSbExyejlxYzVKbjNHYWp6YXBSTHpiYWtN?oc=5",
+          "published": "Wed, 22 Jul 2026 21:42:26 GMT",
+          "published_cn": "2026-07-22 17:42",
+          "et_date": "2026-07-22",
+          "summary": "Alibaba Group (NYSE:BABA) Shares Down 1.3% - Here's Why&nbsp;&nbsp;MarketBeat"
+        },
+        {
+          "title": "Alibaba.com Launches Sourcing Toolkit - WWD",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPMGYwZHNsb3BVc1loelNLZDRodUJ5bnZkQmJHYXp3ZTd2andHaVJIbHJkYjd6cUZpWDFIcGlJVHBDNV9VenR4RFVFN3NFRjhKNkVyOHhiRUE3dFEwOGgweW5pZWktRDdIWTVLYVYteEJlS2tacG5nTjNneHc2Z1ZCQUJJdjNHNldZeVRYeWtZcmZYQ0dLSElSWmxEbXBvT09tRFlWSk4ydU90Ti0y?oc=5",
+          "published": "Wed, 22 Jul 2026 18:56:11 GMT",
+          "published_cn": "2026-07-22 14:56",
+          "et_date": "2026-07-22",
+          "summary": "Alibaba.com Launches Sourcing Toolkit&nbsp;&nbsp;WWD"
+        }
+      ]
+    },
+    "error": "行情价格暂缺（Yahoo 限流），新闻正常获取；价格将于恢复后补全。",
+    "us_summary": "（美股行情数据暂缺，以下基于当日新闻）\n- 微软(MSFT)：Concerns Rise as Copilot Loses Free Features, Microsoft Stock (NASDAQ:MSFT) Slides - TipRanks；Going Into Earnings, Is Microsoft Stock a Buy, a Sell, or Fairly Valued? - Morningstar\n- 英伟达(NVDA)：Nvidia Stock: Tie-Up With Google on Robot Venture Fails to Boost Shares - Barron's；Nvidia Just Revealed It Owns 9.3% of Nebius. The Stock Jumped Nearly 19% on Tuesday -- Here's What Nvidia Is Actually Buying. - Yahoo Finance\n- 阿里巴巴(BABA)：Alibaba's Apple tie-up adds fuel to China's hottest ETF: Chart of the Day - Yahoo Finance；Alibaba Group Holding Limited $BABA Stock Holdings Increased by Jennison Associates LLC - MarketBeat"
+  },
+  "bloggers": {
+    "section": "bloggers",
+    "has_auth": true,
+    "target_days": [
+      "2026-07-22"
+    ],
+    "data_date": "2026-07-22",
+    "bloggers": [
+      {
+        "name": "Serenity",
+        "handle": "aleabitoreddit",
+        "posts": [
+          {
+            "id": "2079622706572804368",
+            "text": "Wow, a historic single day recovery.\n\n$SIVEF +30.89%\n$IQEF +28.6%\n$AEHR +26.53%\n$CIFR +17.82%\n$NBIS +17.3%\n$AAOI +15.6%\n$LPK +14.48%\n$AXTI +14.12%\n$MU +12.54%\n$SNDK +12.8%\n$SOI +11.1%\n$TSEM +10.39%\n$LITE +9.25%\n$INTC +8.22%\n$AMD +8.11%\n$MRVL +7.27%",
+            "created": "2026-07-21T17:41:05+00:00",
+            "likes": 4458,
+            "reposts": 257,
+            "views": 600953,
+            "url": "https://x.com/i/status/2079622706572804368",
+            "date_cn": "2026-07-22"
+          },
+          {
+            "id": "2079673469567226149",
+            "text": "OpenAI models reportedly escaped from its controlled environment, with no internet access.\n\nExploited zero day vulnerabilities and hacked into Hugging Face to cheat on benchmarks.\n\nHugging face then used China GLM models to carry out its defense. \n\nOpenAI said it was an “an unprecedented cyber incident.”\n\nWe’re getting closer and closer to Skynet. \n\nAnd I’m sure markets will love it.",
+            "created": "2026-07-21T21:02:48+00:00",
+            "likes": 2657,
+            "reposts": 213,
+            "views": 471721,
+            "url": "https://x.com/i/status/2079673469567226149",
+            "date_cn": "2026-07-22"
+          },
+          {
+            "id": "2079947242455335379",
+            "text": "$AMD to invest $5B in Anthropic.\n\nAnthropic in turn will sign a 2 GW deal to buy AMD’s latest chips, worth tens of billions of dollars.\n\nLooks like they’re copying the $NVDA playbook with Anthropic last year. https://t.co/SXBUq65u6P",
+            "created": "2026-07-22T15:10:40+00:00",
+            "likes": 1003,
+            "reposts": 59,
+            "views": 200407,
+            "url": "https://x.com/i/status/2079947242455335379",
+            "date_cn": "2026-07-22"
+          }
+        ],
+        "error": null,
+        "count": 3,
+        "summary": "总体来看，Serenity 对此次事件持看多态度，并认为市场将对此表示积极反应。\n\n- 这一天的股市表现极为强劲，多个科技股和半导体公司股价大幅上涨。态度：看多。具体而言，SIVEF、IQEF、AEHR 等公司的股票涨幅超过 20%，显示出投资者对市场的乐观情绪。\n- OpenAI 模型可能已经逃出其受控环境，并利用零日漏洞攻击了 Hugging Face 并进行作弊行为。态度：中性。虽然这一事件引发了对未来潜在风险的担忧，但Serenity 认为市场对此反应积极，认为这将推动相关公司进一步加强安全措施和技术创新。\n- OpenAI 表示这是“前所未有的网络事件”。态度：看多。Serenity 认为，尽管存在潜在的风险，但这一事件可能促使投资者更加关注科技公司的安全性，并因此增加对这些公司的投资兴趣。\n- AMD 将投资 50 亿美元与 Anthropic 合作，后者将购买 AMD 最新的芯片，交易金额达数十亿美元。态度：看多。Serenity 认为，这表明大型科技公司正在积极寻求合作以应对潜在的 AI 竞争和技术升级需求。\n- 这一事件似乎在复制去年 NVIDIA 的做法。态度：中性。虽然 SERNITY 指出类似情况可能再次发生，但他认为市场对此持乐观态度，并预计相关公司的股价将继续上涨。"
+      },
+      {
+        "name": "Ariston Wang",
+        "handle": "Ariston_Macro",
+        "posts": [],
+        "error": null,
+        "count": 0
+      }
+    ]
+  },
+  "wechat": {
+    "ok": true,
+    "accounts": [
+      {
+        "name": "地平线全球策略",
+        "articles": [
+          {
+            "title": "大众+地平线白盒授权:L3智驾2027交付背后,是用中国方案重写自己的剧本",
+            "url": "https://weixin.sogou.com/link?url=dn9a_-gY295K0Rci_xozVXfdMkSQTLW6cwJThYulHEtVjXrGTiVgS_cIweSNHah0fnO_967rGe5sPuSZz0nm9FqXa8Fplpd9SGjK3HW2FTMENoWRNzEZiudTz9nheCe3u9EuQuIaSrkkd3WWDDAC_dZP3HNae655NBRXiL2sybKjBhY-YxMtVr18DX9ERyTsfI9X_uXN1fIPjWvIlL5bJdk5FyOlEXBFhcwQAsaxmfzz3s8_5FmfalSeCIUTjYnLtEFZM4LzRMVS6t2rFt2rnA..&type=2&query=%E5%9C%B0%E5%B9%B3%E7%BA%BF%E5%85%A8%E7%90%83%E7%AD%96%E7%95%A5&token=92B752A6DBBF5A46F2F4A4C80F2C8113F39D23C56A615A59",
+            "date": "2026-07-22",
+            "snippet": "结论:大众+地平线的白盒授权合作,不是一笔普通的中国市场技术采购合同,而是大众在全球智驾竞争格局下的一次关键战略转向....",
+            "source": "Ai电车"
+          }
+        ],
+        "error": null,
+        "indirect": true,
+        "target_date": "2026-07-22",
+        "summary": "总体来看，“地平线全球策略”近期关注的主题聚焦于全球汽车行业的智能化转型与合作动态，并倾向于积极看待中国方案在全球市场中的竞争力。以下是对文章的具体观点分析：\n\n- 大众与地平线的合作被视作一次关键的战略转向，表明大众可能正在调整其在自动驾驶领域的技术路线和竞争策略。态度：看多。这反映了中国公司在智能驾驶领域正逐步获得国际认可，并有望在全球范围内发挥更重要的作用。\n- 该合作不仅限于中国市场，而是面向全球市场，意味着大众意图通过引入地平线的技术来增强自身在全球范围内的竞争力。态度：中性。虽然合作具有积极意义，但具体效果还需观察后续实施情况。\n- 此次合作被视为“用中国方案重写自己的剧本”，暗示着中国汽车技术正在逐步改变国际汽车行业的游戏规则。态度：看多。这表明中国在智能驾驶领域的技术创新和应用已经达到了一定的高度，并开始对全球产生影响。\n\n综上所述，“地平线全球策略”对于此次大众与地平线的合作持积极乐观的态度，认为其不仅有利于推动中国汽车技术走向世界，同时也将为大众在全球市场上的竞争带来新的机遇。"
+      },
+      {
+        "name": "行知交易员",
+        "articles": [],
+        "error": null,
+        "indirect": true,
+        "target_date": "2026-07-22"
+      }
+    ],
+    "error": null
+  },
+  "holdings": {
+    "ok": true,
+    "error": null,
+    "as_of": "2026-07-22",
+    "generated_at": "2026-07-23 08:09:37",
+    "holdings": [
+      {
+        "symbol": "QQQM",
+        "name_cn": "QQQM",
+        "name_en": "QQQM",
+        "currency": "USD",
+        "shares": 9.0,
+        "avg_cost": 290.2306141,
+        "close": 291.9,
+        "price_src": "ibkr(mdt=3)",
+        "market_value": 2627.1,
+        "pnl": 15.024473099999568,
+        "pnl_pct": 0.5751929048479987,
+        "news": [],
+        "summary": null
+      },
+      {
+        "symbol": "9606",
+        "name_cn": "Duality Bio",
+        "name_en": "Duality Bio",
+        "currency": "HKD",
+        "shares": 100.0,
+        "avg_cost": 223.016344,
+        "close": 240.0,
+        "price_src": "ibkr(mdt=3)",
+        "market_value": 24000.0,
+        "pnl": null,
+        "pnl_pct": null,
+        "news": [],
+        "summary": null
+      },
+      {
+        "symbol": "NVDA",
+        "name_cn": "英伟达",
+        "name_en": "NVIDIA",
+        "currency": "USD",
+        "shares": 10.0,
+        "avg_cost": 215.97,
+        "close": 207.29,
+        "price_src": "ibkr(mdt=3)",
+        "market_value": 2072.9,
+        "pnl": -86.80000000000007,
+        "pnl_pct": -4.019076723619019,
+        "news": [
+          {
+            "title": "Nvidia Stock: Tie-Up With Google on Robot Venture Fails to Boost Shares",
+            "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9xSWZJZW9YcXRiRmM3MWpsb2pTbWlqUmNsNnJwUkFUTF9rZW9JbHZ2bFlyYkhmem40UEpFay1IS1lOVDhCeDhOODU3clk5cE1idTdfaS1ERVg3YkwxUDFkVm1QSGpZcmJzSGJOVWR5RGlndDNnVVBnSlVBMXJ3UQ?oc=5",
+            "desc": "Nvidia Stock: Tie-Up With Google on Robot Venture Fails to Boost Shares&nbsp;&nbsp;Barron's",
+            "pub": "Wed, 22 Jul 2026 13:57:00 GMT"
+          },
+          {
+            "title": "Nvidia: The Dividend Growth Stock Masquerading As A Growth Company (NASDAQ:NVDA)",
+            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM2Q0WWlFc0hwMEs0MGRiZGtJMTI4NlVmQkFMVlRIV0VvOGQ1dUxVX2RQQXI2bVpMeC01NnAtUHpyRXhVNDJ2VGdVeWk3ZnBua3Zfc1JqOG1wcHROTGl0QTd1U2NjcmpHT1llOFJ3N1dCS3luWENRR1ZvTE84ZnlmVmw2TTQ2eUlfUmQ4bUZmVkdLNVVoNEdKc3dmLXdjTDFfcEI1bGpmZGthUQ?oc=5",
+            "desc": "Nvidia: The Dividend Growth Stock Masquerading As A Growth Company (NASDAQ:NVDA)&nbsp;&nbsp;Seeking Alpha",
+            "pub": "Wed, 22 Jul 2026 12:00:00 GMT"
+          },
+          {
+            "title": "Beyond The GPU: What Could Drive NVIDIA Stock Higher From Here?",
+            "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPaTJody1lTWVZek5XYjM0a3BnMEFfaC1aSFNyTW5ucjVUVnBkMm1iaVlJZFgyVk52ZU5IN0tWUzcwSHJtbV9DeThGWmRsaDFLdm5KcDVhcGFpYkk2WVc3aVJEbUVqSmpISTNETGs4XzM1QWhRd2d1OHBsYW1nY1k5MF81bk9wTzdsdWJRWlJIMG4zcTFPak1lUW4wbTl4MHFPLXFFZVQtc1pROGY0R24wR0Z4RGZfQWJMSzRFQnR3Zw?oc=5",
+            "desc": "Beyond The GPU: What Could Drive NVIDIA Stock Higher From Here?&nbsp;&nbsp;Trefis",
+            "pub": "Wed, 22 Jul 2026 14:34:43 GMT"
+          },
+          {
+            "title": "Why Jensen Huang Just Cheered China’s Kimi That Wrecked Nvidia’s Stock - NAI500",
+            "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTzl4cWY2ZXlkX1A4dzJ0NnI5blVidE83VkZwYUxQSzBDTjVJem5lVVpEOHFfNlQ5dDluYjR5LUtsQjFrOHJNQnNadmc4S2xrRE0wVFZLOEgzTTFuZHpvaHBRUlczTW5ldkI0RXVTaUt0cmlvbmtpU0lpcmRDX25Ubi0yc0FQT18tbnAwRjROTTBRaFI2LXRfLUFxV0JDUkhkX25N?oc=5",
+            "desc": "Why Jensen Huang Just Cheered China’s Kimi That Wrecked Nvidia’s Stock&nbsp;&nbsp;NAI500",
+            "pub": "Wed, 22 Jul 2026 13:06:33 GMT"
+          }
+        ],
+        "summary": "【逐条分析】\n\n1. 事实概述：英伟达与谷歌在机器人项目上的合作未能提振股价。\n影响逻辑：此次合作的失败可能表明英伟达在新兴市场（如机器人技术）上面临挑战，这可能会对投资者信心产生负面影响。这种一次性事件可能会影响短期股价波动，但长期来看，如果英伟达能够继续专注于其核心业务并找到新的增长点，则影响有限。\n影响倾向与置信度：利空，中性置信度。虽然短期内合作失败可能导致市场情绪短暂下滑，但从长远看，这并不意味着公司整体战略出现问题。\n\n2. 事实概述：英伟达被描述为一个伪装成成长型公司的分红股。\n影响逻辑：这种观点可能会影响投资者对英伟达未来增长潜力的看法，进而影响股价。如果投资者认为英伟达更多地依赖于现有的业务和分红而非新的增长机会，则可能会减少对该股票的兴趣。\n影响倾向与置信度：中性偏空，低置信度。该分析基于市场情绪变化，但没有直接证据表明公司基本面发生变化。\n\n3. 事实概述：探讨了除了GPU之外可能推动英伟达股价上涨的因素。\n影响逻辑：此文章强调了多元化增长的可能性，可能会提升投资者对英伟达未来前景的信心。如果英伟达能够成功开拓新的业务领域，则将为股票带来长期利好。\n影响倾向与置信度：利好，中性置信度。虽然短期内可能不会立即反映在股价上，但长期来看有助于推动公司价值。\n\n4. 事实概述：英伟达创始人黄仁勋对中国的某位人物表示支持，这导致了英伟达股票下跌。\n影响逻辑：此事件表明公司在国际市场上的某些问题尚未完全解决，可能会对未来业务发展产生一定负面影响。这种一次性事件可能会影响短期股价波动。\n影响倾向与置信度：利空，中性置信度。短期内市场情绪可能受到影响，但长期来看，公司能否克服这些挑战将决定其未来表现。\n\n【综合研判】\n\n当日整体市场情绪偏空，主要依据是两条新闻均对英伟达的业务发展提出了质疑或负面看法。关键催化剂包括多元化增长机会和国际市场问题；而关键风险则来自合作失败以及投资者对公司成长性的担忧。\n\n对于持仓者而言，下一步最值得关注的是公司能否成功开拓新的业务领域，并解决国际市场的挑战。重点关注未来几个季度的财务报告中关于新业务进展的信息。"
+      },
+      {
+        "symbol": "MSFT",
+        "name_cn": "微软",
+        "name_en": "Microsoft",
+        "currency": "USD",
+        "shares": 46.0,
+        "avg_cost": 392.28413045,
+        "close": 397.75,
+        "price_src": "ibkr(mdt=3)",
+        "market_value": 18296.5,
+        "pnl": 251.42999929999905,
+        "pnl_pct": 1.3933445494544783,
+        "news": [
+          {
+            "title": "Going Into Earnings, Is Microsoft Stock a Buy, a Sell, or Fairly Valued? - Morningstar",
+            "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUzNBTkhXakNuQnR3aHhOd3NWbWhRZnlkVEcwc2lEQm0ybFJ4U0NQaS1wMG9JODBtbi1XdEw4T0VlRF9oTEcwYzJIMlBCTW0zV0FMdTQwQWVXbTF6QzJQS043UXNTWTVzTm5sejA4S2dZTnBQNnVKOVNSOFBHZUl5REhwMWZIWm1CR0RfTFEyZ3U2Vlh4ZTdEcWtaaHAxSTVEbExpZnJxMkJzTWNyZml3?oc=5",
+            "desc": "Going Into Earnings, Is Microsoft Stock a Buy, a Sell, or Fairly Valued?&nbsp;&nbsp;Morningstar",
+            "pub": "Wed, 22 Jul 2026 08:47:26 GMT"
+          },
+          {
+            "title": "Beyond The Sticker Price: What You Are Really Paying For Microsoft Stock",
+            "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxONzhpZ1o0R05icThjRGIyUU8xelhYa3BDTko4VjBoMEpiNlpiQVhvY3kwQ3IxZldKWTI2UGlOdXU2ci1hVFZuVEtrT2xKdnF3Z0ljWTI5cF9GQWN5My1sbmcxWnIyRUhfQXFPQWRSaXJJM2RWVTl6Si1YbGtVclpVV25zdXlMcVJWaVJaOWlIcnZjYlRKQ0htWTJKckdhaFpNVDBjdlJVR0IwLTZHQndDNldZT0R1S0NQdnBxSUU0Sy11SklkYWRlcFdlVVE?oc=5",
+            "desc": "Beyond The Sticker Price: What You Are Really Paying For Microsoft Stock&nbsp;&nbsp;Trefis",
+            "pub": "Tue, 21 Jul 2026 20:42:03 GMT"
+          },
+          {
+            "title": "Prediction: Microsoft Stock Will Go Parabolic After July 29. Here's Why.",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVDN6YS1fSUkxRGdkRWFEVV9HRFlrcW1uc2pZVThRZVVQbi1hMndMODVzeldzNVJwTWJUOThEWF95UHRXTHY1VFhfODZTV1k4YnlReXR1SWdaTTRSZWV1M2lWU0VLTjNmUnVmQmdJYWk2OXdra0UwZ1ZvVWlMbm84TmdNbHotN01Qbks2U0FsOVJuVDJZQUFLag?oc=5",
+            "desc": "Prediction: Microsoft Stock Will Go Parabolic After July 29. Here's Why.&nbsp;&nbsp;The Motley Fool",
+            "pub": "Wed, 22 Jul 2026 00:00:00 GMT"
+          }
+        ],
+        "summary": "【逐条分析】\n\n1. **事实概述**：标题直接询问微软股票在即将公布的财报前是否值得买入、卖出或估值合理。这表明市场对微软即将发布的季度财报持观望态度。\n   - **影响逻辑**：该消息主要通过投资者情绪和预期来影响股价，尤其是对于那些依赖于财报表现的投资者来说更为关键。\n   - **影响倾向与置信度**：中性；高置信度。Morningstar是一家知名的财务分析机构，其观点通常被市场重视。但考虑到这只是对未来的预测，并没有具体的数据支持，因此置信度为高。\n\n2. **事实概述**：标题探讨了微软股票的实际价值与其表面价格之间的差异。\n   - **影响逻辑**：该消息通过揭示微软股票的真实价值来影响投资者的决策过程，可能会促使投资者重新评估其投资组合中的微软股票。\n   - **影响倾向与置信度**：中性；中置信度。Trefis是一家专注于技术公司的分析公司，但没有具体数据支持其观点。\n\n3. **事实概述**：标题预测微软股票将在7月29日之后出现“抛物线式”上涨，并解释了原因。\n   - **影响逻辑**：该消息通过市场情绪和预期来影响股价。如果投资者相信这一预测，则可能会在财报公布前买入微软股票，从而推高股价。\n   - **影响倾向与置信度**：利多；低置信度。这是一个基于个人预测的声明，并没有提供具体的数据或分析支持。\n\n【综合研判】\n\n- **当日整体市场情绪**：偏空；依据是三条新闻中两条为中性，一条为利多但置信度较低。\n- **关键催化剂**：财报公布前后的投资者情绪变化和市场预期。\n- **关键风险**：财报结果低于预期或宏观经济环境的变化。\n\n- **对持仓者的启示**：关注微软即将发布的财报，尤其是收入增长、利润率以及云计算业务的表现。同时，留意宏观经济因素可能带来的影响。"
+      },
+      {
+        "symbol": "BABA",
+        "name_cn": "阿里巴巴",
+        "name_en": "Alibaba",
+        "currency": "USD",
+        "shares": 40.0,
+        "avg_cost": 135.995,
+        "close": 117.97,
+        "price_src": "ibkr(mdt=3)",
+        "market_value": 4718.8,
+        "pnl": -721.0000000000002,
+        "pnl_pct": -13.254163756020443,
+        "news": [
+          {
+            "title": "How to Play BABA Stock as Alibaba Unveils New Qwen AI Model - Barchart.com",
+            "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDVseDlCYzNkOHZPWFF4N1VXci1jeExCNjhZd2w3NlpDMnRDbkI5SWhVeEpHMzhZQmRWN3hYWjNySHR5UEw3VmRCbmpwV2tXTS01cmdiMnBEY19uYW5fNUp3OXlUWjFpVkRMM3N0LVlCN3YtcDc0ZGtodVJrMlV0S3FUc3pycUlSZ1FnR0hvTG1PLW4tNXBDUktZNEJvOW5peXZwLW1R?oc=5",
+            "desc": "How to Play BABA Stock as Alibaba Unveils New Qwen AI Model&nbsp;&nbsp;Barchart.com",
+            "pub": "Wed, 22 Jul 2026 15:23:20 GMT"
+          },
+          {
+            "title": "Looking at $Alibaba (BABA.US)$ - Moomoo",
+            "link": "https://news.google.com/rss/articles/CBMi9wJBVV95cUxPTExNT0lHVDM4X2pBQ3VWS0pCMDVsZTJCbkJQMm5MX1N1aGNqQS0xUFRhZ1NHNHFLX3QxRzFJVWRBbzV6RDVGQk1fVVJBeVktc2xWMjV3VFZvckxZUTZiNFNMbE1mb2x6NWJqY1p3YWtrZFhvUWpMZGVJYzRlMzN6QWxVdnhfTmhtLWhvV2VISHNfU2YzQVVMa3pXTUx4YVQ2R0lqajBpeVQ1UHRxUU9zT01tV1hGUW9OMnlJT000UmJhMEp2ajJpZWpfakZtMXdwTHhMcU03b201S2dqd29xQ2VRcE5hbks3ZGM0U3RvYVpyU3hBLW1OLTFzRFhUY2hYOEdWSWh3ajVWb1NPeU1OenZyek9hNFZoQXlnTnVRQmJPbUtpeXFEeGNuTGZiZ3g2VVdCeFctWVRDT3U1UFI0amVGQTgwQWgwWE0xSnRuWmJCbHE3OFB4cnBTaGdxd0FIVEhlRjZ0dzVpOHBRTmFyRWdxWjJJa2c?oc=5",
+            "desc": "Looking at $Alibaba (BABA.US)$&nbsp;&nbsp;Moomoo",
+            "pub": "Wed, 22 Jul 2026 08:02:41 GMT"
+          },
+          {
+            "title": "Alibaba Group Holding (BABA) Is Up 5.0% After Apple Selects Qwen For China Apple Intelligence Integration",
+            "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPanl1S3V4ODZtcHA1MUh3VUFacUFhb18yeE5mYTNGaVFranZkYVUwQ05SekM5dzdCNjduMjl3b1BIcVlXTGJ2WExqbjN6NWVEaE9XYUZZQlI2N3dUbGU0dVl6Z21QYjJiU3FwS2lpSU5tUThxNnVJa0xUV1RKTnFlNHJaTW9kdllMY2tLREJJcGd0SFdwb25vUWw0Rkl5bWdoWEJjak5RRUFiYm40RllseF9NV3dfdkx2NU1SVkRTYk1Qd0xvR2NpUzU3QTRMc3FRbzIxMjQ3UdIB1wFBVV95cUxPanl1S3V4ODZtcHA1MUh3VUFacUFhb18yeE5mYTNGaVFranZkYVUwQ05SekM5dzdCNjduMjl3b1BIcVlXTGJ2WExqbjN6NWVEaE9XYUZZQlI2N3dUbGU0dVl6Z21QYjJiU3FwS2lpSU5tUThxNnVJa0xUV1RKTnFlNHJaTW9kdllMY2tLREJJcGd0SFdwb25vUWw0Rkl5bWdoWEJjak5RRUFiYm40RllseF9NV3dfdkx2NU1SVkRTYk1Qd0xvR2NpUzU3QTRMc3FRbzIxMjQ3UQ?oc=5",
+            "desc": "Alibaba Group Holding (BABA) Is Up 5.0% After Apple Selects Qwen For China Apple Intelligence Integration&nbsp;&nbsp;simplywall.st",
+            "pub": "Wed, 22 Jul 2026 10:38:24 GMT"
+          },
+          {
+            "title": "Alibaba Stock Jumps After Company Previews Powerful New AI Model - TIKR.com",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNdGdVV3NXT01mR2RWNUNEYWZfQjZJMWVpczFPbWRrampzb1lpR2p0MWl6U1ZfcHNMQXlrV2lMUmpwbUt2MU9FNnVfcVVWWnRrUG91b1RhTGs5MTZKWlA4OEFwSkJibUU0LWtIMEZpdkNjRGp6SmNWZGItMnRtWnBCY0JxZlRlcnBBLTU0TWNwOURtRDBJRThBUDBYRQ?oc=5",
+            "desc": "Alibaba Stock Jumps After Company Previews Powerful New AI Model&nbsp;&nbsp;TIKR.com",
+            "pub": "Wed, 22 Jul 2026 00:22:21 GMT"
+          },
+          {
+            "title": "Alibaba Group (NYSE: BABA) sets Aug. 5, 2026 record date for AGM voting - Stock Titan",
+            "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOT2lfNThxT1VnS1czVm5EVlNKRnhRaWVrT2RYSGJtNXdMaXVEemFXOVNYMmNqa05EZElrMDF1SlE3NEVJeWRGSzNUV1ptalpGejNPMEpVZTFqQnVIRjc2ZkVYTFpJTnJ1cXJ3c0EtaWpPNkk4SmhLVUllbTh3dTF1UF9jZGo5NGF2Z2FvY0RvYXV2MU5DbE1uZDJUOW1vUXcwYjd5aTI5Q2xjVUJVTVd1ektGUEFfaWtLSl9rYlNR?oc=5",
+            "desc": "Alibaba Group (NYSE: BABA) sets Aug. 5, 2026 record date for AGM voting&nbsp;&nbsp;Stock Titan",
+            "pub": "Wed, 22 Jul 2026 10:10:12 GMT"
+          },
+          {
+            "title": "Alibaba Group Holding Limited $BABA Stock Holdings Increased by Jennison Associates LLC",
+            "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQUG9qZlh6OFZNLVpvQWx2eTZkQmpoZXlJaWw4aE9ERVFTWXlVX2x0SklZVVBnMmxrTmloUUFxUmdQVXUwRzV1bjhmVmk3cU5iZXNSaFdGM0NOR2FqRTJmLXhwbUo5aldWVEdJTkNsLWhNeWZ5TmdwTmppc1FoRExDNW5uM3A1allmbm45cGdiSU5tVHNKdDZ4dHFlVUU1UUhsU19DdGZ3VWdJQUlVVFprX2FBRy1YWTc0bEZxZGwyaWlyeTF1V0s0N1Vvc25NN2R1WlpiZm4xZXFuVnRjUWE3dA?oc=5",
+            "desc": "Alibaba Group Holding Limited $BABA Stock Holdings Increased by Jennison Associates LLC&nbsp;&nbsp;MarketBeat",
+            "pub": "Wed, 22 Jul 2026 09:09:53 GMT"
+          }
+        ],
+        "summary": "【逐条分析】\n\n1. **事实概述**：阿里巴巴发布了新的Qwen AI模型，Barchart.com建议投资者关注该消息对BABA股票的影响。\n   - **影响逻辑**：新AI模型的发布可能提升阿里巴巴的技术实力和市场竞争力。然而，这是一次性事件，具体对公司业务的实际影响尚需观察。\n   - **影响倾向与置信度**：中性；低置信度。虽然新AI模型可能带来长期正面影响，但短期内股价波动更多受市场情绪驱动。\n\n2. **事实概述**：Moomoo平台对阿里巴巴股票进行分析。\n   - **影响逻辑**：此消息本身没有具体信息，主要为投资者提供一个关注点。\n   - **影响倾向与置信度**：中性；低置信度。缺乏具体数据支持，更多是市场情绪的反映。\n\n3. **事实概述**：阿里巴巴股价上涨5%，因为苹果选择了Qwen AI模型用于中国地区的智能整合。\n   - **影响逻辑**：此次合作表明阿里巴巴的技术得到了认可，并可能带来新的业务机会和收入增长点。\n   - **影响倾向与置信度**：利好；中置信度。长期来看，这将增强阿里巴巴的市场地位和技术竞争力。\n\n4. **事实概述**：阿里巴巴公司预览了强大的新AI模型，股价因此上涨。\n   - **影响逻辑**：新AI模型的展示可能提升投资者对公司未来增长潜力的信心，并促进技术合作机会。\n   - **影响倾向与置信度**：利好；中置信度。短期内股价受到正面情绪推动，但长期效果需进一步观察。\n\n5. **事实概述**：阿里巴巴定于8月5日召开年度股东大会（AGM）并设定投票记录日期。\n   - **影响逻辑**：会议本身不会直接影响股价，但可能涉及公司治理和战略决策的讨论。\n   - **影响倾向与置信度**：中性；低置信度。此事件更多是公司内部事务，并不直接关联市场表现。\n\n6. **事实概述**：Jennison Associates LLC增加了对阿里巴巴股票的持有量。\n   - **影响逻辑**：机构投资者增加持股可能表明对公司前景的信心，但具体影响需结合其他因素综合判断。\n   - **影响倾向与置信度**：利好；中置信度。机构投资者的增持通常被视为积极信号。\n\n【综合研判】\n\n- **当日整体市场情绪**：偏多。多条新闻均对阿里巴巴股票持正面评价或预期，尤其是关于新AI模型和苹果合作的消息。\n  \n- **关键催化剂**：\n  - 新AI技术的应用与推广\n  - 苹果在中国市场的智能整合\n\n- **关键风险**：\n  - 技术竞争加剧\n  - 市场对AI技术的接受度变化\n\n- **对持仓者的启示**：投资者应关注阿里巴巴在AI领域的进展及其与其他大公司合作的具体成果。同时，需留意市场整体情绪和竞争对手动态。"
+      }
+    ],
+    "sectors": {
+      "ok": true,
+      "date": "2026-07-22",
+      "sectors": [
+        {
+          "symbol": "XLU",
+          "name_cn": "公用事业",
+          "name_en": "Utilities",
+          "price": 45.93,
+          "prev_close": 44.92,
+          "change": 1.01,
+          "change_pct": 2.25,
+          "currency": "USD",
+          "date": "2026-07-22"
+        },
+        {
+          "symbol": "XLB",
+          "name_cn": "原材料",
+          "name_en": "Materials",
+          "price": 50.82,
+          "prev_close": 50.1,
+          "change": 0.72,
+          "change_pct": 1.44,
+          "currency": "USD",
+          "date": "2026-07-22"
+        },
+        {
+          "symbol": "XLE",
+          "name_cn": "能源",
+          "name_en": "Energy",
+          "price": 59.2,
+          "prev_close": 58.5,
+          "change": 0.7,
+          "change_pct": 1.2,
+          "currency": "USD",
+          "date": "2026-07-22"
+        },
+        {
+          "symbol": "XLP",
+          "name_cn": "必需消费",
+          "name_en": "Consumer Staples",
+          "price": 84.38,
+          "prev_close": 84.06,
+          "change": 0.32,
+          "change_pct": 0.38,
+          "currency": "USD",
+          "date": "2026-07-22"
+        },
+        {
+          "symbol": "XLI",
+          "name_cn": "工业",
+          "name_en": "Industrials",
+          "price": 178.85,
+          "prev_close": 178.66,
+          "change": 0.19,
+          "change_pct": 0.11,
+          "currency": "USD",
+          "date": "2026-07-22"
+        },
+        {
+          "symbol": "XLF",
+          "name_cn": "金融",
+          "name_en": "Financials",
+          "price": 56.05,
+          "prev_close": 56.11,
+          "change": -0.06,
+          "change_pct": -0.11,
+          "currency": "USD",
+          "date": "2026-07-22"
+        },
+        {
+          "symbol": "XLK",
+          "name_cn": "科技",
+          "name_en": "Technology",
+          "price": 180.27,
+          "prev_close": 180.78,
+          "change": -0.51,
+          "change_pct": -0.28,
+          "currency": "USD",
+          "date": "2026-07-22"
+        },
+        {
+          "symbol": "XLRE",
+          "name_cn": "房地产",
+          "name_en": "Real Estate",
+          "price": 45.01,
+          "prev_close": 45.2,
+          "change": -0.19,
+          "change_pct": -0.42,
+          "currency": "USD",
+          "date": "2026-07-22"
+        },
+        {
+          "symbol": "XLV",
+          "name_cn": "医疗健康",
+          "name_en": "Health Care",
+          "price": 159.43,
+          "prev_close": 160.25,
+          "change": -0.82,
+          "change_pct": -0.51,
+          "currency": "USD",
+          "date": "2026-07-22"
+        },
+        {
+          "symbol": "XLY",
+          "name_cn": "可选消费",
+          "name_en": "Consumer Discretionary",
+          "price": 114.02,
+          "prev_close": 114.87,
+          "change": -0.85,
+          "change_pct": -0.74,
+          "currency": "USD",
+          "date": "2026-07-22"
+        },
+        {
+          "symbol": "XLC",
+          "name_cn": "通信服务",
+          "name_en": "Communication Services",
+          "price": 109.2,
+          "prev_close": 110.03,
+          "change": -0.83,
+          "change_pct": -0.75,
+          "currency": "USD",
+          "date": "2026-07-22"
+        }
+      ],
+      "source": "ibkr",
+      "error": null
+    }
+  },
+  "commentary": "- 期货市场中，低硫燃油、原油和燃油表现强劲，分别录得显著涨幅，并获得大量资金流入。\n- 股市方面，中证1000指数跌幅居前，资金流出量巨大；而黄金和铜则吸引大量资金关注。\n- 总体来看，资金流向显示投资者对传统能源及贵金属较为青睐，而股市整体呈现资金流出态势。"
+}

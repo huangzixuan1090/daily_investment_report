@@ -1,0 +1,266 @@
+{
+  "ok": true,
+  "error": null,
+  "as_of": "2026-07-20",
+  "generated_at": "2026-07-21 08:43:58",
+  "holdings": [
+    {
+      "symbol": "9606",
+      "name_cn": "Duality Bio",
+      "name_en": "Duality Bio",
+      "currency": "HKD",
+      "shares": 100.0,
+      "avg_cost": 223.016344,
+      "close": 240.8,
+      "price_src": "ibkr(mdt=3)",
+      "market_value": 24080.0,
+      "pnl": null,
+      "pnl_pct": null,
+      "news": [],
+      "summary": null
+    },
+    {
+      "symbol": "NVDA",
+      "name_cn": "英伟达",
+      "name_en": "NVIDIA",
+      "currency": "USD",
+      "shares": 10.0,
+      "avg_cost": 215.97,
+      "close": 203.279999,
+      "price_src": "ibkr(mdt=3)",
+      "market_value": 2032.79999,
+      "pnl": -126.90000999999995,
+      "pnl_pct": -5.875816548594715,
+      "news": [
+        {
+          "title": "The Divergent Paths Ahead For NVIDIA Stock",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNU0huLW5PaTZyUVBpZk9KLVYtQTNuWVg5eXhaUFVsS2lWenpOMGJSR2xfc20tck1QNnRSdzJOUjRHM2g2NVY5anR3YXN0TDhmY3hJeXZON3hDWGNJWVRsbHhfSVVWSUFZcDJyWUZLaFZyQzVEcjJtQjdWTTk4X3ZmcmJ2YVNpc0dmb1NtdHdYdF9FTnhPQlBqTW5HMTNLTTktZjhlc0Zn?oc=5",
+          "desc": "The Divergent Paths Ahead For NVIDIA Stock&nbsp;&nbsp;Trefis",
+          "pub": "Mon, 20 Jul 2026 12:10:34 GMT"
+        },
+        {
+          "title": "What's Going on With NVIDIA Stock Monday?",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa050MS1yZEVCcWpUWi1WOTJuLUl0MUtxSWZWdDRzaXJ6aElMX05zUGFVa3VWcUV2VnpnS0k2QjM3MUhEU29NZ1dCdkFjazBWSjVoSEdXRG5zejhlaGxtaEo1NEc2d3ZsWDVSdl90SktSak9Lbmhqb2ZEWm9LeHFEUDBWY29IUXJua1YzTVVLY2lhOXNUQU43WUlR?oc=5",
+          "desc": "What's Going on With NVIDIA Stock Monday?&nbsp;&nbsp;Benzinga",
+          "pub": "Mon, 20 Jul 2026 15:34:22 GMT"
+        },
+        {
+          "title": "Nvidia: The Bubble That Never Was (NASDAQ:NVDA)",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1qc016V3VFcXJoWUd1UlhqUjJ6RWJrYnZzaWdLWW9xcTZuM1lPQTEybU1BcDRYUUtmSmxCMEJzV2ltQzR5NTZDdVE3dU41RWstaFpPN1FhRjZyZzF4d1ZIM0JPc2hESlZic0w4WVNWZm9rMHpPc0ZmSk4tN1d1Zw?oc=5",
+          "desc": "Nvidia: The Bubble That Never Was (NASDAQ:NVDA)&nbsp;&nbsp;Seeking Alpha",
+          "pub": "Mon, 20 Jul 2026 13:45:13 GMT"
+        },
+        {
+          "title": "Sumitomo Mitsui Trust Group Inc. Cuts Stock Position in NVIDIA Corporation $NVDA",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPUHVLZjM5UlU1UDdKUUt5V29yUERUWlQ0Zy14eU5MaDU1ZWdaLUJvNjMxb245NkxEYkZINzNQYnlxU0hDZ3VFbERNWVZOd183dHk4NC00bmduLTI0Y0VTdFdhSUhLOFMxZTlDWVBscmFfNG5WY1VMZWJWUzhBMHZVNEZVVkgwUHN6RjFfaXZkNVVuXzlseGVzdDNXLThIU215ZmNEWmJhak14MG5fVXpQbHdNRUI2SktZeDRIQk5WN0I3S1l4VXA5Y29IbVltNUdjak5CZlB3?oc=5",
+          "desc": "Sumitomo Mitsui Trust Group Inc. Cuts Stock Position in NVIDIA Corporation $NVDA&nbsp;&nbsp;MarketBeat",
+          "pub": "Mon, 20 Jul 2026 08:55:26 GMT"
+        },
+        {
+          "title": "NVIDIA AI Agents Help Build Virtual Worlds for Robot Testing - Stock Titan",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQUzZWRlRBVEpWRFNDbnphUUtDVFlqY0NROUVwTFJ6ZktCME1LQm45NVJycGJIOWpLY1BaWlNLaFdNTjhxbHFGSE1pMjBJRkxFQUxGMW5HbWtEWTBJTHc4bGdhT1RaMTZuUEdmVzdlWXl2czJ0SGIyNVZrOWYzcko3N0I3cldLTTMwcklqOWI0ZE1NZWRnZnlFQnlfSFJqcnRPeFlPWWc3U2NVWjA2dFVISmt2MlhNREExV3dULWprNC0?oc=5",
+          "desc": "NVIDIA AI Agents Help Build Virtual Worlds for Robot Testing&nbsp;&nbsp;Stock Titan",
+          "pub": "Mon, 20 Jul 2026 15:00:00 GMT"
+        }
+      ],
+      "summary": "【逐条分析】\n\n1. **事实概述**：标题表明英伟达股票的未来路径存在分歧。这可能意味着市场对英伟达未来的业绩和股价走势看法不一。\n   - 影响逻辑：这种观点差异可能导致投资者情绪波动，进而影响股价。如果分歧主要集中在技术前景或市场需求上，则可能短期内造成股价波动，但长期来看不会改变公司的基本面。\n   - 影响倾向与置信度：中性；低置信度。因为没有具体信息表明是哪方面的分歧。\n\n2. **事实概述**：标题询问周一英伟达股票发生了什么情况。这暗示市场对英伟达的股价表现有疑问或关注点。\n   - 影响逻辑：投资者的关注可能源于近期业绩、技术进展或其他因素，这种不确定性可能导致短期波动。\n   - 影响倾向与置信度：中性；低置信度。因为没有具体信息表明是哪方面的不确定。\n\n3. **事实概述**：标题指出英伟达从未有过泡沫。这暗示市场对英伟达的估值存在误解或过度担忧。\n   - 影响逻辑：这种观点可能有助于稳定投资者情绪，减少恐慌性抛售，从而支撑股价。\n   - 影响倾向与置信度：利好；中置信度。因为这是来自专业分析者的观点。\n\n4. **事实概述**：标题指出瑞穗信托集团减少了对英伟达的持股比例。这表明机构投资者对英伟达的投资策略有所调整。\n   - 影响逻辑：机构投资者的减持可能会影响市场情绪，尤其是如果这种行为被广泛报道或被视为对未来业绩预期下降的信号。\n   - 影响倾向与置信度：利空；中置信度。因为机构投资者的行为通常会被视为对股票价值的一种判断。\n\n5. **事实概述**：标题提到英伟达的人工智能代理帮助构建用于机器人测试的虚拟世界。这表明公司在人工智能领域的应用扩展。\n   - 影响逻辑：这种技术进步可能增强公司的市场地位和未来增长潜力，从而利好股价。\n   - 影响倾向与置信度：利好；高置信度。因为这是具体的应用案例，且涉及前沿技术。\n\n【综合研判】\n\n- **当日整体市场情绪**：偏空；依据是第一条新闻提到的分歧以及第四条新闻中机构投资者的减持行为。\n- **关键催化剂**：第三条和第五条新闻中的正面信息，如专业分析者对英伟达估值的看法及公司在人工智能领域的技术应用。\n- **关键风险**：第二条新闻中市场对英伟达股价表现的关注点，以及第一条新闻提到的未来路径分歧。\n\n- **对持仓者的启示**：关注公司未来的技术进展和市场反应。留意机构投资者的行为变化，尤其是减持行为可能预示着短期调整的风险。同时，保持对公司长期增长潜力的信心，并持续跟踪行业动态和技术发展。"
+    },
+    {
+      "symbol": "MSFT",
+      "name_cn": "微软",
+      "name_en": "Microsoft",
+      "currency": "USD",
+      "shares": 46.0,
+      "avg_cost": 392.28413045,
+      "close": 402.290009,
+      "price_src": "ibkr(mdt=1)",
+      "market_value": 18505.340414,
+      "pnl": 460.27041329999895,
+      "pnl_pct": 2.550671254154979,
+      "news": [
+        {
+          "title": "Microsoft's Earnings Should Change The Narrative And Send Shares Back Over $500",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQS243c3Ataklybnp0WEZmaTVRSW9jMFR1cEVwNHloLWJTQWtBcVdKNUxzNjY4S3hOU0ZtZE9ZQTY1WkNaa2ludUlSMXc2bkRpOUtEdFNrZXhTdlpKWGZpZUVJOG10MmZnR2I0QkJ2SnFfWEVYMktENnllUGNhcGhVR1Etd2lfUUZvU0ppNVYwck01eWZzcnBOaldFX2xhbDNnSE5HZ3hGVm1qM3ptcU80?oc=5",
+          "desc": "Microsoft's Earnings Should Change The Narrative And Send Shares Back Over $500&nbsp;&nbsp;Seeking Alpha",
+          "pub": "Mon, 20 Jul 2026 02:30:32 GMT"
+        },
+        {
+          "title": "Microsoft Earnings: The One Key Commentary I Am Looking For",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeXREdjNLbDc5dXVNak51ZFkwV2hZT0NhUG5qS3ZCVlhLaWhINGI4V2ZHcGZTLTlDTFlFNEdFM3FxeVpsOVJ6WDNoVHI2dGVFcy12Q0wwVTM0ZlRSZUZhU0dYMUV5Ynd3VVdNVUZWR1g4M3hiNnJMUDJwd0hEX05xOFgwU2ZIekVTX0hCb2J6Q1JkRjFBbmdCTzNVcTV1Tm9N?oc=5",
+          "desc": "Microsoft Earnings: The One Key Commentary I Am Looking For&nbsp;&nbsp;Seeking Alpha",
+          "pub": "Sun, 19 Jul 2026 23:52:04 GMT"
+        }
+      ],
+      "summary": "【逐条分析】\n\n- **第一条新闻**\n  - **事实概述**：标题表明微软即将发布的财报将改变市场对该公司的看法，并有望使股价回升至500美元以上。这暗示了投资者对微软未来业绩的乐观预期。\n  - **影响逻辑**：这条消息主要通过影响市场情绪和投资者信心来推动股价上涨。如果财报表现超出预期，可能会进一步强化市场对于微软长期增长潜力的信心。\n  - **影响倾向与置信度**：利好，中等置信度。虽然标题直接表明了积极的预期，但具体业绩数据尚未公布，因此存在不确定性。\n\n- **第二条新闻**\n  - **事实概述**：标题指出投资者正在等待微软财报中的关键评论或信息。这暗示市场对即将发布的财报抱有高度关注。\n  - **影响逻辑**：这条消息主要通过直接反映市场情绪来影响股价。如果财报中包含超出预期的积极因素，可能会推动股价上涨；反之，则可能下跌。\n  - **影响倾向与置信度**：中性，低置信度。标题仅表明投资者期待某些信息，并未具体说明这些信息的内容或潜在影响。\n\n【综合研判】\n\n- **当日整体市场情绪**：偏多。两条新闻都暗示了市场对微软即将发布的财报持有积极预期。\n- **关键催化剂**：超出预期的业绩表现，特别是与云计算、人工智能等核心业务相关的增长数据。\n- **关键风险**：不及预期的业绩或负面评论，尤其是关于成本控制和市场竞争等方面的担忧。\n\n- **对持仓者的启示**：投资者应重点关注即将发布的财报中的具体财务指标，如收入增长率、毛利率以及非GAAP净利润等。此外，还需留意管理层对于未来战略方向的表态，特别是云计算业务的发展计划及其对公司长期增长的影响。"
+    },
+    {
+      "symbol": "BABA",
+      "name_cn": "阿里巴巴",
+      "name_en": "Alibaba",
+      "currency": "USD",
+      "shares": 40.0,
+      "avg_cost": 135.995,
+      "close": 120.339996,
+      "price_src": "ibkr(mdt=3)",
+      "market_value": 4813.59984,
+      "pnl": -626.2001600000002,
+      "pnl_pct": -11.51145556821942,
+      "news": [
+        {
+          "title": "Alibaba stock rockets as new Qwen model threatens global rivals, chasing Anthropic’s Fable 5 (BABA:NYSE)",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPY016QkFOOWJ1a0hhV1g2ZDlsTjZjWC1NcXNvOXZZOHZubnZGdXRMWE1mZzI3bVRmMGRsdDlZcjBsTW5zZTJLY1NUV256VlN4SkRoUTQ5aWZYdFA2QXNLQTBwNEZxWU9jVTUwbnRwX1B3eUtyVzhXWnBNNnZrbXdJbmMwYlBHS3JaQWhyOE9NTW85VmVHOThDQlZaRmppbjNaNnZsMzdibmJmTzhKVmwwRHNPRzhQOTJhZGlsVTVKR1ZBb2FoTEhJ?oc=5",
+          "desc": "Alibaba stock rockets as new Qwen model threatens global rivals, chasing Anthropic’s Fable 5 (BABA:NYSE)&nbsp;&nbsp;Seeking Alpha",
+          "pub": "Mon, 20 Jul 2026 04:01:47 GMT"
+        },
+        {
+          "title": "Alibaba Stock Just Got Apple’s Biggest AI Endorsement. This Could Be a Game Changer for BABA. - Barchart.com",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQbEVNbExOQ3c1WmVqTWxsejZXcmhUY1VZWnIxUFR6RzVBZ3ZZSHg1bEc5bHA5dUM5eUNWb3dBRzBmeVN0WEI5Q1U3RHoyYXpRZUoxcEdhWjVRUHAzSHQwWHNsRnJwMmlwUGFSaVpXWDd3Mkx3VnVERDctSlZ5bi0xbG1zcTFQTlh6bF9feXJxM2pVYWJ2T3lBRjJWSTV6SWtJeDFyNFhaa1hVV1k4U0Fma0xjNTZXczlkeDYtQk5lTE5jTzY0dFBsR21NUUhUaXM?oc=5",
+          "desc": "Alibaba Stock Just Got Apple’s Biggest AI Endorsement. This Could Be a Game Changer for BABA.&nbsp;&nbsp;Barchart.com",
+          "pub": "Sun, 19 Jul 2026 19:30:02 GMT"
+        },
+        {
+          "title": "Alibaba Group Holding Ltd Stock (BABA) Moved Up by 3.26% on Jul 20: Facts Behind the Movement - TradingKey",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZmgtMERzbVJ2dnI1bUlDOExUN2lhVlJfUFlNQWwxaGRTMndLRE9fZmdJWlpzYnAtcnZBc2NldmRacjZ4SHpXYnBsQ3hNSk1memRQVVlJV2VWeTB0NDh4cEpmMXJwMDQwbGViYXp3aDlEVEY5Y2ZORWhXNUlNakRhOEFMRlpBUFpDUGR3?oc=5",
+          "desc": "Alibaba Group Holding Ltd Stock (BABA) Moved Up by 3.26% on Jul 20: Facts Behind the Movement&nbsp;&nbsp;TradingKey",
+          "pub": "Mon, 20 Jul 2026 15:15:27 GMT"
+        },
+        {
+          "title": "Why Is Alibaba Stock Gaining Monday? - Longbridge",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5zRmpYR2FoendkeUlMeU03dGEtd0REM2J5YVJIbnhVTWJrYnZXOWhBdFp3M2p2SjVmSlJRdTVWQkJ6anZ0dTBtSndMQWh2QQ?oc=5",
+          "desc": "Why Is Alibaba Stock Gaining Monday?&nbsp;&nbsp;Longbridge",
+          "pub": "Mon, 20 Jul 2026 10:02:50 GMT"
+        }
+      ],
+      "summary": "【逐条分析】\n\n1. **事实概述**：阿里巴巴股价飙升，因为其新推出的Qwen模型威胁到了全球竞争对手，追赶Anthropic的Fable 5。\n   **影响逻辑**：Qwen模型的成功将增强阿里巴巴在人工智能领域的竞争力和市场份额。这可能通过提升阿里巴巴的核心电商业务和技术服务业务来增加收入，并降低对单一市场的依赖性。此外，与Anthropic的竞争也可能促使其他公司加大投入，从而推动整个行业的发展。\n   **影响倾向与置信度**：利好，高置信度。Qwen模型的成功直接关系到阿里巴巴的技术实力和市场地位，且竞争对手的反应也表明了这一技术的重要性。\n\n2. **事实概述**：阿里巴巴获得了苹果最大的AI背书，这可能是一个改变游戏规则的因素。\n   **影响逻辑**：与苹果的合作将显著提升阿里巴巴在人工智能领域的品牌影响力和技术认可度。这种合作可能会带来更多的商业机会和客户资源，从而增加收入来源并改善市场情绪。\n   **影响倾向与置信度**：利好，高置信度。苹果的背书具有极高的行业权威性，有助于阿里巴巴开拓更广泛的市场。\n\n3. **事实概述**：阿里巴巴集团控股有限公司股票（BABA）在7月20日上涨了3.26%，具体原因未详细说明。\n   **影响逻辑**：股价上涨可能是由于上述两条新闻的影响。但没有明确的信息来源或细节，因此难以准确判断其具体影响路径和程度。\n   **影响倾向与置信度**：中性，低置信度。缺乏具体信息使得无法确定是短期波动还是长期趋势。\n\n4. **事实概述**：为什么阿里巴巴股票在周一上涨？\n   **影响逻辑**：这条新闻没有提供具体的答案或原因，因此难以分析其对股价的具体影响。\n   **影响倾向与置信度**：中性，低置信度。缺乏具体信息使得无法确定是短期波动还是长期趋势。\n\n【综合研判】\n\n- **当日整体市场情绪**：偏多。两条正面新闻表明阿里巴巴在技术领域取得了重要进展，并获得了行业巨头的支持，这将提升投资者信心。\n- **关键催化剂**：与苹果的合作和Qwen模型的成功。\n- **关键风险**：竞争对手的反应和技术进步的速度可能会影响这些因素的实际效果。\n- **对持仓者的启示**：关注阿里巴巴的技术发展动态以及与苹果合作的具体进展。同时，留意市场情绪的变化。\n\n请注意，以上分析基于提供的新闻内容，并未进行外部数据验证或预测具体涨跌幅。"
+    }
+  ],
+  "sectors": {
+    "ok": true,
+    "date": "2026-07-20",
+    "sectors": [
+      {
+        "symbol": "XLE",
+        "name_cn": "能源",
+        "name_en": "Energy",
+        "price": 57.94,
+        "prev_close": 57.68,
+        "change": 0.26,
+        "change_pct": 0.45,
+        "currency": "USD",
+        "date": "2026-07-20"
+      },
+      {
+        "symbol": "XLC",
+        "name_cn": "通信服务",
+        "name_en": "Communication Services",
+        "price": 110.8,
+        "prev_close": 110.65,
+        "change": 0.15,
+        "change_pct": 0.14,
+        "currency": "USD",
+        "date": "2026-07-20"
+      },
+      {
+        "symbol": "XLK",
+        "name_cn": "科技",
+        "name_en": "Technology",
+        "price": 175.71,
+        "prev_close": 175.59,
+        "change": 0.12,
+        "change_pct": 0.07,
+        "currency": "USD",
+        "date": "2026-07-20"
+      },
+      {
+        "symbol": "XLP",
+        "name_cn": "必需消费",
+        "name_en": "Consumer Staples",
+        "price": 84.86,
+        "prev_close": 85.19,
+        "change": -0.33,
+        "change_pct": -0.39,
+        "currency": "USD",
+        "date": "2026-07-20"
+      },
+      {
+        "symbol": "XLF",
+        "name_cn": "金融",
+        "name_en": "Financials",
+        "price": 56.04,
+        "prev_close": 56.26,
+        "change": -0.22,
+        "change_pct": -0.39,
+        "currency": "USD",
+        "date": "2026-07-20"
+      },
+      {
+        "symbol": "XLRE",
+        "name_cn": "房地产",
+        "name_en": "Real Estate",
+        "price": 45.23,
+        "prev_close": 45.42,
+        "change": -0.19,
+        "change_pct": -0.42,
+        "currency": "USD",
+        "date": "2026-07-20"
+      },
+      {
+        "symbol": "XLU",
+        "name_cn": "公用事业",
+        "name_en": "Utilities",
+        "price": 44.94,
+        "prev_close": 45.17,
+        "change": -0.23,
+        "change_pct": -0.51,
+        "currency": "USD",
+        "date": "2026-07-20"
+      },
+      {
+        "symbol": "XLI",
+        "name_cn": "工业",
+        "name_en": "Industrials",
+        "price": 178.12,
+        "prev_close": 179.41,
+        "change": -1.29,
+        "change_pct": -0.72,
+        "currency": "USD",
+        "date": "2026-07-20"
+      },
+      {
+        "symbol": "XLY",
+        "name_cn": "可选消费",
+        "name_en": "Consumer Discretionary",
+        "price": 114.61,
+        "prev_close": 115.44,
+        "change": -0.83,
+        "change_pct": -0.72,
+        "currency": "USD",
+        "date": "2026-07-20"
+      },
+      {
+        "symbol": "XLB",
+        "name_cn": "原材料",
+        "name_en": "Materials",
+        "price": 50.03,
+        "prev_close": 50.53,
+        "change": -0.5,
+        "change_pct": -0.99,
+        "currency": "USD",
+        "date": "2026-07-20"
+      },
+      {
+        "symbol": "XLV",
+        "name_cn": "医疗健康",
+        "name_en": "Health Care",
+        "price": 159.25,
+        "prev_close": 161.09,
+        "change": -1.84,
+        "change_pct": -1.14,
+        "currency": "USD",
+        "date": "2026-07-20"
+      }
+    ],
+    "source": "ibkr",
+    "error": null
+  }
+}

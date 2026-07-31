@@ -1,0 +1,1476 @@
+[
+  {
+    "id": "2077044786402660829",
+    "text": "$NBIS signs $1B+ compute agreement with Reflection AI, for GB300 access through 2029.\n\nReflection also signed a multi-billion dollar agreement with $SPCX earlier. \n\nInteresting to say the least, seeing Nebius drop -5% off the news today. \n\nAlso... counterparty to get this done kinda reminds me of OpenAI, where they might not have the funds to actually execute on these LTAs yet compared to $META or $MSFT. \n\nBut generally positive long term developments, customer diversification was one of the core strengths of Nebius.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 429,
+      "retweets": 27,
+      "replies": 142,
+      "quotes": 4,
+      "views": 88469,
+      "bookmarks": 36
+    },
+    "createdAt": "Tue Jul 14 14:57:21 +0000 2026",
+    "createdAtLocal": "2026-07-14 22:57",
+    "createdAtISO": "2026-07-14T14:57:21+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNMlOQubcAApEhI.jpg",
+        "width": 1200,
+        "height": 503
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNMlOP2awAA6Tq7.jpg",
+        "width": 1037,
+        "height": 1200
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2077039373711970804",
+    "text": "Two different capacity expansion announcements today across $TSEM and $AAOI.\n\nTower Semi, supported by the Japanese government, announced expansion of its 300mm Silicon Photonics (SiPho), Silicon Germanium (SiGe), and advanced packaging capabilities. \n\nTargeting $1.2B net profit, and $3.6B revenue in 2028 (with a ~$28B MC, that's ~23.3 2028 forward p/e).\n\nAAOI announced the commencement of its buildout, roughly 400,000 square feet of manufacturing to make 800g/1.6T production go brrr. \n\nThe overall expansion is also supported by the local city government in Texas. (they also $20.85M worth of subsidies from the State earlier).\n\nThis one isn't exactly as materially new as Tower, since AAOI originally announced these plans before. Just commencement of it. \n\nRegardless, glad to see both of these companies in their Anime training arc phase as they power up.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 515,
+      "retweets": 39,
+      "replies": 163,
+      "quotes": 4,
+      "views": 101475,
+      "bookmarks": 70
+    },
+    "createdAt": "Tue Jul 14 14:35:50 +0000 2026",
+    "createdAtLocal": "2026-07-14 22:35",
+    "createdAtISO": "2026-07-14T14:35:50+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNMfVUWaQAIwZkT.jpg",
+        "width": 2080,
+        "height": 1326
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNMfZLEa4AA5VW8.jpg",
+        "width": 1716,
+        "height": 1440
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2076846994614792663",
+    "text": "So Jensen himself went out to do damage control with $NVDA delays reports apparently:\n\n1. Jensen Huang said no delays: \n\n- 800V and rack-to-rack optical interconnects is progressing fully in line with the original plan with no material delay. \n\n- Debunked the rumor that the next-generation flagship, Rubin Ultra, would be delayed until 2028 and said it would be on track to ship next year\n\n- Rack system optimizations, like replacing Kyber with a new design are architectural optimizations, not impacting delivery timelines.\n\n2. On ASIC competition: no loss of market share.\n\n- Talked about how a leading frontier lab that previously relied heavily on internal ASICs has shifted nearly 50% of its compute load to Nvidia\n\n3. On over-reliance on hyperscalers.\n\n- AI frontier labs currently contributing to ~20% of demand.\n- Traditional cloud providers, Nvidia provides Vera CPUs and high-speed networking\n- Sovereign AI",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1403,
+      "retweets": 105,
+      "replies": 108,
+      "quotes": 26,
+      "views": 513411,
+      "bookmarks": 256
+    },
+    "createdAt": "Tue Jul 14 01:51:24 +0000 2026",
+    "createdAtLocal": "2026-07-14 09:51",
+    "createdAtISO": "2026-07-14T01:51:24+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNJwpofaoAAfYqR.png",
+        "width": 2098,
+        "height": 2050
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNJxDQcbsAAQscO.jpg",
+        "width": 1122,
+        "height": 1402
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null,
+    "quotedTweet": {
+      "id": "2076266613675069628",
+      "text": "Apparently there’s a new popular trend to bearpost trillion dollar companies.\n\nLike $NVDA or $TSM.\n\nBy finding isolating technical details, then blowing it out of proportions by claiming their whole program is delayed.\n\n-> if the company doesn’t respond, stock prices/sentiment are damaged. \n\n-> if the company issues a response, they can’t go into detail since supply chains are confidential… but people still doubt them\n\n-> Poster gain more impressions, then does it again with more views the next time.\n\nDon’t quite think this is very healthy, with more folks copying that playbook. Especially around incentive structures.",
+      "author": {
+        "screenName": "aleabitoreddit",
+        "name": "Serenity"
+      }
+    }
+  },
+  {
+    "id": "2076808331453415674",
+    "text": "TLDR of Innolight investor relations takeaways:\n\n1. \"Overall, 1.6T market demand has not contracted; instead, 800G demand has increased significantly compared with previous expectations\"\n\nProb most important takeaway as a whole was 800G demand revision (also longer tail demand). Which is a bullish read through on US transceiver makers like $AAOI, $COHR, $LITE. \n\nLot of new customers like neoclouds, AI model companies, contributing to overall demand rather than just hyperscalers, diversification always a bonus. \n\n2. Innolight said the shortage covers the module supply chain broadly including:\n\n- Optical chips.\n- Electrical chips.\n- PCBs.\n- Other module materials\n\nFrom last ER, I think they singled out EMLs and CW optical chips as the most constrained. So Innolight's bottleneck list mention broadened since then. \n\nThey expect some of the component availability to improve gradually from the second half of 2026 through the first half of 2027. \n\nThink a lot of this is already known from earlier though. \n\nBut just some confirmation + easing timelines (EML is extremely bottlenecked, same with CW, this is probably talking about other components). \n\n3.  Innolight said module-production equipment is not the constraint. Equipment lead times remain relatively short. \n\nSo this isn't really a bottleneck compared to others. \n\n4. The overall proportion of silicon photonics continues to trend upward. Last year it was mainly 800G. This year, some 800G customers are further increasing their silicon-photonics proportion. 1.6T also added some new customers\n\nPositive for SiPH penetration eg. $SIVE / $JBL, since this shifts away from EML toward CW. \n\nBasically: main surprising takeaway is just 800g demand go brrr. \n\nApart from that just reaffirming bottlenecks/timelines/market speculation.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 833,
+      "retweets": 34,
+      "replies": 115,
+      "quotes": 16,
+      "views": 279797,
+      "bookmarks": 214
+    },
+    "createdAt": "Mon Jul 13 23:17:46 +0000 2026",
+    "createdAtLocal": "2026-07-14 07:17",
+    "createdAtISO": "2026-07-13T23:17:46+00:00",
+    "media": [],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2076748688559587338",
+    "text": "Morgan Stanley note on CPO today. Key participants include:\n\n- $SIVE, $COHR, and $LITE in laser supply\n- Broadcom and Nvidia in switch platforms\n- Lightmatter, Ayar Labs, Marvell/Celestial, and POET in optical engines and photonics, \n- $TSM, $GFS, and $TSEM in silicon photonics foundry capacity\n\nI’ve covered all of these before, like Tower Semi. \n\nBut I’m especially happy that Morgan Stanley validated my research that $SIVE is one of the critical global players in CPO.\n\nA small $1.5B laser company next to your two leading $60B+ companies…\n\nIf you also synthesize Rosenblatt Securities recent note that China laser suppliers were quite far from having CPO lasers.\n\nThis kinda magnifies importance of the three Western leaders of that laser chokepoint.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1982,
+      "retweets": 160,
+      "replies": 298,
+      "quotes": 23,
+      "views": 396698,
+      "bookmarks": 542
+    },
+    "createdAt": "Mon Jul 13 19:20:46 +0000 2026",
+    "createdAtLocal": "2026-07-14 03:20",
+    "createdAtISO": "2026-07-13T19:20:46+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNIX67ba0AAXstD.jpg",
+        "width": 1260,
+        "height": 285
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNIX67abgAAk2Qp.jpg",
+        "width": 1205,
+        "height": 188
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2076467953995071881",
+    "text": "Just a semi recap TLDR:\n\n- $GLW glass bridge per Morgan Stanley has potential, but hard to displace FAU (like FOCI) in short term\n\n- $SPCX Starlink Gen 3 is scaling to 100,000 units (10x prev gen) creating possible capacity constraints for suppliers of switches to CCL.\n\n- PCB supply shortages are projected to persist until 2028, and component shortages/price hikes are already forcing ODMs like Inventec to issue  conservative H2 shipment\n\n- DeepSeek and Zhipu are developing custom ASICs to bypass $NVDA (kinda expected by now). \n\n- Anthropic has achieved a $30B ARR and is projected to hit >$1B in Q3 profit. Turns out these frontier labs are more profitable than people think. \n\n- US admin pressured $AAPL to source from $INTC, in exchange for tariff exception. Kinda pressuring alignment away from TSM.  \n\n- $TSM plans a 30x expansion of its Photonic Integrated Circuit (PIC)  capacity by 2028, growing from 500 to 25,000 wafers per month\n\n- Hanmi Semiconductor is entering the CoWoS packaging equipment market\n\n- $NVDA and NTT hosting a conference July 24th to discuss CPO strategies. \n\n- 5x general NAND flash price hike this year, market size $489B by next year triggered by RAG/inference. Samsung and SK Hynix make emergency fab investments, NAND equipment suppliers go brrrr.  \n\n- Gas turbine bottleneck, 40% supply gap accompanied by staggering 5-year delivery cycles (mega-fabs need them for mass production).\n\n- AI probe card assembly has hit a severe bottleneck apparently. Which is attempted to by solved with things like Innovation Service's machines. \n\n- Nanya, 79.5% gross margins reported, memory go brr. 4x capex for capacity/advanced packaging. \n\n- CXMT's STAR Market IPO on July 16, so should bring a lot of attention to memory players in that supply chain. \n\n- KYEC $1.4B investment into US for $TSM Arizona output test facilities. Lot of these players like $AMKR and others should go brr in 2028.\n\n- $INTC CEO warned last month that helium could hinder the manufacturing costs and delivery times of AI chips\n\n- 3D NAND word lines are shifting from Tungsten to Molybdenum starting at the 375-layer node\n\n- SambaNova secured JPM for AI inference and raised $1B at an $11B valuation.\n\n- HBM prices projections to double in 2027 as $NVDA Rubin platform drives demand.\n\n- $MU provides $500 million in funding to support GlobalWafers' US manufacturing capacity \n\n- $META 'Iris' will enter mass production in September  via $AVGO and TSMC and Meta aims to double computing power to 14GW by 2027.\n\n- Largan Precision has secured its first CPO FAU order, mass production slated for middle of next year (kinda indication around Foci and others). \n\n- Samsung and SK Hynix have delayed the implementation of hybrid bonding packaging technology for HBM4 apparently \n\n- Memory costs (DRAM/NAND) have reached 60% of the BOM for sub-$400 smartphones, causing a severe volume contraction.\n\n- SK Hynix successfully rasied $26.5 billion through a Nasdaq ADR\n\n- $TSLA issued procurement guidelines requiring suppliers to reach weekly production of 1,000 units by September and double to 2,000-2,500 by year end for its 3rd gen Optimus robot. Apparently Alliance Technology and A-Link may be in this supply chain harmonic reducers and vision lenses?\n\nKinda go through all this stuff every day, but don't wanna be a news reporter so just consolidated stuff I found interesting.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 2001,
+      "retweets": 168,
+      "replies": 194,
+      "quotes": 21,
+      "views": 597626,
+      "bookmarks": 917
+    },
+    "createdAt": "Mon Jul 13 00:45:13 +0000 2026",
+    "createdAtLocal": "2026-07-13 08:45",
+    "createdAtISO": "2026-07-13T00:45:13+00:00",
+    "media": [],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2076372905450188998",
+    "text": "Looks like the Strait of Hormuz is open for the 50th time this year per Trump.\n\nI’m getting tired looking at macro. https://t.co/GuYgkwC2Q8",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1451,
+      "retweets": 47,
+      "replies": 210,
+      "quotes": 12,
+      "views": 392827,
+      "bookmarks": 33
+    },
+    "createdAt": "Sun Jul 12 18:27:32 +0000 2026",
+    "createdAtLocal": "2026-07-13 02:27",
+    "createdAtISO": "2026-07-12T18:27:32+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNDCJuBboAAkhQ5.jpg",
+        "width": 1201,
+        "height": 583
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2076266613675069628",
+    "text": "Apparently there’s a new popular trend to bearpost trillion dollar companies.\n\nLike $NVDA or $TSM.\n\nBy finding isolating technical details, then blowing it out of proportions by claiming their whole program is delayed.\n\n-> if the company doesn’t respond, stock prices/sentiment are damaged. \n\n-> if the company issues a response, they can’t go into detail since supply chains are confidential… but people still doubt them\n\n-> Poster gain more impressions, then does it again with more views the next time.\n\nDon’t quite think this is very healthy, with more folks copying that playbook. Especially around incentive structures.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1894,
+      "retweets": 92,
+      "replies": 235,
+      "quotes": 24,
+      "views": 839052,
+      "bookmarks": 178
+    },
+    "createdAt": "Sun Jul 12 11:25:10 +0000 2026",
+    "createdAtLocal": "2026-07-12 19:25",
+    "createdAtISO": "2026-07-12T11:25:10+00:00",
+    "media": [],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2076248337863639506",
+    "text": "So there's a IBK Research report on Boston Dynamics value chains from last month. \n\nJust a summary: \n\nIBK maps these companies to Atlas as suppliers:\n- Hwashin (010690) / body, arms, legs\n- LG Energy (373220) / battery \n- Hyundai Autoever (307950) / integration\n- Hyundai Mobis (012330) / actuators\n\nAs for humanoid volume ramps: \n\nThey're modeling for, 11.29K in 2028, 20k 2029, 30k in 2030... 40k in 2031, and 50k in 2032. \n\nNot quite sure why IBK and other institutions are a fan of linearly modeling S-curve volume ramps... \n\nLike adding +10K per year, don't quite think it's volume ramp is going to work like that... if I had to guess it would look more like: \n\n- 15-20k 2028\n- 40k-70k 2029\n- 90k-140k for 2030\n\nSince Boston Dynamics is projecting 30k capacity by 2028 (I'm sure they'd aim to get more online by 2029-2030), as China collectively is already doing 100k EOY in 2026.  \n\nIn terms of competitive landscape they name:\n\n- $TSLA, Figure, Apptronik, $CCXI (Agility), as US  players. Then Boston Dynamics (Korea parent owned now)\n- Unitree, Fourier, AGibot, UBtech, $XPEV as the Chinese leaders. \n- Neura, Pal Robotics, Wandercraft, Oversonic, as the EU leaders.  \n\nThey also did quite a lot of valuation modeling around Hyundai Mobis/Hyundai Autoever/Glovis. \n\nRegarding the BD economic ownership from 27.9% from Hyundai Motor, 11.3% from Mobis, and 11.3% from Glovis. So at least institution are valuing humanoid segments inside companies lot more now. \n\nThen from report assumptions:\n- 31 actuators per Atlas\n- $1K per actuator in 2028\n- $134K Atlas ASP,\n\nWhich implies actuator cost of final selling price is roughly 23–28%. \n\nProbably the more interesting statement was IBK stated that actuator capacity is biggest signal for volume ramp. eg. every 310,000 units of actuator capacity supports 10,000 more robots. \n\nSo tracking actuator outputs, yields, ASP is a cleaner read on 2028-2030 ramp.\n\nI didn't have much personal takeaways, but hopefully others find it interesting, maybe around Hwashin as a core supplier or around actuator capacity as an indicator.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 745,
+      "retweets": 67,
+      "replies": 113,
+      "quotes": 8,
+      "views": 314644,
+      "bookmarks": 404
+    },
+    "createdAt": "Sun Jul 12 10:12:33 +0000 2026",
+    "createdAtLocal": "2026-07-12 18:12",
+    "createdAtISO": "2026-07-12T10:12:33+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNBI_zMaYAAUaCi.jpg",
+        "width": 1709,
+        "height": 1663
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNBJXpEacAA1zA3.jpg",
+        "width": 1679,
+        "height": 1117
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HNBL79Ta0AAFlg3.jpg",
+        "width": 1693,
+        "height": 795
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2076030743655109063",
+    "text": "Apparently, Korean Beauty was where all the alpha is.\n\nAPR (278470.KS) is up 529% over the past 2Y, wildly outperforming both $NVDA and $INTC.\n\nEvery female I know talks about their \"Medicube\" stick, then buying products... where you put a whole salmon's family tree on your face for better skin. \n\nThe world's female population creates a bigger structural demand than hyperscalers for memory or lasers? Should have known...",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1946,
+      "retweets": 130,
+      "replies": 150,
+      "quotes": 32,
+      "views": 544610,
+      "bookmarks": 761
+    },
+    "createdAt": "Sat Jul 11 19:47:54 +0000 2026",
+    "createdAtLocal": "2026-07-12 03:47",
+    "createdAtISO": "2026-07-11T19:47:54+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM-HoOyagAA04I8.jpg",
+        "width": 2158,
+        "height": 1464
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM-H80DbMAA3wdp.jpg",
+        "width": 782,
+        "height": 800
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null,
+    "quotedTweet": {
+      "id": "2075882550548119877",
+      "text": "반도체 쏟아붓는 와중에 K뷰티가 또 터지네. 1Q 순익 41% 폭증에 하반기 대장주 예고라. \n\n수출 150억 달러 시대 문턱인데, 미국·유럽 기초 카테고리 중심으로 구조적 성장 중. ODM 쪽 레버리지 제대로 먹는 기업들 영업이익률 30%대 찍는 거 보면 단순 소비재가 아니라 기술+브랜드 모멘텀 섞인 플레이임. \n\n반도체 사이클 타임 기다리는 동안 이쪽 돈줄도 무시 못 할 수준. 실적 확인되면 또 한 번 판 흔들릴 거.",
+      "author": {
+        "screenName": "wow_finwit",
+        "name": "우아한 브리핑"
+      }
+    }
+  },
+  {
+    "id": "2075894311741440041",
+    "text": "Contrarian take, but Sam Altman / OpenAI is doing something right if he's pissing off every Mag7 like $AAPL. \n\nBy building their own ecosystem instead of being sucked into another. \n\nIt's been awhile since $GOOGL, Apple, Microsoft, and others had some genuine disruptors.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1741,
+      "retweets": 68,
+      "replies": 216,
+      "quotes": 21,
+      "views": 488219,
+      "bookmarks": 140
+    },
+    "createdAt": "Sat Jul 11 10:45:46 +0000 2026",
+    "createdAtLocal": "2026-07-11 18:45",
+    "createdAtISO": "2026-07-11T10:45:46+00:00",
+    "media": [],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2075645547978084371",
+    "text": "Regarding $AMZN RNG + OpenAI’s MRC and VCSELs. \n\nIn what appears to be an indirect response on B. Riley's $AAOI sell report regarding optimizations that \"flattens networks and cuts transceiver TAM 40-50%\".\n\nRosenblatt TLDR: They've already modeled for this, even though each XPU may use fewer transceivers.\n\nThe number of XPUs is growing so quickly that total optical demand should still rise. \n\nOn lasers architectures for CPO: VCSELs are useful as a credible bridge for NPO/short reach. \n\nIdeal architecture though for CPO is UHP CW over other lasers, and cites Broadcom for that statements. Which happens to supports my core $SIVE thesis. \n\nI feel like Rosenblatt and I share the same views on a lot of things, I like the way they roll.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 917,
+      "retweets": 71,
+      "replies": 260,
+      "quotes": 6,
+      "views": 377873,
+      "bookmarks": 163
+    },
+    "createdAt": "Fri Jul 10 18:17:16 +0000 2026",
+    "createdAtLocal": "2026-07-11 02:17",
+    "createdAtISO": "2026-07-10T18:17:16+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM4os9Jb0AECclK.png",
+        "width": 1701,
+        "height": 455
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2075634064518955297",
+    "text": "Rosenblatt on recent optical sector weakness from $AAOI to $LITE:\n\n\"Stocks in the Optical sector have traded poorly for the last 1-2 months\" due to CPO delay reports and China capacity scares.\n\n\"We think short sellers... do not actually strongly believe in the thesis.\"\n\nMultiple short sellers told them they will likely close their positions... late July and early August. Further, they say they plan to buy Optical stocks in 2027 for the scale up CPO opportunity.\n\nHilarious report on laser weakness, read is very positive for $SIVEF, $COHR, and others moving forward.\n\nI've been long on CPO sector, but seems like institutions want entry points, just a bit later on.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1701,
+      "retweets": 137,
+      "replies": 160,
+      "quotes": 18,
+      "views": 436964,
+      "bookmarks": 489
+    },
+    "createdAt": "Fri Jul 10 17:31:39 +0000 2026",
+    "createdAtLocal": "2026-07-11 01:31",
+    "createdAtISO": "2026-07-10T17:31:39+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM4heWhbwAEOjmt.png",
+        "width": 1963,
+        "height": 707
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2075611260771852590",
+    "text": "Sk Hynix is now trading under $SKHYV!\n\nIt's now up an insane 16%.\n\nI wonder how Sk Hynix over in Korea is going to react on Monday. https://t.co/Mmqdu0poVY",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1586,
+      "retweets": 93,
+      "replies": 230,
+      "quotes": 14,
+      "views": 761771,
+      "bookmarks": 146
+    },
+    "createdAt": "Fri Jul 10 16:01:02 +0000 2026",
+    "createdAtLocal": "2026-07-11 00:01",
+    "createdAtISO": "2026-07-10T16:01:02+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM4MNSFbYAES8t1.jpg",
+        "width": 1432,
+        "height": 1427
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null,
+    "quotedTweet": {
+      "id": "2075590371531493729",
+      "text": "Why do I have this weird feeling the main reason retail is excited SK Hynix NASDAQ listing.\n\nIs because they can do degen option calls instead of individual stock purchases. https://t.co/vXmrncXQOm",
+      "author": {
+        "screenName": "aleabitoreddit",
+        "name": "Serenity"
+      }
+    }
+  },
+  {
+    "id": "2075590371531493729",
+    "text": "Why do I have this weird feeling the main reason retail is excited SK Hynix NASDAQ listing.\n\nIs because they can do degen option calls instead of individual stock purchases. https://t.co/vXmrncXQOm",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1098,
+      "retweets": 34,
+      "replies": 143,
+      "quotes": 7,
+      "views": 998701,
+      "bookmarks": 72
+    },
+    "createdAt": "Fri Jul 10 14:38:01 +0000 2026",
+    "createdAtLocal": "2026-07-10 22:38",
+    "createdAtISO": "2026-07-10T14:38:01+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM35pHvbQAAP1XZ.jpg",
+        "width": 1713,
+        "height": 1152
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2075557588159058076",
+    "text": "Mitsubishi Motors joins robotics race to deploy humanoid workers by 2027. \n\nPairing with Highlanders, a Japanese robotics company.\n\n- Agility $CCXI x Foxconn, Toyota\n- Apptronik x $JBL, Mercedes\n- Highlanders x Mitsubishi\n- Figure × BMW\n- Boston Dynamics x Hyundai (subsidiaries)\n- Optimus x Tesla (Internal)\n- Rainbow Robotics x Samsung (subsidiaries)\n\nIdk if it's just me of there's a lot of patterns with humanoid companies playing buddy-buddy up with a major auto player/manufacturer.  \n\nIf they're not already vertically integrated by one already. \n\nThen the Chinese players like UBTech/AgiBot/Unitree  don't seem to care and work with a wide variety of auto players in China. \n\nCurious how this trend plays out...",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 782,
+      "retweets": 53,
+      "replies": 162,
+      "quotes": 5,
+      "views": 259665,
+      "bookmarks": 207
+    },
+    "createdAt": "Fri Jul 10 12:27:45 +0000 2026",
+    "createdAtLocal": "2026-07-10 20:27",
+    "createdAtISO": "2026-07-10T12:27:45+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM3Wq4laAAIq15z.jpg",
+        "width": 2010,
+        "height": 1728
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2075539824589860866",
+    "text": "The \"Mythical Golden Egg Dragon Candle\" predicted the $SIVE rally today. \n\nIf you look at the Golden Egg hatching indicator I drew, you can tell it predicts Sivers CEO buying on the open market a day later. \n\nDo you guys think it's time I should sell courses on TA? https://t.co/LweBzWStuk",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1786,
+      "retweets": 71,
+      "replies": 232,
+      "quotes": 16,
+      "views": 575553,
+      "bookmarks": 141
+    },
+    "createdAt": "Fri Jul 10 11:17:10 +0000 2026",
+    "createdAtLocal": "2026-07-10 19:17",
+    "createdAtISO": "2026-07-10T11:17:10+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM3MdqGbwAA1N21.jpg",
+        "width": 1200,
+        "height": 1146
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HM3MdrPbsAAZZeg.jpg",
+        "width": 997,
+        "height": 1200
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null,
+    "quotedTweet": {
+      "id": "2074536982311743623",
+      "text": "@EUlmsten wow the mythical golden egg dragon candle was spotted over the $SIVEF chart. \n\nSomething big is coming... https://t.co/V4CL41m5ax",
+      "author": {
+        "screenName": "aleabitoreddit",
+        "name": "Serenity"
+      }
+    }
+  },
+  {
+    "id": "2075496116481884524",
+    "text": "Yep, it’s interesting to witness retail capitulation.\n\nAfter we got Bloomberg Meta compute article cleared up by their internal memo. \n\nAnd the 2 reports on delays were denied by Nvidia. \n\nBoth of which caused the selloff in the first place...\n\nSo Photonics / Nvidia’s roadmap hasn’t fundamentally changed:\n\n$LITE is still completely sold out for the next 2 years and likely into 2029.\n\n$SIVE is about to volume ramp with  GlobalFoundries, Jabil, Poet, Ayar, and other hyperscaler suppliers.\n\n$TSM COUPE and their TW suppliers from Shunsin to Foci aren’t randomly disappearing into the void.\n\n$AAOI and their $471m/month h2 2027 revenue projections haven’t changed.\n\n$IQE and their epiwafer contracts with Macom and Tower Semi haven’t disappeared.\n\n$AXTI ownership of 40% of the InP substrate supply chains haven’t suddenly disappeared.\n\nAs with any theme from Rocketlab + Space sector 50% drop back in 2025. \n\nOr Nebius + Neocloud 50% drop entering 2026.\n\nOr the Samsung/SK Hynix crash from Iran War LNG/Helium/Oil fears few months ago.\n\nVolatility from indiscriminate thematic selloffs isn’t typically representative of individual company fundamentals.\n\nRetail tends to build conviction over price movements and imaginary charts, then lose that when a stock drops.\n\nAnd institutions are probably placing limit orders to capitalize on that.\n\nConviction shouldn’t be tied to the quote of a stock on a certain day, but long term revenue or operating income growth.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1697,
+      "retweets": 137,
+      "replies": 133,
+      "quotes": 13,
+      "views": 580122,
+      "bookmarks": 625
+    },
+    "createdAt": "Fri Jul 10 08:23:29 +0000 2026",
+    "createdAtLocal": "2026-07-10 16:23",
+    "createdAtISO": "2026-07-10T08:23:29+00:00",
+    "media": [],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null,
+    "quotedTweet": {
+      "id": "2075482186090688751",
+      "text": "40% swing from the panic/X hysteria lows.\n\nI would not rely on X is an indicator but it can be a good contrarian tool.\n\nMore to the point I think photonic sector is starting to bottom. $SIVE",
+      "author": {
+        "screenName": "Lee_Trades",
+        "name": "Lee"
+      }
+    }
+  },
+  {
+    "id": "2075302956581449892",
+    "text": "\"China is shipping ~90% of the world's humanoid robots. We cannot keep taking them lightly.\"\n\nElon's comment: \"For now\"\n\nMeanwhile, 1X today posts a video of the most advanced humanoid hand.\n\nLooks like the inflection point for American humanoid programs is here?\n\nBoth technologically with players like 1X and with mass production with $TSLA? \n\nI'm am personally long on Agility through $CCXI targeting commercialization with Amazon and others. \n\nBut I'm proud to see American robotics as a whole go brrrr.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1828,
+      "retweets": 140,
+      "replies": 230,
+      "quotes": 18,
+      "views": 748436,
+      "bookmarks": 389
+    },
+    "createdAt": "Thu Jul 09 19:35:56 +0000 2026",
+    "createdAtLocal": "2026-07-10 03:35",
+    "createdAtISO": "2026-07-09T19:35:56+00:00",
+    "media": [
+      {
+        "type": "video",
+        "url": "https://video.twimg.com/amplify_video/2075302057356234752/vid/avc1/1280x960/L73Aw27-yvVWGr_D.mp4?tag=28",
+        "width": 1280,
+        "height": 960
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null,
+    "quotedTweet": {
+      "id": "2075291754215977290",
+      "text": "@PeterDiamandis For now",
+      "author": {
+        "screenName": "elonmusk",
+        "name": "Elon Musk"
+      }
+    }
+  },
+  {
+    "id": "2075289915697553697",
+    "text": "Three new $SIVE insider purchases today. \n\nMost notably: $SIVEF CEO Vikram bought 1,000,000 SEK worth of shares on the open market today. \n\nThis is following the massive drop on Sivers stock following 2 misleading CPO delay reports, Meta Compute headlines, and another insider sale report from another photonics director. \n\nTypically, insider sells for any number of reasons. But having the  CEO buy on the open-market is the clearest signal in management confidence. \n\nFollowing $GFS, $JBL, and other laser supplier partnerships, and his goal of NASDAQ listing in the near term. \n\nFeels like the CEO sees a clear potential for Sivers to become the next photonics giant (myself included).",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1885,
+      "retweets": 149,
+      "replies": 234,
+      "quotes": 30,
+      "views": 559758,
+      "bookmarks": 317
+    },
+    "createdAt": "Thu Jul 09 18:44:07 +0000 2026",
+    "createdAtLocal": "2026-07-10 02:44",
+    "createdAtISO": "2026-07-09T18:44:07+00:00",
+    "media": [],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null,
+    "quotedTweet": {
+      "id": "2075281258431606876",
+      "text": "$SIVE fell today on an EFN article claiming the photonics chief sold his entire holding — presented as alarming insider panic. Here is what I think the article can have missed.\n\nAndrew McKee founded CST now Sivers Photonics in 1999— 27 years ago. He built the photonics business from scratch. Earlier this year Alex McCann appeared publicly as the new MD of Sivers Photonics in April/May communications. McKee moved totechnology role only. His Q1 and Q2 share sales seems to align with this transition and was probably sold (if sold at all in full) parts of it even before share re-rating. \n\nMy take is  that is was done probably with no negative view on the company's prospects. A man monetizing his life's work after almost 30 years of building a company is not insider panic. IMO this is probably more a career ending on his own terms. He deserves it for sure. Even if he sold over 6 months, IMO this is still not a major negative signal. \n\nThree things EFN did not check: A) Holdings has known blind spots — transfers to holding companies, ISK structures and family vehicles are not captured. Did anyone verify McKee holds zero shares in any structure? B) One option program was realized in early July. If McKee sold old shares to participate that is not a major negative signal (he is not insider hence would not report sell or buy) — Holdings would not show this yet since it was in early July C) The role change probably happened before most shares was sold, Context matters.\n\nLater in the afternoon two board members has publicly shared insider purchases. \n\nTodd Thomson — board member, former Citigroup CFO, — bought 535,000 SEK on-market today at 42.80 SEK into the panic. Karin Raj bought 460,000 SEK at 34.68 SEK — the intraday low. Both reported to FI same day. People with more information about the full picture, that also had been part of approving today clarifications around the Q-reports and US Nasdaq listing. \n\nUpdate Vikram CEO have also aquired shares for approximately 1.000.000 SEK\n\nSumming up: Journalism created the dip. Insiders bought it.\n\nWhat's X view on today?",
+      "author": {
+        "screenName": "StormDirac",
+        "name": "Anders Storm"
+      }
+    }
+  },
+  {
+    "id": "2075199849507762279",
+    "text": "Nothing like an internal $META memo getting published.\n\nShowing AI ramping as usual:\n\n- LTAs signed with Samsung and $SNDK for memory\n- LTAs signed with Sumitomo Electric for fiber optics\n- Expected to deploy 7GW compute infra this year, and doubling in 2027. \n- as much as $145B capex spend this year \n\n“It plans to launch a chip about every six months through 2027”",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 2034,
+      "retweets": 225,
+      "replies": 277,
+      "quotes": 30,
+      "views": 513049,
+      "bookmarks": 441
+    },
+    "createdAt": "Thu Jul 09 12:46:14 +0000 2026",
+    "createdAtLocal": "2026-07-09 20:46",
+    "createdAtISO": "2026-07-09T12:46:14+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMyXJ1Ya8AAkpAg.jpg",
+        "width": 1219,
+        "height": 868
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMyXJ1bbAAAHZs0.jpg",
+        "width": 1249,
+        "height": 1051
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074979055410266452",
+    "text": "Wow, looks like Elon + xAI at $SPCX managed to build an Anthropic Opus-level LLM with Grok 4.5.\n\nThat’s much more cost efficient as well… \n\nKinda emulating what Chinese vendors have been doing to compete on pricing + adoption. (Which is an ideal thing given Chinese model growth among US companies recently)\n\nNever doubt Elon, maybe they might end up leapfrogging Anthropic + Mythos?",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 2138,
+      "retweets": 156,
+      "replies": 263,
+      "quotes": 22,
+      "views": 435399,
+      "bookmarks": 224
+    },
+    "createdAt": "Wed Jul 08 22:08:52 +0000 2026",
+    "createdAtLocal": "2026-07-09 06:08",
+    "createdAtISO": "2026-07-08T22:08:52+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMvOc30aYAARSbY.jpg",
+        "width": 1210,
+        "height": 594
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMvOc37bwAAKHa8.jpg",
+        "width": 1198,
+        "height": 837
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMvOc30a4AAYk6c.jpg",
+        "width": 1260,
+        "height": 1057
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074965761345642660",
+    "text": "$META to build a new $10B DC in Canada to expand AI capacity.\n\nSo much for the media framing of “Meta Compute”as overbuilding and cutting capex. https://t.co/0QgSls0s9o",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1438,
+      "retweets": 132,
+      "replies": 207,
+      "quotes": 26,
+      "views": 336537,
+      "bookmarks": 88
+    },
+    "createdAt": "Wed Jul 08 21:16:03 +0000 2026",
+    "createdAtLocal": "2026-07-09 05:16",
+    "createdAtISO": "2026-07-08T21:16:03+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMvCXHqaEAAxPzv.jpg",
+        "width": 1245,
+        "height": 830
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074951295027568736",
+    "text": "Let’s put it this way:\n\nRetail thinks a 30-60% drop is a “falling knife” where bagholders will never recover. \n\nAnd they end up panic selling after seeing swiggly line TAs and people comparing valuable chokepoints to memes.\n\nI see it as long term ownership over:\n\n- the next hyperscaler with $NBIS, projecting $7-9B ARR Q4\n- 40% of the InP supply chain with $AXTI\n- leader of the next optical shift with $SIVE with CW DFB lasers\n- leader of US humanoids with $CCXI inside a future trillion dollar theme\n\nAnd so on… At cheaper valuations. \n\nWhile I might do things like lowering margin or hedging with my own portfolio, I’m personally not panicking when something drops if the thesis didn’t change. \n\nNFA and obviously depends on people’s investing timeframes:\n\nSince a crash would be life changing for people that depend on investing for rent or tuition. (Which is why I personally think  others should do their own DD and choose longs in line with their own risk profile)\n\nBut my personal goal is maximizing exposure to the next-gen supercycles before they hit.\n\nI think institutions think the same way as well, which is why there’s a lot of induced volatility along the way to maximize their exposure.\n\nIf a thesis ends up correct, the valuation should be reflected in the long run.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 2573,
+      "retweets": 184,
+      "replies": 277,
+      "quotes": 28,
+      "views": 1141237,
+      "bookmarks": 1112
+    },
+    "createdAt": "Wed Jul 08 20:18:34 +0000 2026",
+    "createdAtLocal": "2026-07-09 04:18",
+    "createdAtISO": "2026-07-08T20:18:34+00:00",
+    "media": [],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null,
+    "quotedTweet": {
+      "id": "2074778487928553573",
+      "text": "@aleabitoreddit 白毛股神，能不能给我点心理按摩，NBIS是否今晚能止跌？它已经亏了我太多了，接近腰斩了",
+      "author": {
+        "screenName": "Laila54623",
+        "name": "Laila"
+      }
+    }
+  },
+  {
+    "id": "2074838397341065516",
+    "text": "Blue Origin reportedly raising $10B at a $130B valuation per NYT.\n\nSeems pretty positive for $RKLB, $ASTS, and other space names in terms of relative valuation anchoring. \n\nIf SpaceX and Blue Origin is able to set such high valuations. https://t.co/04W7phuIwr",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1692,
+      "retweets": 153,
+      "replies": 288,
+      "quotes": 26,
+      "views": 467591,
+      "bookmarks": 149
+    },
+    "createdAt": "Wed Jul 08 12:49:57 +0000 2026",
+    "createdAtLocal": "2026-07-08 20:49",
+    "createdAtISO": "2026-07-08T12:49:57+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMtNvCIaIAATsrG.jpg",
+        "width": 1345,
+        "height": 231
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074799339680202869",
+    "text": "Trump: “Spain is a terrible partner in NATO. \n\nThey don't participate. They don't pay. \n\nCut off all trade with Spain”\n\nTbh no clue what’s going on anymore… https://t.co/F1n0m6gcPa",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1194,
+      "retweets": 35,
+      "replies": 200,
+      "quotes": 14,
+      "views": 391880,
+      "bookmarks": 49
+    },
+    "createdAt": "Wed Jul 08 10:14:45 +0000 2026",
+    "createdAtLocal": "2026-07-08 18:14",
+    "createdAtISO": "2026-07-08T10:14:45+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMsrADEboAAXTJD.jpg",
+        "width": 1236,
+        "height": 533
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074776109074583565",
+    "text": "Trump: Memorandum of Understanding with Iran “is over”\n\n“It’s a waste of time dealing with them,” Trump said at the NATO summit.\n\nAlways an exciting time with markets. https://t.co/S3UisD75Kc",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 967,
+      "retweets": 45,
+      "replies": 163,
+      "quotes": 9,
+      "views": 353888,
+      "bookmarks": 54
+    },
+    "createdAt": "Wed Jul 08 08:42:26 +0000 2026",
+    "createdAtLocal": "2026-07-08 16:42",
+    "createdAtISO": "2026-07-08T08:42:26+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMsV34DbcAAUqKI.jpg",
+        "width": 1222,
+        "height": 1164
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074581698604593367",
+    "text": "Hesai Technology, a Chinese lidar maker faces US national scrutiny over its expanded partnership with $NVDA and lidar sensors. \n\nFor $OUST, $AEVA, and Western lidar bros, this is generally positive if competitors get regulated out.\n\nSince there were warnings that: \n\nSensors could be disabled or exploited remotely, given Hesai firmware update disabled lidar units on February 29 (as evidence). \n\nBy second order effect, this is also bullish for upstream laser suppliers too like $LITE and $SIVE that are used in western lidar players.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1034,
+      "retweets": 101,
+      "replies": 209,
+      "quotes": 13,
+      "views": 417340,
+      "bookmarks": 181
+    },
+    "createdAt": "Tue Jul 07 19:49:55 +0000 2026",
+    "createdAtLocal": "2026-07-08 03:49",
+    "createdAtISO": "2026-07-07T19:49:55+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMpkRPUbUAAbdEx.jpg",
+        "width": 1835,
+        "height": 1104
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074568161299771394",
+    "text": "Just Bloomberg and $META doing damage control after crashing the market with Meta Compute framing:\n\nSpokesperson: \"Meta is still hungry for even more computing power. \n\nIt is still moving forward with plans for expensive new data centers and recently inked major computing deals with $CRVW, Google, $ORCL, and others.\"\n\nJust dropped that in with the Meta Muse announcement, and evenn threw in the \"expensive\" framing with DCs to signal capex. \n\nBut little late given we're likely seeing a lot of margin liquidation cascades and heavy losses from media framing earlier.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1406,
+      "retweets": 111,
+      "replies": 190,
+      "quotes": 31,
+      "views": 465870,
+      "bookmarks": 197
+    },
+    "createdAt": "Tue Jul 07 18:56:07 +0000 2026",
+    "createdAtLocal": "2026-07-08 02:56",
+    "createdAtISO": "2026-07-07T18:56:07+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMpXeHybgAAN8N3.jpg",
+        "width": 1441,
+        "height": 469
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074548850996707412",
+    "text": "How is the US so far behind?\n\nXinhua: China's output of humanoids are expected to hit 100,000+ this year. \n\nEven Morgan Stanley originally projected 14,000 for 2026... \n\nReally need Elon's $TSLA, $CCXI (Agility), Apptronik, and Figure to catchup. And for more US Gov. subsidies to pour into upstream supply chains + rare earths. \n\nCause this disparity between US vs. China mass production is getting ridiculous... \n\nBut it almost feels like the start of Russia/US Space race Sputnik Moment for robotics?",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1140,
+      "retweets": 72,
+      "replies": 236,
+      "quotes": 19,
+      "views": 372378,
+      "bookmarks": 174
+    },
+    "createdAt": "Tue Jul 07 17:39:23 +0000 2026",
+    "createdAtLocal": "2026-07-08 01:39",
+    "createdAtISO": "2026-07-07T17:39:23+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMpFFjtacAAihUH.jpg",
+        "width": 1356,
+        "height": 797
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074533565505876218",
+    "text": "This is the average visual TA bro, takes a 50% 50% coinflip: \n\nIf it goes the other way, they say \"ABC Pattern Invalidated\", should have known... \n\nIf they get the coinflip right, they promote their $40/month chart. \n\n-> People drawing swiggly lines over KOSPI mean nothing where it heads. When it's primarily Samsung/SK Hynix and forward operating income growth from DRAM/NAND. \n\n-> The swiggly drawing over $SIVE, $AEHR, and others mean nothing. When it's primarily hyperscaler suppliers, thematic premiums, and volume ramp orders determining valuations. \n\nThen if something randomly goes from $1 to $60 like $AXTI, they claim they spotted it with their \"Golden Egg Dragon Candle\", while ignoring anything with InP substrate and otpical demand. \n\nThere's rare times like these where it's a massive sector drop all together.\n\nBut now the TA bros are showing up everywhere saying\nhere's a $40 course on how they predicted it with swiggly lines.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1375,
+      "retweets": 77,
+      "replies": 221,
+      "quotes": 17,
+      "views": 638549,
+      "bookmarks": 141
+    },
+    "createdAt": "Tue Jul 07 16:38:39 +0000 2026",
+    "createdAtLocal": "2026-07-08 00:38",
+    "createdAtISO": "2026-07-07T16:38:39+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMo4Ep2boAA5Tda.jpg",
+        "width": 3259,
+        "height": 1878
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null,
+    "quotedTweet": {
+      "id": "2074528080102924537",
+      "text": "@aleabitoreddit @WLinvestment TA is astrology for fin bros",
+      "author": {
+        "screenName": "roninmma_",
+        "name": "Ronin"
+      }
+    }
+  },
+  {
+    "id": "2074494514061017508",
+    "text": "Just putting it out there:\n\nIf everything crashes together from $NBIS, $MRVL, $INTC, $SNDK, $AMD, $SIVE, $MU, $LITE, and others... \n\nWhich are all down -4% to -10%+ today so far. \n\nProbably doesn't have anything to do with individual fundamentals. \n\nIndiscriminate selloffs from things like cascading margin liquidations, usually provide compelling opportunities if the underlying improves.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 5082,
+      "retweets": 293,
+      "replies": 403,
+      "quotes": 51,
+      "views": 1218664,
+      "bookmarks": 923
+    },
+    "createdAt": "Tue Jul 07 14:03:29 +0000 2026",
+    "createdAtLocal": "2026-07-07 22:03",
+    "createdAtISO": "2026-07-07T14:03:29+00:00",
+    "media": [],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074466925263061100",
+    "text": "Raymond James initiated coverage of $SPCX with “Strong Buy”.\n\nGiving it a $800 PT, valuing SpaceX at a ~$10T valuation.\n\nNo words. Jokes about “institutional” notes for retail write themselves. https://t.co/B0uRojaNJZ",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1115,
+      "retweets": 59,
+      "replies": 170,
+      "quotes": 16,
+      "views": 329414,
+      "bookmarks": 90
+    },
+    "createdAt": "Tue Jul 07 12:13:51 +0000 2026",
+    "createdAtLocal": "2026-07-07 20:13",
+    "createdAtISO": "2026-07-07T12:13:51+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMn8RlnbMAA6q_l.jpg",
+        "width": 1243,
+        "height": 613
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074416685843612031",
+    "text": "Be Samsung at $1.24T:\n\n&gt; market: we don’t think you can keep hiking memory prices\n&gt; proceeds to hikes dram by 20%\n&gt; releases earnings\n&gt; most profitable company in the world beating $NVDA and $AAPL\n&gt; operating profits growing 1803% Y/Y  \n\nmarket: sells off Samsung -7%",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 3597,
+      "retweets": 187,
+      "replies": 222,
+      "quotes": 27,
+      "views": 583427,
+      "bookmarks": 346
+    },
+    "createdAt": "Tue Jul 07 08:54:13 +0000 2026",
+    "createdAtLocal": "2026-07-07 16:54",
+    "createdAtISO": "2026-07-07T08:54:13+00:00",
+    "media": [],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074405723816304743",
+    "text": "One of the dumbest thematic selloffs I’ve seen to to date off:\n\n- $META compute news that’s not new\n- CPO delay report 1, that got refuted by $NVDA\n- CPO delay report 2, that got refuted by $NVDA\n\nHigh confidence, institutions will end up going long on the same names they’re bearposting after retail capitulates.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 2406,
+      "retweets": 152,
+      "replies": 228,
+      "quotes": 26,
+      "views": 647918,
+      "bookmarks": 425
+    },
+    "createdAt": "Tue Jul 07 08:10:39 +0000 2026",
+    "createdAtLocal": "2026-07-07 16:10",
+    "createdAtISO": "2026-07-07T08:10:39+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMnFAjjaIAA5UWL.jpg",
+        "width": 1191,
+        "height": 987
+      },
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMnFAjjbUAAk4hM.jpg",
+        "width": 1196,
+        "height": 1158
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074381029146837207",
+    "text": "Trump: “You have a couple of guys who went short. Those poor ******* they’re in big trouble.\n\nThey’re being wiped out. The short guys. \n\nI never liked short guys because they’re betting against the country”. https://t.co/6RW2KuzDoW",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1783,
+      "retweets": 101,
+      "replies": 148,
+      "quotes": 34,
+      "views": 541170,
+      "bookmarks": 106
+    },
+    "createdAt": "Tue Jul 07 06:32:32 +0000 2026",
+    "createdAtLocal": "2026-07-07 14:32",
+    "createdAtISO": "2026-07-07T06:32:32+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMmujKMa8AAwTZe.jpg",
+        "width": 1252,
+        "height": 1014
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074240512593481955",
+    "text": "Was a sad few months for $RDDT. But glad it's finally back above $200. \n\nReddit was doing:\n- $663M revenue w/ 91.5% gross margins\n- $204M GAAP net income\n- 45%+ fwd Y/Y growth after 69%+ growth.\n- Net profit is ~30.7% of revenue\n\nFelt very weird to see a profitable company get dragged down after earnings. \n\nBut in hindsight, given the increase hyperscaler capex, the drop felt more like it's more relative opportunity cost more than fundamentals?\n\nSince a lot of inflow poured into $MU / Sk Hynix that are bottlenecked into 2029. Or with laser bottlenecks like $LITE that last into 2029 as well. \n\nSame thing happens in reverse after selloffs ig, even if fundamentals didn't change. \n\nBeen seeing a lot of noise with memory optimization or Chinese players... but don't quite think you sign 16T+ LTAs if memory was getting flooded or not used anytime soon. \n\nSame with optical players... if in earnings, they state anything they make gets bought, I don't quite think a lot of the noise has material effect on their fundamentals. \n\nRegardless, nice to see some recovery with familiar faces like $HOOD, $HIMS, and $RDDT though.",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 834,
+      "retweets": 52,
+      "replies": 180,
+      "quotes": 7,
+      "views": 360454,
+      "bookmarks": 126
+    },
+    "createdAt": "Mon Jul 06 21:14:10 +0000 2026",
+    "createdAtLocal": "2026-07-07 05:14",
+    "createdAtISO": "2026-07-06T21:14:10+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMkrWFjbUAA2QsW.jpg",
+        "width": 1832,
+        "height": 1552
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074214669808717906",
+    "text": "It’s interesting to witness psychology around valuation anchoring + scarcity.\n\nRetail, for example, are buying Figure, last valued at ~$39B through CEFs…\n\nAt $158B, since it’s private, round 4x valuations. \n\nThen Agility Robotics $CCXI, which has broader commercialization. \n\nIs at ~$4.3B pre-money and publicly available before the name change. At closer pricing that $AMZN, $NVDA, SoftBank, and Foxconn vaulted it at.\n\nYet some end up paying 4-5x prices of already hiked private investor rounds for exposure…\n\nI’m convinced if Agility raised a very small private round at $39B as well from $2.5B (which it definitely could), to set a valuation anchor.\n\nInvestors would be foaming in the mouth for a private allocation, just due to psychology rather than underlying fundamentals. \n\nWe’ve also seen this anchoring with $SPCX recently at $1.75T.\n\nPeak market inefficiency? Or lack of knowledge from retail?",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 969,
+      "retweets": 40,
+      "replies": 199,
+      "quotes": 6,
+      "views": 387453,
+      "bookmarks": 241
+    },
+    "createdAt": "Mon Jul 06 19:31:28 +0000 2026",
+    "createdAtLocal": "2026-07-07 03:31",
+    "createdAtISO": "2026-07-06T19:31:28+00:00",
+    "media": [],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074170197486039524",
+    "text": "$NVDA refuting recent Kyber delay claims:\n\n“Our roadmap is intact”.\n\nlol, damage has already been done with stocks in many markets (esp. in Taiwan/Japan/Soutj Korea) crashing after the “report” https://t.co/ijHggRm1fu",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 1427,
+      "retweets": 98,
+      "replies": 206,
+      "quotes": 29,
+      "views": 495047,
+      "bookmarks": 144
+    },
+    "createdAt": "Mon Jul 06 16:34:45 +0000 2026",
+    "createdAtLocal": "2026-07-07 00:34",
+    "createdAtISO": "2026-07-06T16:34:45+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMjuzKxaMAAcC0u.jpg",
+        "width": 1240,
+        "height": 312
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  },
+  {
+    "id": "2074143469015281953",
+    "text": "I’d like to give a special thank you to Bloomberg’s piece on $META compute.\n\nAs well as the 2 back to back bear posts on CPO delays.\n\nBut I believe thematically photonics, memory, energy, and physical AI will outperform in the long run. https://t.co/vghsG5H2w5",
+    "author": {
+      "id": "1940360837547565056",
+      "name": "Serenity",
+      "screenName": "aleabitoreddit",
+      "profileImageUrl": "https://pbs.twimg.com/profile_images/1996176688414367744/LXfA_lIx_normal.jpg",
+      "verified": true
+    },
+    "metrics": {
+      "likes": 2808,
+      "retweets": 81,
+      "replies": 252,
+      "quotes": 29,
+      "views": 667337,
+      "bookmarks": 387
+    },
+    "createdAt": "Mon Jul 06 14:48:33 +0000 2026",
+    "createdAtLocal": "2026-07-06 22:48",
+    "createdAtISO": "2026-07-06T14:48:33+00:00",
+    "media": [
+      {
+        "type": "photo",
+        "url": "https://pbs.twimg.com/media/HMjWfabbgAE_u8O.jpg",
+        "width": 1093,
+        "height": 642
+      }
+    ],
+    "urls": [],
+    "isRetweet": false,
+    "retweetedBy": null,
+    "lang": "en",
+    "score": null
+  }
+]

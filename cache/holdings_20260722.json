@@ -1,0 +1,282 @@
+{
+  "ok": true,
+  "error": null,
+  "as_of": "2026-07-21",
+  "generated_at": "2026-07-22 09:43:05",
+  "holdings": [
+    {
+      "symbol": "QQQM",
+      "name_cn": "QQQM",
+      "name_en": "QQQM",
+      "currency": "USD",
+      "shares": 9.0,
+      "avg_cost": 290.2306141,
+      "close": 291.68,
+      "price_src": "ibkr(mdt=3)",
+      "market_value": 2625.12,
+      "pnl": 13.044473099999834,
+      "pnl_pct": 0.499391115060166,
+      "news": [
+        {
+          "title": "(QQQM) Volatility Zones as Tactical Triggers - Stock Traders Daily",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOSkZuOXFKYzVocDRlRG1sSDFJb3lHRV85b0tsVDhrN2hpSkZSeGoyY2luT01tbEFnS1JPdEhEN19XZDFBSGFXQXJaX0NKa0hYUHgxdllQNVhKOVU0NW1rVGZvOC1heUw3SUVfRXZwVk50dmpzQl9BNFpBZkctc3V4b3djcTBDYjNXb1VrdUtuamFGQk5GbmNhM2U0Rk5idUR2QmdCZnIyLTBQUlJ0OThwWnMwU1pCdnV4VGJfaEtuNA?oc=5",
+          "desc": "(QQQM) Volatility Zones as Tactical Triggers&nbsp;&nbsp;Stock Traders Daily",
+          "pub": "Mon, 20 Jul 2026 21:52:01 GMT"
+        },
+        {
+          "title": "Invesco Nasdaq 100 ETF (QQQM) hits $100B AUM, r... - Pluang",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lbmFKc01EdGhic1lRTW1UUkREUUpoUEI2UjFDbDhqSkpYXzE4UTZ3YWk0Vmk2M3dOUW05bVhyTV9vWWJZR2tnRzlBTUR5VUxtZ2JIaVBkWHRRRXpjdGtrd2gtdjhtOEg1NFFTQ1NuVFdQT2RFbHc?oc=5",
+          "desc": "Invesco Nasdaq 100 ETF (QQQM) hits $100B AUM, r...&nbsp;&nbsp;Pluang",
+          "pub": "Mon, 20 Jul 2026 17:03:58 GMT"
+        }
+      ],
+      "summary": "【逐条分析】\n\n- **新闻一：Mon, 20 Jul 2026 （QQQM）波动区作为战术触发器 - 股票交易者日报**\n  - **事实概述**：这条消息强调了（QQQM）波动区作为战术触发器的重要性。这可能意味着投资者和交易员可能会利用这些波动区域进行短期操作。\n  - **影响逻辑**：这一信息主要影响的是交易策略层面，而不是公司的基本面或长期增长潜力。它更多是关于市场情绪和技术分析的应用。\n  - **影响倾向与置信度**：中性；低置信度。因为这主要是技术面的提示，并没有直接涉及公司业绩、行业趋势等实质性因素。\n\n- **新闻二：Mon, 20 Jul 2026 Invesco Nasdaq 100 ETF (QQQM) hits $100B AUM - Pluang**\n  - **事实概述**：这条消息报道了（QQQM）的资产管理规模达到了100亿美元。这表明该ETF在市场上的受欢迎程度和重要性。\n  - **影响逻辑**：这一信息可能会影响投资者对该ETF的信心，因为较大的AUM通常意味着更多的资金流入和支持。同时，这也反映了Nasdaq 100指数的整体表现良好。\n  - **影响倾向与置信度**：利好；中置信度。虽然直接的业绩数据没有给出，但较高的资产管理规模通常是一个积极信号。\n\n【综合研判】\n\n- **当日整体市场情绪（偏多 / 偏空 / 分歧）**：偏多。两条新闻都传递了正面的信息，特别是关于ETF受欢迎程度和波动区的应用提示。\n  \n- **关键催化剂与风险**\n  - **推动上涨的因素**：资产管理规模的增加表明市场需求强劲，这可能吸引更多的投资者关注（QQQM），从而推高股价。\n  - **打压股价的因素**：短期内技术面的操作提示可能会导致价格波动，但没有直接业绩支撑，因此影响有限。\n\n- **对持仓者的启示**\n  - 基于当日信息，最值得关注的信号是资产管理规模的变化。如果未来有更多关于资金流入的具体数据或业绩报告发布，则应重点关注这些指标以评估长期走势。"
+    },
+    {
+      "symbol": "9606",
+      "name_cn": "Duality Bio",
+      "name_en": "Duality Bio",
+      "currency": "HKD",
+      "shares": 100.0,
+      "avg_cost": 223.016344,
+      "close": 235.8,
+      "price_src": "ibkr(mdt=3)",
+      "market_value": 23580.0,
+      "pnl": null,
+      "pnl_pct": null,
+      "news": [],
+      "summary": null
+    },
+    {
+      "symbol": "NVDA",
+      "name_cn": "英伟达",
+      "name_en": "NVIDIA",
+      "currency": "USD",
+      "shares": 10.0,
+      "avg_cost": 215.97,
+      "close": 206.34,
+      "price_src": "ibkr(mdt=3)",
+      "market_value": 2063.4,
+      "pnl": -96.29999999999995,
+      "pnl_pct": -4.458952632310043,
+      "news": [
+        {
+          "title": "The Two Radically Different Futures Priced Into NVIDIA Stock",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZUxqdmxsRWNLTVdyc2xxUFdWTDIwMVFsVi1KT1FTOTcyS1NjZWhOQWZLZnpQMnJOY3kwX1c3TXpwWmI4dlZucTVpcTd4TTFyYXdCRXVKWEdTd3NtYXVjWjh5cF9UOXJCaE5WaDdGZzBwNlpaYU40RVpuUlZfVUhjRTNNX2p2UzlOQnZjaW9mZkF6UzUyRDlLeXFFOWNDWEF4dnFzOWd2R2d4MHNJR191MWNNYi02NWRtaGtqSkh3?oc=5",
+          "desc": "The Two Radically Different Futures Priced Into NVIDIA Stock&nbsp;&nbsp;Trefis",
+          "pub": "Tue, 21 Jul 2026 15:39:01 GMT"
+        },
+        {
+          "title": "Nebius stock surges nearly 19% as Nvidia discloses significant stake in neocloud",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1Fb1F6MU9MbGJEMzRQd2RrNkdNRTdFeG1KUUdOSW5VVkxiMFcwX2hSNG5zSjRIaF9IcGViNHN2VXE2TzFKY2t3N0h0SVVkWU01UXlsQmlrVDlEbnZpLU11NzA2akRxWkRCaGNFZGs0OVlFS0RtbjRGa2d0b9IBgAFBVV95cUxPRGxHR2FtN0V1LUVmdWJzempQV2I0dl9FdUVRXzBVN0tRbE0xbTRvUnI3RTBMeVppTm0xcmM4M29lQ3pBeG9EUFZSSEtpTG5HUmpEcnk5VWR4Q2pzVmNWb2hqMGtpZ0RXMUdKVXBjSG9ZWDJjMVloelNrTDFuTGNkTQ?oc=5",
+          "desc": "Nebius stock surges nearly 19% as Nvidia discloses significant stake in neocloud&nbsp;&nbsp;CNBC",
+          "pub": "Tue, 21 Jul 2026 09:47:05 GMT"
+        },
+        {
+          "title": "Nvidia (NVDA) Stock Looks Reasonable On Earnings While Cash Flow Stays Key",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZEl2M2lsUDNkNDdnc19rcDZ4b2tJSVY1RWh0dDk3anFUUFJ1SEZQd05vRlBtVVRkMV9UbjNqeS1ZRXl6ZUMyYlZ0U3ZYUmlzVDR1b0tham1UTzRjU014bHRLMjZQQklWSy10bUNaQndDMkxzRE11S2JVbHktQlZpdzFlVFRwUHBONGM0RTUxbllIb3YwbVFIVjJIV3lWVDlXT3drVDlDWk0tMGIwYXU2TFB1eV90dlNWM3hUczU2ZVk2dGFNcUhxMlgtRdIB0AFBVV95cUxQM2RzRU4zUngxMnNleUxiYV9QajF5aE5NdlY0MndMR2M5SV9HdC1hRWdIY05Ga1Vjd2daYUxGMlZXV0dlWC12U3hjX1FhM1ZDVnN0bnh0V2VjWXlxS0ZXd3B5SVI3ek5DQ1B1enAtOWUtcE44N3JHb1pWbVpObnNpRnpXYUY3czA4TFNxMUg5SS1hbUNEcWItaWhJOFUtQ2JtYm1SMWNIc2FHZHp3Y3lmcXlVMDIybHVySjljVHFIR19oTEstS0RHQ3hIY3FtQWNN?oc=5",
+          "desc": "Nvidia (NVDA) Stock Looks Reasonable On Earnings While Cash Flow Stays Key&nbsp;&nbsp;simplywall.st",
+          "pub": "Tue, 21 Jul 2026 13:31:30 GMT"
+        },
+        {
+          "title": "What's Going on With NVIDIA Stock Tuesday?",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQQURiNzBVWWNmcV9tdUlrTVBzOWZFcFRXXzRxb205b1FKZEt0Wm81WEg5bmVQNXNOaDJXVmZ4RmZNSkR5cEY3OG1UWGhHS2h6RTBTS1g3T3F6OU9tYWQ3cHRLOGktTlZzYUxYSk5mMmN4RGVNbG5KLXpVZUU1UGpxWUtJWTJyRUFPcUJaZFJLUmktZkZ4LWZndXJDbw?oc=5",
+          "desc": "What's Going on With NVIDIA Stock Tuesday?&nbsp;&nbsp;Benzinga",
+          "pub": "Tue, 21 Jul 2026 11:16:09 GMT"
+        }
+      ],
+      "summary": "【逐条分析】\n\n1. **事实概述**：这篇新闻标题表明，英伟达（NVIDIA）的股价反映了两种截然不同的未来预期。这可能意味着市场对英伟达未来的业务发展存在分歧。\n   - **影响逻辑**：这种不确定性可能会导致投资者情绪波动，进而影响股价。如果市场认为一种前景更乐观，则股价可能上涨；反之则下跌。\n   - **影响倾向与置信度**：中性，低置信度。因为新闻没有具体说明是哪两种不同的未来预期，缺乏明确的信息来源和数据支持。\n\n2. **事实概述**：CNBC报道了Nebius的股票在英伟达披露其对neocloud的重大投资后上涨近19%。\n   - **影响逻辑**：这表明投资者对英伟达的投资活动持积极态度。这种正面消息可能通过增加市场对该公司的兴趣和信心来推动股价上升。\n   - **影响倾向与置信度**：利好，中置信度。因为Nebius是英伟达的子公司或关联公司，这一投资行为直接反映了英伟达的战略布局。\n\n3. **事实概述**：simplywall.st指出，在财报公布后，英伟达（NVDA）的股价看起来合理，而现金流仍然是关键因素。\n   - **影响逻辑**：这表明市场对英伟达的基本面持乐观态度。良好的财务表现和健康的现金流将支撑股价稳定或上涨。\n   - **影响倾向与置信度**：利好，中置信度。因为simplywall.st是一家提供投资分析的平台，其观点具有一定参考价值。\n\n4. **事实概述**：Benzinga的文章标题表明投资者正在关注英伟达（NVDA）股价周二的表现。\n   - **影响逻辑**：这可能意味着市场对英伟达近期表现的关注度较高。如果出现重大利好或利空消息，则可能会引发股价波动。\n   - **影响倾向与置信度**：中性，低置信度。因为没有具体信息说明是哪些因素导致关注。\n\n【综合研判】\n\n- **当日整体市场情绪**：偏多。虽然没有明确的正面或负面新闻，但Nebius股票的大幅上涨表明市场对英伟达的投资活动持积极态度。\n- **关键催化剂**：neocloud投资带来的正面消息；财报公布后的良好表现。\n- **关键风险**：市场对未来预期的不确定性；投资者情绪波动。\n\n- **对持仓者的启示**：关注英伟达未来财报的表现以及其在neocloud等领域的进一步发展。同时，留意市场情绪变化可能带来的短期波动。"
+    },
+    {
+      "symbol": "MSFT",
+      "name_cn": "微软",
+      "name_en": "Microsoft",
+      "currency": "USD",
+      "shares": 46.0,
+      "avg_cost": 392.28413045,
+      "close": 396.15,
+      "price_src": "ibkr(mdt=3)",
+      "market_value": 18222.899999999998,
+      "pnl": 177.829999299998,
+      "pnl_pct": 0.9854769158174514,
+      "news": [
+        {
+          "title": "Bank of America doubles down on Microsoft stock ahead of earnings - thestreet.com",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOU3l4azd5VjhPUFZzcjN1UHZaT0pGYkFtVmxfOWhQLXZmbk5tN29yaHhKZEpjQlY5SGpsZ2oyVFNMei15NG1RaUV1b3AxOGNvZlNFZ3RyOUsxclo2S3FhV01Wb2hvZ2sxdXNZanRYZDF3bENuU0ZTZGxFbjZBT29RWEY4aXROTGx5eFR0Z1Y4Q3Z5Qm9zVkdfb01ZeGlCLUtVaVRTa0lpbnJrc29i?oc=5",
+          "desc": "Bank of America doubles down on Microsoft stock ahead of earnings&nbsp;&nbsp;thestreet.com",
+          "pub": "Mon, 20 Jul 2026 18:33:00 GMT"
+        },
+        {
+          "title": "HOLLOWGRAPH Turns Microsoft 365 Calendars Into Attack Vectors, Microsoft Stock (NASDAQ:MSFT) Slips",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUDlEbUE2TFdReGY5dmc1cl9FSDZWenM3dFBqazJxazRpSGJSRm1HRUM5UDRlQ3M1Y28xU3h2dGRNbVc1R1g2Y3hZTjF4M1ZURFdLMlZfX1J4cVFyLURpQ0pKOUQ2enQ4ZFJfSDhWcEZpMU85b0lwc0NRUVZYQ1BEaHh5dEtDQTdFQm8wdVV4YjRmN2NrcWRVbjNXZHFsZGc1WDMwS3JTVzVXOE00RHNTOWk5SDNxQWdrRUVDWXpDam1BZw?oc=5",
+          "desc": "HOLLOWGRAPH Turns Microsoft 365 Calendars Into Attack Vectors, Microsoft Stock (NASDAQ:MSFT) Slips&nbsp;&nbsp;TipRanks",
+          "pub": "Tue, 21 Jul 2026 15:36:53 GMT"
+        }
+      ],
+      "summary": "【逐条分析】\n\n1. 【Mon, 20 Jul 2026】Bank of America doubles down on Microsoft stock ahead of earnings - thestreet.com\n\n- **事实概述**：巴克莱银行在微软即将公布财报之前再次上调了对微软股票的评级。这表明市场对该公司的财务表现持乐观态度。\n- **影响逻辑**：这一消息可能通过提升投资者信心和预期来正面影响股价，尤其是在财报发布前的敏感时期。如果财报结果符合或超过预期，这种积极情绪可能会持续。\n- **影响倾向与置信度**：利好，中等置信度。虽然银行分析师的评级调整通常被视为市场情绪的一个指标，但具体影响还需等待实际财报数据。\n\n2. 【Tue, 21 Jul 2026】HOLLOWGRAPH Turns Microsoft 365 Calendars Into Attack Vectors, Microsoft Stock (NASDAQ:MSFT) Slips\n\n- **事实概述**：安全公司HOLLOWGRAPH发现微软365日历功能存在潜在的安全漏洞，可能导致攻击者利用这些漏洞进行恶意活动。这导致微软股价小幅下跌。\n- **影响逻辑**：这一消息可能通过损害市场对微软产品安全性的信任来负面影响股价。虽然短期内可能会有负面情绪，但长期来看，如果公司能够迅速采取措施修复问题并加强安全性，这种影响可能是暂时的。\n- **影响倾向与置信度**：利空，中等置信度。尽管存在短期波动风险，但如果微软能有效应对这一安全威胁，则对股价的影响可能有限。\n\n【综合研判】\n\n- **当日整体市场情绪**：偏空。两条新闻分别带来了正面和负面的消息，但负面消息的即时影响更为显著。\n- **关键催化剂与风险**：\n  - **推动上涨的因素**：巴克莱银行上调评级带来的乐观预期。\n  - **打压股价的因素**：HOLLOWGRAPH发现的安全漏洞导致的市场担忧。\n\n- **对持仓者的启示**：短期内应关注微软能否迅速解决安全问题，以及后续财报表现。长期来看，投资者可以继续持有该股票，因为微软在技术和服务方面的领先地位仍然稳固。"
+    },
+    {
+      "symbol": "BABA",
+      "name_cn": "阿里巴巴",
+      "name_en": "Alibaba",
+      "currency": "USD",
+      "shares": 40.0,
+      "avg_cost": 135.995,
+      "close": 118.22,
+      "price_src": "ibkr(mdt=3)",
+      "market_value": 4728.8,
+      "pnl": -711.0000000000002,
+      "pnl_pct": -13.070333468142215,
+      "news": [
+        {
+          "title": "Alibaba Stock Surges As Apple AI Deal Fuels New Rally - StocksToTrade",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOejJ1cG1WQTBEcEFvYkMxMzdXX1ZfNjFZTlhfRGtlWUFUcGNVczgyNm1MeVZ6NUNSeXZHbFhNUVI2ZHhkYmZvZ2tqbHVYa3czZk9GRkVfcjJqYklsVFBCMDRTU3RmUThvdjdzUG9ocW8wZkNBSU1VaHRrR09hUlROY3VrZVYzYkpyZnc?oc=5",
+          "desc": "Alibaba Stock Surges As Apple AI Deal Fuels New Rally&nbsp;&nbsp;StocksToTrade",
+          "pub": "Mon, 20 Jul 2026 20:03:00 GMT"
+        },
+        {
+          "title": "Alibaba Stock Surges As Apple AI Deal Fuels BABA Rally - timothysykes.com",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONTZXeC14blVmaHF4SWZLNFRUdHNDWTk2NDRTYjFkT19weVJVR3hPWkdhVm5TWVVvVnhaZ1RJQlNyRTgzdG9kdjIwUzlfUF8tSmp1cHN0Q0FvUHk0WTdYNmN1V3hyZnlYdW9CZ0d2MUF5MmpfMGJfd3NNTVBhSUpIWGIydm5aSFlTaDg4MVNB?oc=5",
+          "desc": "Alibaba Stock Surges As Apple AI Deal Fuels BABA Rally&nbsp;&nbsp;timothysykes.com",
+          "pub": "Mon, 20 Jul 2026 18:33:00 GMT"
+        },
+        {
+          "title": "Independent Financial Group LLC Takes Position in Alibaba Group Holding Limited $BABA",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOZkZaaVlrN2gtbDFiYlAxNUJ4R2JVaVI4QnJ4TkVnUTRaVjRQbFlPNzVBMmozanVURXVab0pZc3VOeGNGdnZCZGJmVTdBSWlSUkNCNmNnSmlrQlhSUlhxeGJ2bEhQZmhsUk55bEFtYWZfckZtRnZGcHFCd1plczJWZ2M1TGdIenBweXBjWFVDMmkxVDVNOXJzbTNOVGZXc0R3N0ZLMGFBckZIQWg3TkxXemIxR0xfS0JGeFRKdDl3enVtM2E3N2U1UHJZZ0VfXy1ZNTlRVUxNd2d4eE9hNXc?oc=5",
+          "desc": "Independent Financial Group LLC Takes Position in Alibaba Group Holding Limited $BABA&nbsp;&nbsp;MarketBeat",
+          "pub": "Tue, 21 Jul 2026 09:23:47 GMT"
+        }
+      ],
+      "summary": "【逐条分析】\n\n- **第一条新闻**\n  - 事实概述：阿里巴巴股价在2026年7月20日因苹果公司与人工智能合作的消息而上涨。\n  - 影响逻辑：此次消息主要影响阿里巴巴的云计算和数字业务，因为苹果公司在人工智能领域的进展可能会增加对阿里云的需求。此外，这也可能提升市场对阿里巴巴整体技术实力的信心。\n  - 影响倾向与置信度：中性；高置信度。虽然短期内股价上涨，但长期来看，这种合作的影响尚不确定。\n\n- **第二条新闻**\n  - 事实概述：同第一条新闻内容一致。\n  - 影响逻辑：同上一条分析。\n  - 影响倾向与置信度：中性；高置信度。市场情绪短期内受到提振，但长期影响需进一步观察。\n\n- **第三条新闻**\n  - 事实概述：独立金融集团有限公司在2026年7月21日增加了对阿里巴巴的持股。\n  - 影响逻辑：这表明机构投资者看好阿里巴巴的未来表现，可能推动市场情绪向好。然而，这种行为更多是基于长期投资策略，并不直接反映短期内的具体业务变化。\n  - 影响倾向与置信度：中性；低置信度。虽然增加了持股，但具体影响还需结合其他因素综合判断。\n\n【综合研判】\n\n- **当日整体市场情绪**：偏多。两条新闻都提到阿里巴巴股价上涨，独立金融集团的增持行为也表明机构投资者看好公司前景。\n  \n- **关键催化剂**：苹果与人工智能的合作可能带来的技术合作机会和市场需求增加。\n  \n- **关键风险**：长期来看，这种合作关系的实际效果尚不确定，且市场情绪短期内过度反应的可能性存在。\n\n- **对持仓者的启示**：关注阿里巴巴在云计算、数字业务以及与苹果公司合作的具体进展。同时，注意市场情绪的波动，避免因短期消息而做出冲动决策。"
+    }
+  ],
+  "sectors": {
+    "ok": true,
+    "date": "2026-07-21",
+    "sectors": [
+      {
+        "symbol": "XLK",
+        "name_cn": "科技",
+        "name_en": "Technology",
+        "price": 180.78,
+        "prev_close": 175.71,
+        "change": 5.07,
+        "change_pct": 2.89,
+        "currency": "USD",
+        "date": "2026-07-21"
+      },
+      {
+        "symbol": "XLE",
+        "name_cn": "能源",
+        "name_en": "Energy",
+        "price": 58.5,
+        "prev_close": 57.94,
+        "change": 0.56,
+        "change_pct": 0.97,
+        "currency": "USD",
+        "date": "2026-07-21"
+      },
+      {
+        "symbol": "XLV",
+        "name_cn": "医疗健康",
+        "name_en": "Health Care",
+        "price": 160.25,
+        "prev_close": 159.25,
+        "change": 1.0,
+        "change_pct": 0.63,
+        "currency": "USD",
+        "date": "2026-07-21"
+      },
+      {
+        "symbol": "XLI",
+        "name_cn": "工业",
+        "name_en": "Industrials",
+        "price": 178.66,
+        "prev_close": 178.12,
+        "change": 0.54,
+        "change_pct": 0.3,
+        "currency": "USD",
+        "date": "2026-07-21"
+      },
+      {
+        "symbol": "XLY",
+        "name_cn": "可选消费",
+        "name_en": "Consumer Discretionary",
+        "price": 114.87,
+        "prev_close": 114.61,
+        "change": 0.26,
+        "change_pct": 0.23,
+        "currency": "USD",
+        "date": "2026-07-21"
+      },
+      {
+        "symbol": "XLB",
+        "name_cn": "原材料",
+        "name_en": "Materials",
+        "price": 50.1,
+        "prev_close": 50.03,
+        "change": 0.07,
+        "change_pct": 0.14,
+        "currency": "USD",
+        "date": "2026-07-21"
+      },
+      {
+        "symbol": "XLF",
+        "name_cn": "金融",
+        "name_en": "Financials",
+        "price": 56.11,
+        "prev_close": 56.04,
+        "change": 0.07,
+        "change_pct": 0.12,
+        "currency": "USD",
+        "date": "2026-07-21"
+      },
+      {
+        "symbol": "XLU",
+        "name_cn": "公用事业",
+        "name_en": "Utilities",
+        "price": 44.92,
+        "prev_close": 44.94,
+        "change": -0.02,
+        "change_pct": -0.04,
+        "currency": "USD",
+        "date": "2026-07-21"
+      },
+      {
+        "symbol": "XLRE",
+        "name_cn": "房地产",
+        "name_en": "Real Estate",
+        "price": 45.2,
+        "prev_close": 45.23,
+        "change": -0.03,
+        "change_pct": -0.07,
+        "currency": "USD",
+        "date": "2026-07-21"
+      },
+      {
+        "symbol": "XLC",
+        "name_cn": "通信服务",
+        "name_en": "Communication Services",
+        "price": 110.03,
+        "prev_close": 110.8,
+        "change": -0.77,
+        "change_pct": -0.69,
+        "currency": "USD",
+        "date": "2026-07-21"
+      },
+      {
+        "symbol": "XLP",
+        "name_cn": "必需消费",
+        "name_en": "Consumer Staples",
+        "price": 84.06,
+        "prev_close": 84.86,
+        "change": -0.8,
+        "change_pct": -0.94,
+        "currency": "USD",
+        "date": "2026-07-21"
+      }
+    ],
+    "source": "ibkr",
+    "error": null
+  }
+}
