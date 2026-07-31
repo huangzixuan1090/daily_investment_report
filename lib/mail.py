@@ -72,10 +72,17 @@ def _send_smtp(smtp_cfg: dict, html_path: Path, subject: str, recipients: List[s
         msg.attach(part)
 
         log.info("连接 %s:%d 发送邮件...", host, port)
-        with smtplib.SMTP(host, port, timeout=30) as server:
-            server.starttls()
-            server.login(user, password)
-            server.sendmail(from_addr, recipients, msg.as_string())
+        if port == 465:
+            import ssl
+            ctx = ssl.create_default_context()
+            with smtplib.SMTP_SSL(host, port, timeout=30, context=ctx) as server:
+                server.login(user, password)
+                server.sendmail(from_addr, recipients, msg.as_string())
+        else:
+            with smtplib.SMTP(host, port, timeout=30) as server:
+                server.starttls()
+                server.login(user, password)
+                server.sendmail(from_addr, recipients, msg.as_string())
         log.info("邮件已通过 SMTP 发送 → %s", ", ".join(recipients))
         return True
     except Exception as e:
