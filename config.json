@@ -11,7 +11,8 @@
       "_说明": "Claude API。api_key填入sk-ant-...；enabled=false则只用本地。",
       "enabled": true,
       "model": "claude-haiku-4-5-20251001",
-      "api_key": "sk-9ObSE5Cr5vWcGV8y6IURrANUvFgimvxQRropfG4BCeNqh9jK"
+      "api_key": "sk-9ObSE5Cr5vWcGV8y6IURrANUvFgimvxQRropfG4BCeNqh9jK",
+      "base_url": "https://huskyapi.com"
     },
     "task_routing": {
       "_说明": "api=调Claude API，local=用本地Ollama",

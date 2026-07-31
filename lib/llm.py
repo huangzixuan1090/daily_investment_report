@@ -111,8 +111,9 @@ def _chat_api(cfg: dict, system: str, user: str,
         return None
 
     model = api_cfg.get("model", "claude-haiku-4-5-20251001")
+    base_url = api_cfg.get("base_url", "")
     try:
-        client = anthropic.Anthropic(api_key=api_key)
+        client = anthropic.Anthropic(api_key=api_key, **({"base_url": base_url} if base_url else {}))
         msg = client.messages.create(
             model=model,
             max_tokens=num_predict,
