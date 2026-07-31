@@ -186,10 +186,10 @@
   "mail": {
     "_说明": "邮件发送配置。type='smtp'为云端推荐（无token过期），type='agently'为本地兼容。",
     "type": "smtp",
-    "smtp_host": "smtp.qq.com",
-    "smtp_port": 587,
-    "smtp_user": "3101928126@qq.com",
-    "smtp_password":"hxoiwcfnlrjxddeh",
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 465,
+    "smtp_user": "zh2424@nyu.edu",
+    "smtp_password": "qcrdjnflhqagxavc",
     "from_addr": "3101928126@qq.com"
   },
   "paths": {
