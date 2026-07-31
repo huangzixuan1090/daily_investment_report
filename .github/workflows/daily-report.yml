@@ -3,7 +3,7 @@ name: 每日市场报告
 on:
   # 每天 9:00 UTC（北京时间下午 5 点）执行
   schedule:
-    - cron: '0 9 * * *'
+    - cron: '30 23 * * *'
   # 允许手动触发
   workflow_dispatch:
 
@@ -21,10 +21,10 @@ jobs:
       RECIPIENTS: ${{ secrets.RECIPIENTS }}
 
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
       - name: 设置 Python 环境
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
           cache: 'pip'

@@ -127,21 +127,17 @@ def _fetch_sina_fx() -> dict[str, dict] | None:
 
 
 def _fetch_dxy() -> dict | None:
-    """Yahoo 美元指数，限流严重时可能失败。"""
-    import urllib.request
+    """美元指数，用 yfinance 取（避免直接调用 Yahoo 被 429 封）。"""
     try:
-        url = "https://query1.finance.yahoo.com/v8/finance/chart/DX-Y.NYB?range=5d&interval=1d"
-        req = urllib.request.Request(url, headers={"User-Agent": common.UA})
-        with urllib.request.urlopen(req, timeout=15) as r:
-            d = json.loads(r.read().decode("utf-8", "ignore"))
-        res = (d.get("chart") or {}).get("result") or []
-        if not res:
+        import yfinance as yf
+        t = yf.Ticker("DX-Y.NYB")
+        info = t.fast_info
+        last = getattr(info, "last_price", None)
+        prev = getattr(info, "previous_close", None)
+        if last is None or prev is None:
             return None
-        closes = [c for c in res[0]["indicators"]["quote"][0]["close"] if c is not None]
-        if len(closes) < 2:
-            return None
-        prev, last = closes[-2], closes[-1]
-        chg, chg_pct = last - prev, (last - prev) / prev * 100
+        chg = last - prev
+        chg_pct = chg / prev * 100 if prev else 0
         return {
             "key": "DXY", "name": "美元指数", "symbol": "DX-Y.NYB",
             "price": round(float(last), 4), "change": round(float(chg), 4),

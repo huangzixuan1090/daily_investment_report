@@ -786,7 +786,6 @@ def render_report(bundle: dict) -> str:
     fut = bundle.get("futures", {})
     sec = bundle.get("sectors", {})
     blg = bundle.get("bloggers", {})
-    holdings = bundle.get("holdings")
     etf = bundle.get("etf")
     gm = bundle.get("global_markets", {})
     us = bundle.get("us_stocks", {})
@@ -809,7 +808,7 @@ def render_report(bundle: dict) -> str:
         f"<div class='sub'>行情数据日期：{dstr} ｜ {data_label} ｜ 生成于 {now:%Y-%m-%d %H:%M} (CST)</div></div>"
         f"<div class='bd'>")
     parts.append(f"<div class='note'>本报告汇总 <b>{dstr}</b>（{data_label}）收盘后的期货市场、"
-                 f"股市板块表现、全球债券与货币市场、X 博主当日公开观点、公众号文章监控、美股板块涨跌，以及你的 IBKR 实盘持仓与持仓股新闻。"
+                 f"股市板块表现、全球债券与货币市场、X 博主当日公开观点、公众号文章监控、美股板块涨跌。"
                  f"各模块数据来源与日期见对应小节标注。</div>")
     if commentary:
         parts.append(f"<div class='card' style='white-space:pre-wrap'>{_esc(commentary)}</div>")
@@ -884,15 +883,12 @@ def render_report(bundle: dict) -> str:
     parts.append(f"<h2>⑧ 美股板块涨跌分析</h2>")
     parts.append(us_stocks_section(us))
 
-    # 我的持仓（IBKR 实盘）
-    parts.append(holdings_section(holdings))
-
     parts.append("</div>")
     parts.append(
         f"<div class='ft'>行情数据日期：{dstr}（{data_label}）。本报告由每日市场Agent自动生成。"
         "期货资金流入为估算口径；期货缠论由本地大模型分析；板块数据来自东方财富/新浪，"
         "债券收益率来自 akshare、主要货币对来自新浪外汇，"
-        "博主内容来自X公开推文，公众号文章来自 Sogou 微信搜索，美股来自 Yahoo Finance，持仓与新闻来自你的 IBKR 实盘（只读）及 Google News。仅供研究参考，不构成投资建议。</div>")
+        "博主内容来自X公开推文，公众号文章来自 Sogou 微信搜索，美股行情来自 yfinance。仅供研究参考，不构成投资建议。</div>")
     parts.append("</div></body></html>")
     return "\n".join(parts)
 

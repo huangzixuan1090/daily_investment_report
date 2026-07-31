@@ -9,7 +9,6 @@
 from __future__ import annotations
 import argparse
 import json
-import subprocess
 import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -50,43 +49,6 @@ def _resolve_data_date(bundle: dict) -> str:
     return d
 
 
-def _fetch_holdings(cfg: dict, data_date: str, reuse_cache: bool = False):
-    """通过 trading_bot/.venv 跑 ibkr_collect.py（只读连实盘），返回持仓 JSON。失败则回退为跳过。"""
-    ibkr = cfg.get("ibkr") or {}
-    if not ibkr.get("enabled", False):
-        return None
-    venv_py = ibkr.get("venv_python")
-    if not venv_py or not Path(venv_py).exists():
-        common.log.warning("ibkr.venv_python 未配置或不存在，跳过持仓模块")
-        return None
-    cache_dir = common.ROOT / cfg["paths"].get("cache_dir", "cache")
-    cache_dir.mkdir(parents=True, exist_ok=True)
-    out_path = cache_dir / f"holdings_{datetime.now(TZ_CN):%Y%m%d}.json"
-    # 复用缓存：持仓缓存已存在则跳过 IBKR 实时连接（更快，也便于 TWS 关闭时兜底）
-    if reuse_cache and out_path.exists():
-        try:
-            with open(out_path, encoding="utf-8") as f:
-                cached = json.load(f)
-            if cached.get("ok") or cached.get("holdings"):
-                common.log.info("复用持仓缓存 %s（跳过 IBKR 实时连接）", out_path.name)
-                return cached
-        except Exception as e:  # noqa
-            common.log.warning("持仓缓存读取失败，将重新采集: %s", e)
-    script = common.ROOT / ibkr.get("script", "ibkr_collect.py")
-    if not script.exists():
-        common.log.warning("ibkr 采集脚本不存在: %s，跳过持仓模块", script)
-        return {"ok": False, "error": f"采集脚本缺失: {script.name}", "holdings": []}
-    try:
-        common.log.info("调用 ibkr_collect（trading_bot venv）抓取实盘持仓 ...")
-        subprocess.run(
-            [venv_py, str(script), "--out", str(out_path), "--date", data_date],
-            check=True, timeout=120, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
-        with open(out_path, encoding="utf-8") as f:
-            return json.load(f)
-    except Exception as e:  # noqa
-        common.log.warning("持仓采集失败: %s", e)
-        return {"ok": False, "error": f"采集失败: {e}", "holdings": []}
-
 
 def fetch_bundle(cfg: dict, reuse_cache: bool = False) -> dict:
     log = common.log
@@ -113,39 +75,22 @@ def fetch_bundle(cfg: dict, reuse_cache: bool = False) -> dict:
     bundle["data_date_label"] = _data_date_label(data_date)
     log.info("数据日期 = %s (%s, %s)", data_date, bundle["data_weekday"], bundle["data_date_label"])
 
-    # 2) 板块/ETF/全球/美股/博主/公众号/持仓 — 互相独立，并发抓取
+    # 2) 板块/ETF/全球/美股/博主/公众号 — 互相独立，并发抓取
     log.info("=== 并发抓取各模块 ===")
     import concurrent.futures as cf
-    with cf.ThreadPoolExecutor(max_workers=7) as pool:
+    with cf.ThreadPoolExecutor(max_workers=6) as pool:
         f_sec  = pool.submit(lambda: get_section("sectors", lambda: sectors.get_sectors(cfg, data_date=data_date)))
         f_etf  = pool.submit(lambda: get_section("etf", lambda: etf.get_etf(cfg, data_date=data_date)))
         f_gm   = pool.submit(lambda: get_section("global_markets", lambda: global_markets.get_global_markets(cfg, data_date=data_date)))
         f_us   = pool.submit(lambda: get_section("us_stocks", lambda: us_stocks.get_us_stocks(cfg, data_date=data_date)))
         f_blog = pool.submit(lambda: get_section("bloggers", lambda: bloggers.get_bloggers(cfg, data_date=data_date)))
         f_wc   = pool.submit(lambda: get_section("wechat", lambda: wechat.get_wechat_articles(cfg, data_date=data_date)))
-        f_hold = pool.submit(lambda: _fetch_holdings(cfg, data_date, reuse_cache=reuse_cache))
         bundle["sectors"]       = f_sec.result()
         bundle["etf"]           = f_etf.result()
         bundle["global_markets"]= f_gm.result()
         bundle["us_stocks"]     = f_us.result()
         bundle["bloggers"]      = f_blog.result()
         bundle["wechat"]        = f_wc.result()
-        bundle["holdings"]      = f_hold.result()
-
-    # 美股板块兜底：Yahoo 被限流/数据不全时，用 IBKR 实时连接返回的板块涨跌补全（两者 schema 一致）。
-    # 触发条件：IBKR 板块更全（数量多于 Yahoo）或 Yahoo 行情失败。
-    _us = bundle.get("us_stocks") or {}
-    _ibkr_sec = (bundle.get("holdings") or {}).get("sectors") or {}
-    _yahoo_secs = _us.get("sectors") or []
-    if _ibkr_sec.get("ok"):
-        _filled = _ibkr_sec.get("sectors", [])
-        if _filled and (len(_filled) > len(_yahoo_secs) or not _us.get("quotes_ok")):
-            _us["sectors"] = _filled
-            _us["sector_source"] = "ibkr"
-            _us["sector_date"] = _ibkr_sec.get("date")
-            _us["ok"] = True
-            common.log.info("美股板块改用 IBKR 数据兜底（%d 个，Yahoo 仅 %d 个）",
-                            len(_filled), len(_yahoo_secs))
 
     # 本地 Ollama 生成博主总结 + 市场总评 + 美股概览（不消耗云端 token；不可用时回退）
     llm.fill_llm_texts(cfg, bundle)

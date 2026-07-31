@@ -1,24 +1,19 @@
 """美股模块：板块涨跌（GICS 行业 ETF 代理）、微软/英伟达/阿里个股涨跌、当日新闻。
 
-数据源（均不依赖被限流的东财）：
-- 行情：Yahoo Finance 批量 quote 接口
-  (query1/query2.finance.yahoo.com/v7/finance/quote?symbols=...)，单次请求拿全部标的，
-  并在 429 时限流退避、双主机互备。
-- 新闻：Google News RSS (news.google.com/rss/search?q=<公司关键词>)，免费、无需鉴权、聚合广。
+数据源：
+- 行情：yfinance（自动处理 Yahoo Finance cookie/crumb 认证，云端不被 429 封禁）
+- 新闻：yfinance .news（内置，无需额外 API key）
 
 板块用 11 个 GICS 行业 SPDR ETF 作涨跌代理，按涨跌幅排名。
 """
 from __future__ import annotations
 
-import email.utils
-import json
 import re
 import time
-import urllib.parse
-import urllib.request
-import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from zoneinfo import ZoneInfo
+
+import yfinance as yf
 
 from lib import common
 
@@ -46,156 +41,63 @@ DEFAULT_TRACKED = [
 _ET = ZoneInfo("America/New_York")
 
 
-def _get_json(url: str, tries: int = 4):
-    """GET JSON，遇 429 退避重试，遇其它错误短时重试。"""
-    hdr = {"User-Agent": common.UA, "Accept": "application/json"}
-    last = None
-    for i in range(tries):
-        try:
-            req = urllib.request.Request(url, headers=hdr)
-            with urllib.request.urlopen(req, timeout=15) as r:
-                if r.status != 200:
-                    if r.status == 429:
-                        time.sleep(6 + i * 4)
-                        last = RuntimeError("HTTP 429")
-                        continue
-                    raise RuntimeError(f"HTTP {r.status}")
-                return json.loads(r.read().decode("utf-8", "ignore"))
-        except Exception as e:  # noqa
-            last = e
-            if "429" not in str(e):
-                time.sleep(1.5)
-    raise last or RuntimeError(f"GET {url} failed")
-
-
-def _fetch_yahoo_chart(symbols: list[str]) -> dict | None:
-    """兜底：逐标的用 chart 接口取近 5 日日线，算最新涨跌。"""
-    out: dict = {}
-    for sym in symbols:
-        try:
-            d = _get_json(
-                f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}"
-                f"?range=5d&interval=1d", tries=2)
-            res = (d.get("chart") or {}).get("result") or []
-            if not res:
-                continue
-            meta = res[0]["meta"]
-            closes = [c for c in res[0]["indicators"]["quote"][0]["close"] if c is not None]
-            if len(closes) < 2:
-                continue
-            prev, last = closes[-2], closes[-1]
-            chg, pct = last - prev, (last - prev) / prev * 100
-            out[sym.upper()] = {
-                "symbol": sym.upper(),
-                "price": round(float(last), 2),
-                "prev_close": round(float(prev), 2),
-                "change": round(float(chg), 2),
-                "change_pct": round(float(pct), 2),
-                "currency": meta.get("currency", "USD"),
-                "name": meta.get("shortName") or sym,
-                "market_cap": meta.get("marketCap"),
-                "market_time": int(meta.get("regularMarketTime", 0)),
-            }
-        except Exception as e:  # noqa
-            common.log.warning("Yahoo chart(%s) 失败: %s", sym, e)
-    return out or None
-
-
 def _fetch_yahoo_quotes(symbols: list[str]) -> dict | None:
-    """批量取行情：query1/query2 的 /v7/finance/quote 均失败后，兜底用 chart 接口。"""
-    syms = ",".join(symbols)
-    for host in ("query1.finance.yahoo.com", "query2.finance.yahoo.com"):
-        try:
-            d = _get_json(f"https://{host}/v7/finance/quote?symbols={syms}")
-            res = (d.get("quoteResponse") or {}).get("result") or []
-            if res:
-                out = {}
-                for q in res:
-                    sym = (q.get("symbol") or "").upper()
-                    prev = q.get("regularMarketPreviousClose")
-                    last = q.get("regularMarketPrice")
-                    chg_pct = q.get("regularMarketChangePercent")
-                    if last is None or prev is None:
-                        continue
-                    out[sym] = {
-                        "symbol": sym,
-                        "price": round(float(last), 2),
-                        "prev_close": round(float(prev), 2),
-                        "change": round(float(last) - float(prev), 2),
-                        "change_pct": round(float(chg_pct), 2) if chg_pct is not None else None,
-                        "currency": q.get("currency", "USD"),
-                        "name": q.get("shortName") or sym,
-                        "market_cap": q.get("marketCap"),
-                        "market_time": int(q.get("regularMarketTime", 0)),
-                    }
-                if out:
-                    return out
-        except Exception as e:  # noqa
-            common.log.warning("Yahoo quote(%s) 失败: %s", host, e)
-    # 兜底：chart 端点（批量 quote 被限流时仍可能可用）
-    common.log.warning("批量 quote 接口失败，尝试 chart 端点兜底")
-    return _fetch_yahoo_chart(symbols)
-
-
-def _strip_html(s: str) -> str:
-    s = re.sub(r"<[^>]+>", "", s or "")
-    s = re.sub(r"\s+", " ", s).strip()
-    return s
-
-
-def _news_google(query: str, trade_date: datetime.date, limit: int = 6) -> list:
-    """Google News RSS 取个股/公司新闻，过滤到最新美股交易日（含盘后）。"""
-    url = ("https://news.google.com/rss/search?q="
-           + urllib.parse.quote(query) + "&hl=en-US&gl=US&ceid=US:en")
+    """用 yfinance 批量取行情，自动处理 Yahoo cookie/crumb，云端不被 429 封。"""
     try:
-        req = urllib.request.Request(url, headers={"User-Agent": common.UA})
-        with urllib.request.urlopen(req, timeout=15) as r:
-            xml = r.read().decode("utf-8", "ignore")
-    except Exception as e:  # noqa
-        common.log.warning("Google News(%s) 获取失败: %s", query, e)
-        return []
-    try:
-        root = ET.fromstring(xml)
-    except Exception as e:  # noqa
-        common.log.warning("Google News(%s) XML 解析失败: %s", query, e)
-        return []
-    out = []
-    for it in root.findall(".//item"):
-        title = (it.findtext("title") or "").strip()
-        link = (it.findtext("link") or "").strip()
-        pub = it.findtext("pubDate")
-        desc = _strip_html(it.findtext("description") or "")
-        dt = None
-        if pub:
+        tickers = yf.Tickers(" ".join(symbols))
+        out: dict = {}
+        for sym in symbols:
             try:
-                dt = email.utils.parsedate_to_datetime(pub)
-                if dt.tzinfo is None:
-                    dt = dt.replace(tzinfo=timezone.utc)
-                dt = dt.astimezone(_ET)
-            except Exception:
-                dt = None
-        out.append({
-            "title": title,
-            "link": link,
-            "published": pub,
-            "published_cn": dt.strftime("%Y-%m-%d %H:%M") if dt else "",
-            "et_date": dt.date().isoformat() if dt else "",
-            "summary": desc[:160],
-        })
-    # 只保留交易日当天及以后（含盘后），按时间倒序
-    recent = [n for n in out if n["et_date"] and n["et_date"] >= trade_date.isoformat()]
-    if len(recent) < 3:
-        recent = sorted(out, key=lambda x: x["published"] or "", reverse=True)[:limit]
-    seen = set()
-    uniq = []
-    for n in recent:
-        if n["title"] in seen:
-            continue
-        seen.add(n["title"])
-        uniq.append(n)
-        if len(uniq) >= limit:
-            break
-    return uniq
+                t = tickers.tickers[sym.upper()]
+                info = t.fast_info
+                last = getattr(info, "last_price", None)
+                prev = getattr(info, "previous_close", None)
+                if last is None or prev is None:
+                    continue
+                chg = last - prev
+                pct = chg / prev * 100 if prev else 0
+                out[sym.upper()] = {
+                    "symbol": sym.upper(),
+                    "price": round(float(last), 2),
+                    "prev_close": round(float(prev), 2),
+                    "change": round(float(chg), 2),
+                    "change_pct": round(float(pct), 2),
+                    "currency": getattr(info, "currency", "USD"),
+                    "name": sym.upper(),
+                    "market_cap": getattr(info, "market_cap", None),
+                    "market_time": int(time.time()),
+                }
+            except Exception as e:
+                common.log.warning("yfinance(%s) 失败: %s", sym, e)
+        return out or None
+    except Exception as e:
+        common.log.warning("yfinance 批量请求失败: %s", e)
+        return None
+
+
+def _news_yfinance(symbol: str, limit: int = 6) -> list:
+    """用 yfinance 取个股新闻，内置，无需额外 API key。"""
+    try:
+        t = yf.Ticker(symbol)
+        items = t.news or []
+        out = []
+        for item in items[:limit]:
+            content = item.get("content") or {}
+            title = content.get("title") or item.get("title") or ""
+            link = (content.get("canonicalUrl") or {}).get("url") or item.get("link") or ""
+            pub = content.get("pubDate") or item.get("providerPublishTime") or ""
+            summary = re.sub(r"<[^>]+>", "", content.get("summary") or "")[:160]
+            out.append({
+                "title": title,
+                "link": link,
+                "published": str(pub),
+                "published_cn": pub[:16] if isinstance(pub, str) else "",
+                "summary": summary,
+            })
+        return out
+    except Exception as e:
+        common.log.warning("yfinance news(%s) 失败: %s", symbol, e)
+        return []
 
 
 def get_us_stocks(cfg: dict, data_date=None) -> dict:
@@ -221,11 +123,6 @@ def get_us_stocks(cfg: dict, data_date=None) -> dict:
     all_syms = sector_syms + stock_syms
 
     quotes = _fetch_yahoo_quotes(all_syms)
-    if not quotes:
-        # Yahoo 临时限流(429)通常会在一两分钟内恢复，睡眠后重试一次
-        common.log.warning("美股行情首次获取失败，45s 后重试一次...")
-        time.sleep(45)
-        quotes = _fetch_yahoo_quotes(all_syms)
     result["quotes_ok"] = bool(quotes)
 
     # —— 板块 ——
@@ -285,7 +182,7 @@ def get_us_stocks(cfg: dict, data_date=None) -> dict:
     news = {}
     for t in tracked:
         sym = t["symbol"].upper()
-        news[sym] = _news_google(t.get("news_query", f"{sym} stock"), trade_dt.date())
+        news[sym] = _news_yfinance(sym)
     result["news"] = news
 
     result["ok"] = bool(stocks) or any(news.values())
