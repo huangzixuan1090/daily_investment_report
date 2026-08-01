@@ -1,10 +1,6 @@
 name: 每日市场报告
 
 on:
-  # 每天 06:45 UTC（北京时间 14:45）执行
-  schedule:
-    - cron: '45 6 * * *'
-  # 允许手动触发
   workflow_dispatch:
 
 jobs:
