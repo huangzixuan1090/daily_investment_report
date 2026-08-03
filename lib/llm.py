@@ -523,36 +523,6 @@ def _us_news_fallback(us: dict) -> str:
     return "\n".join(lines)
 
 
-def summarize_wechat(cfg: dict, entry: dict) -> Optional[str]:
-    """根据公众号近期文章标题+摘要，提炼中文观点总结。"""
-    arts = entry.get("articles", [])
-    if not arts:
-        return None
-    lines = []
-    for a in arts[:15]:  # 从8条提升到15条
-        d = a.get("date", "")
-        t = a.get("title", "")
-        sn = (a.get("snippet") or "").strip()
-        line = f"[{d}] {t}"
-        if sn:
-            line += f"\n    摘要：{sn}"
-        lines.append(line)
-    corpus = "\n\n".join(lines)
-    name = entry.get("name", "")
-    system = ("你是资深金融市场研究员，熟悉宏观、大宗商品、权益与固收。下列是微信公众号「{name}」"
-              "在近期发布的文章标题与摘要（中文）。请输出一段详尽的中文观点总结，要求：\n"
-              "1) 先一句话点明该号近期总体关注主题与立场倾向（例如：聚焦全球宏观与大类资产配置、"
-              "偏谨慎/偏积极等）——必须写出态度；\n"
-              "2) 按主题分 3-6 条（每条以 '- ' 开头）：每条先写该号的具体观点/关注点，"
-              "再用『态度：看多/看空/观望/中性』标注其倾向与依据；\n"
-              "3) 保留关键代码、人名、公司与关键数字；严禁编造文中没有的数据或观点；\n"
-              "4) 若涉及操作含义（止盈、建仓、风险提示），明确点出。\n请使用中文。").format(name=name)
-    user = (f"公众号：{name}\n\n近期文章：\n{corpus}\n\n"
-            f"请输出该号的观点总结（先总体立场，再分主题要点含态度标注）：")
-    return _chat(cfg, system, user, num_predict=1200, temperature=0.3,
-                 task="summarize_wechat")
-
-
 def fill_llm_texts(cfg: dict, bundle: dict) -> dict:
     """并发补齐所有 LLM 摘要（博主/总评/美股/公众号）；本地+API 均不可用时跳过。"""
     import concurrent.futures as cf
@@ -576,11 +546,6 @@ def fill_llm_texts(cfg: dict, bundle: dict) -> dict:
     if us.get("ok") and not us.get("us_summary"):
         pending.append(("us_summary", us, "us_summary",
                         lambda: summarize_us(cfg, bundle)))
-
-    for acct in bundle.get("wechat", {}).get("accounts", []):
-        if not acct.get("summary") and acct.get("articles"):
-            pending.append((f"公众号_{acct.get('name')}", acct, "summary",
-                            lambda a=acct: summarize_wechat(cfg, a)))
 
     if not pending:
         return bundle

@@ -13,7 +13,7 @@ import sys
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
-from lib import common, futures, sectors, bloggers, render, mail, llm, etf, global_markets, us_stocks, wechat
+from lib import common, futures, sectors, bloggers, render, mail, llm, etf, global_markets, us_stocks
 
 TZ_CN = timezone(timedelta(hours=8))
 
@@ -84,13 +84,11 @@ def fetch_bundle(cfg: dict, reuse_cache: bool = False) -> dict:
         f_gm   = pool.submit(lambda: get_section("global_markets", lambda: global_markets.get_global_markets(cfg, data_date=data_date)))
         f_us   = pool.submit(lambda: get_section("us_stocks", lambda: us_stocks.get_us_stocks(cfg, data_date=data_date)))
         f_blog = pool.submit(lambda: get_section("bloggers", lambda: bloggers.get_bloggers(cfg, data_date=data_date)))
-        f_wc   = pool.submit(lambda: get_section("wechat", lambda: wechat.get_wechat_articles(cfg, data_date=data_date)))
         bundle["sectors"]       = f_sec.result()
         bundle["etf"]           = f_etf.result()
         bundle["global_markets"]= f_gm.result()
         bundle["us_stocks"]     = f_us.result()
         bundle["bloggers"]      = f_blog.result()
-        bundle["wechat"]        = f_wc.result()
 
     # 本地 Ollama 生成博主总结 + 市场总评 + 美股概览（不消耗云端 token；不可用时回退）
     llm.fill_llm_texts(cfg, bundle)

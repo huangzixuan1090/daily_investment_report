@@ -528,57 +528,6 @@ def blogger_section(b):
     return h
 
 
-def wechat_section(wh):
-    if not wh or not wh.get("ok"):
-        err = (wh or {}).get("error")
-        return (f"<div class='note'>⚠️ 公众号文章监控获取失败（{_esc(err or '未知错误')}），已跳过本模块。"
-                f"数据源：Bing 搜索 / Sogou 微信搜索（公众号无公开免费 API，受反爬限制时可能暂不可用）。</div>")
-    accs = wh.get("accounts", [])
-    if not accs:
-        return '<div class="note">未配置监控的公众号。</div>'
-    h = []
-    for acct in accs:
-        tdate = acct.get("target_date", "")
-        src = acct.get("source", "sogou")
-        src_label = "Sogou 微信搜索（带会话）" if src == "sogou_session" else "Sogou 微信搜索"
-        h.append(f"<h3>公众号 · {_esc(acct.get('name', ''))}</h3>")
-        arts = acct.get("articles", [])
-        if acct.get("indirect") and arts:
-            h.append(f'<div class="note">⚠️ 以下为 {src_label} 以该账号名为关键词检索到的当日相关文章，'
-                     f'未能精确定位该账号自身的文章列表（受搜索排名/反爬限制），仅供参考。</div>')
-        if acct.get("error"):
-            h.append(f'<div class="note">⚠️ {_esc(acct["error"])}</div>')
-            continue
-        if acct.get("summary"):
-            h.append(f'<div class="card"><b>观点总结：</b>'
-                     f'<div style="margin-top:6px;white-space:pre-wrap">{_esc(acct["summary"])}</div></div>')
-        elif not arts:
-            _d = f"（{_esc(tdate)}）" if tdate else ""
-            h.append(f'<div class="note">前一天{_d}无该公众号发布的文章。</div>')
-        if arts:
-            tdates = acct.get("target_dates") or ([tdate] if tdate else [])
-            window_str = "、".join(_esc(d) for d in tdates) if tdates else ""
-            _d = f"（目标日期窗口 {window_str}）" if window_str else ""
-            h.append(f"<div class='note'>{_d}文章（标题 + 摘要，来源 {src_label}）：</div>")
-            h.append("<ul style='margin:6px 0 10px 18px;padding:0'>")
-            for a in arts:
-                d = a.get("date", "")
-                sn = a.get("snippet", "")
-                in_window = a.get("in_window", True)
-                date_note = ""
-                if d and not in_window:
-                    date_note = f" <span class='muted'>({_esc(d)} · 窗口外回退)</span>"
-                elif d:
-                    date_note = f" <span class='muted'>({_esc(d)})</span>"
-                item = f"<li><b>{_esc(a.get('title', ''))}</b>{date_note}"
-                if sn:
-                    item += f"<br><span class='muted'>{_esc(sn)}</span>"
-                item += "</li>"
-                h.append(item)
-            h.append("</ul>")
-    return "\n".join(h)
-
-
 def _esc(s: str) -> str:
     return (str(s).replace("&", "&amp;").replace("<", "&lt;")
             .replace(">", "&gt;"))
@@ -789,7 +738,6 @@ def render_report(bundle: dict) -> str:
     etf = bundle.get("etf")
     gm = bundle.get("global_markets", {})
     us = bundle.get("us_stocks", {})
-    wh = bundle.get("wechat", {})
 
     data_date = bundle.get("data_date") or fut.get("date") or ""
     data_weekday = bundle.get("data_weekday") or ""
@@ -875,10 +823,6 @@ def render_report(bundle: dict) -> str:
     for b in blg_list:
         parts.append(blogger_section(b))
 
-    # 公众号文章监控
-    parts.append(f"<h2>⑦ 公众号观点监控</h2>")
-    parts.append(wechat_section(wh))
-
     # 美股板块涨跌
     parts.append(f"<h2>⑧ 美股板块涨跌分析</h2>")
     parts.append(us_stocks_section(us))
@@ -888,7 +832,7 @@ def render_report(bundle: dict) -> str:
         f"<div class='ft'>行情数据日期：{dstr}（{data_label}）。本报告由每日市场Agent自动生成。"
         "期货资金流入为估算口径；期货缠论由本地大模型分析；板块数据来自东方财富/新浪，"
         "债券收益率来自 akshare、主要货币对来自新浪外汇，"
-        "博主内容来自X公开推文，公众号文章来自 Sogou 微信搜索，美股行情来自 yfinance。仅供研究参考，不构成投资建议。</div>")
+        "博主内容来自X公开推文，美股行情来自 yfinance。仅供研究参考，不构成投资建议。</div>")
     parts.append("</div></body></html>")
     return "\n".join(parts)
 
