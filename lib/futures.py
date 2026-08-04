@@ -379,8 +379,8 @@ def get_futures_overview(cfg: dict) -> dict:
     ok = [r for r in rows if "error" not in r]
     by_change = sorted(ok, key=lambda x: x["change_pct"], reverse=True)
     by_inflow = sorted(ok, key=lambda x: x["inflow"], reverse=True)
-    by_volatility = sorted([r for r in ok if (r.get("vol_5d") or 0) > 0],
-                           key=lambda x: x["vol_5d"], reverse=True)
+    by_volatility = sorted([r for r in ok if (r.get("vol_daily") or 0) > 0],
+                           key=lambda x: x["vol_daily"], reverse=True)
     opp = sorted([r for r in ok if r.get("chan", {}).get("score", 0) > 0],
                  key=lambda x: x["chan"]["score"], reverse=True)
     latest_date = max((r["date"] for r in ok), default="")
@@ -412,7 +412,7 @@ if __name__ == "__main__":
         "date": r["date"], "ok": r["count_ok"], "total": r["count_total"],
         "top_change": [(x["name"], x["change_pct"]) for x in r["by_change"][:5]],
         "top_inflow": [(x["name"], round(x["inflow"]/1e8, 2)) for x in r["by_inflow"][:5]],
-        "top_volatility": [(x["name"], x["vol_5d"]) for x in r["by_volatility"][:5]],
+        "top_volatility": [(x["name"], x["vol_daily"]) for x in r["by_volatility"][:5]],
         "opps": [(x["name"], x["chan"].get("point"), x["chan"].get("score"))
                  for x in r["opportunities"][:8]],
     }, ensure_ascii=False, indent=2))
