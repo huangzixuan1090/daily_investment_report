@@ -1,0 +1,563 @@
+{
+  "_说明": "每日市场报告配置。Twitter 的 auth_token / ct0 需你登录 X 后从浏览器 Cookie 填入；agently-cli 授权在命令行执行 `agently-cli auth login` 完成。合约乘数(mult)用于估算资金流入=持仓量变化×价格×乘数。",
+  "recipients": [
+    "recipient1@example.com",
+    "recipient2@example.com"
+  ],
+  "llm": {
+    "_说明": "混合推理：英文理解/指令遵循要求高的任务(博主/公众号/美股)→ Claude API；模板化任务(市场总评/缠论解读)→ 本地Ollama。API不可用时自动降级到本地。",
+    "enabled": true,
+    "provider": "ollama",
+    "base_url": "http://localhost:11434",
+    "model": "qwen2.5:7b",
+    "api": {
+      "_说明": "Claude API。api_key填入sk-ant-...；enabled=false则只用本地。",
+      "enabled": true,
+      "model": "claude-haiku-4-5-20251001",
+      "api_key": "sk-ant-YOUR_API_KEY_HERE",
+      "base_url": "https://api.anthropic.com"
+    },
+    "task_routing": {
+      "_说明": "api=调Claude API，local=用本地Ollama",
+      "summarize_blogger": "api",
+      "summarize_wechat": "api",
+      "summarize_us": "api",
+      "summarize_market": "local",
+      "interpret_chan_signal": "local",
+      "analyze_chan_with_llm": "local"
+    }
+  },
+  "bloggers": [
+    {
+      "name": "Serenity",
+      "handle": "aleabitoreddit"
+    },
+    {
+      "name": "Ariston Wang",
+      "handle": "Ariston_Macro"
+    },
+    {
+      "name": "Michael Burry",
+      "handle": "michaeljburry"
+    }
+  ],
+  "twitter": {
+    "auth_token": "YOUR_TWITTER_AUTH_TOKEN",
+    "ct0": "YOUR_TWITTER_CT0",
+    "max_posts": 40,
+    "lookback_days": 1
+  },
+  "futures": {
+    "top_n": 12,
+    "chan_history_bars": 260,
+    "chan_timeframe": "30",
+    "chan_bars": 40,
+    "chan_concurrency": 2,
+    "chan_levels": {
+      "30m": {
+        "period": "30",
+        "bars": 40
+      },
+      "1h": {
+        "period": "60",
+        "bars": 40
+      },
+      "daily": {
+        "bars": 90
+      },
+      "weekly": {
+        "bars": 40
+      },
+      "monthly": {
+        "bars": 18
+      }
+    },
+    "products": [
+      {
+        "code": "rb",
+        "name": "螺纹钢",
+        "mult": 10
+      },
+      {
+        "code": "hc",
+        "name": "热轧卷板",
+        "mult": 10
+      },
+      {
+        "code": "i",
+        "name": "铁矿石",
+        "mult": 100
+      },
+      {
+        "code": "j",
+        "name": "焦炭",
+        "mult": 100
+      },
+      {
+        "code": "jm",
+        "name": "焦煤",
+        "mult": 60
+      },
+      {
+        "code": "fu",
+        "name": "燃油",
+        "mult": 10
+      },
+      {
+        "code": "bu",
+        "name": "沥青",
+        "mult": 10
+      },
+      {
+        "code": "ru",
+        "name": "橡胶",
+        "mult": 10
+      },
+      {
+        "code": "nr",
+        "name": "20号胶",
+        "mult": 10
+      },
+      {
+        "code": "ss",
+        "name": "不锈钢",
+        "mult": 5
+      },
+      {
+        "code": "sn",
+        "name": "锡",
+        "mult": 1
+      },
+      {
+        "code": "cu",
+        "name": "铜",
+        "mult": 5
+      },
+      {
+        "code": "al",
+        "name": "铝",
+        "mult": 5
+      },
+      {
+        "code": "zn",
+        "name": "锌",
+        "mult": 5
+      },
+      {
+        "code": "pb",
+        "name": "铅",
+        "mult": 5
+      },
+      {
+        "code": "ni",
+        "name": "镍",
+        "mult": 1
+      },
+      {
+        "code": "ao",
+        "name": "氧化铝",
+        "mult": 20
+      },
+      {
+        "code": "ag",
+        "name": "白银",
+        "mult": 15
+      },
+      {
+        "code": "au",
+        "name": "黄金",
+        "mult": 1000
+      },
+      {
+        "code": "sp",
+        "name": "纸浆",
+        "mult": 10
+      },
+      {
+        "code": "bc",
+        "name": "国际铜",
+        "mult": 5
+      },
+      {
+        "code": "lu",
+        "name": "低硫燃油",
+        "mult": 10
+      },
+      {
+        "code": "sc",
+        "name": "原油",
+        "mult": 1000
+      },
+      {
+        "code": "c",
+        "name": "玉米",
+        "mult": 10
+      },
+      {
+        "code": "cs",
+        "name": "淀粉",
+        "mult": 10
+      },
+      {
+        "code": "a",
+        "name": "豆一",
+        "mult": 10
+      },
+      {
+        "code": "m",
+        "name": "豆粕",
+        "mult": 10
+      },
+      {
+        "code": "y",
+        "name": "豆油",
+        "mult": 10
+      },
+      {
+        "code": "p",
+        "name": "棕榈油",
+        "mult": 10
+      },
+      {
+        "code": "rm",
+        "name": "菜粕",
+        "mult": 10
+      },
+      {
+        "code": "oi",
+        "name": "菜油",
+        "mult": 10
+      },
+      {
+        "code": "l",
+        "name": "塑料",
+        "mult": 5
+      },
+      {
+        "code": "v",
+        "name": "PVC",
+        "mult": 5
+      },
+      {
+        "code": "pp",
+        "name": "聚丙烯",
+        "mult": 5
+      },
+      {
+        "code": "eb",
+        "name": "苯乙烯",
+        "mult": 5
+      },
+      {
+        "code": "eg",
+        "name": "乙二醇",
+        "mult": 10
+      },
+      {
+        "code": "pg",
+        "name": "LPG",
+        "mult": 20
+      },
+      {
+        "code": "ta",
+        "name": "PTA",
+        "mult": 5
+      },
+      {
+        "code": "ma",
+        "name": "甲醇",
+        "mult": 10
+      },
+      {
+        "code": "sa",
+        "name": "纯碱",
+        "mult": 20
+      },
+      {
+        "code": "fg",
+        "name": "玻璃",
+        "mult": 20
+      },
+      {
+        "code": "sr",
+        "name": "白糖",
+        "mult": 10
+      },
+      {
+        "code": "cf",
+        "name": "棉花",
+        "mult": 5
+      },
+      {
+        "code": "ap",
+        "name": "苹果",
+        "mult": 10
+      },
+      {
+        "code": "cj",
+        "name": "红枣",
+        "mult": 5
+      },
+      {
+        "code": "sf",
+        "name": "硅铁",
+        "mult": 5
+      },
+      {
+        "code": "sm",
+        "name": "锰硅",
+        "mult": 5
+      },
+      {
+        "code": "ur",
+        "name": "尿素",
+        "mult": 20
+      },
+      {
+        "code": "pk",
+        "name": "花生",
+        "mult": 5
+      },
+      {
+        "code": "if",
+        "name": "沪深300",
+        "mult": 300
+      },
+      {
+        "code": "ic",
+        "name": "中证500",
+        "mult": 200
+      },
+      {
+        "code": "ih",
+        "name": "上证50",
+        "mult": 300
+      },
+      {
+        "code": "im",
+        "name": "中证1000",
+        "mult": 200
+      },
+      {
+        "code": "si",
+        "name": "工业硅",
+        "mult": 5
+      },
+      {
+        "code": "lc",
+        "name": "碳酸锂",
+        "mult": 1
+      }
+    ]
+  },
+  "sectors": {
+    "top_n": 15,
+    "boards": [
+      {
+        "key": "industry",
+        "name": "行业板块",
+        "fs": "m:90 t:2"
+      }
+    ]
+  },
+  "etf": {
+    "_说明": "ETF 表现（涨跌幅 + 主力资金流入/流出）。数据源：东方财富 ETF 排行(b:MK0021,b:MK0022，覆盖沪深全市场 ETF)。与板块同口径，标注为报告统一数据日期。",
+    "top_n": 15
+  },
+  "us_stocks": {
+    "_说明": "美股追踪。tracked 为个股权标（symbol 用 Yahoo 代码）；板块用 11 个 GICS 行业 SPDR ETF 代理，见 lib/us_stocks.py。",
+    "tracked": [
+      {
+        "symbol": "MSFT",
+        "name": "微软",
+        "news_query": "Microsoft stock"
+      },
+      {
+        "symbol": "NVDA",
+        "name": "英伟达",
+        "news_query": "NVIDIA stock"
+      },
+      {
+        "symbol": "BABA",
+        "name": "阿里巴巴",
+        "news_query": "Alibaba stock"
+      }
+    ]
+  },
+  "wechat": {
+    "_说明": "公众号文章总结监控。accounts 为要监控的公众号；每项可以是字符串（账号名），也可以是对象 {name, aliases, manual_articles}，其中 aliases 为 Sogou 中可能出现的其他发文名/微信号，manual_articles 为用户手动粘贴的文章（用于兜底 Sogou 索引延迟/遗漏；每篇含 title/date/url/snippet）。max_articles 为每个号抓取的最近文章数；lookback_days 为日期回退窗口。数据经 Sogou 微信搜索（带会话）获取，总结基于文章标题+摘要由本地 Ollama 生成。",
+    "accounts": [
+      {
+        "name": "地平线全球策略",
+        "aliases": [
+          "Mundell的分享圈",
+          "Mundell"
+        ],
+        "manual_articles": []
+      },
+      "行知交易员"
+    ],
+    "max_articles": 6,
+    "lookback_days": 3
+  },
+  "ibkr": {
+    "_说明": "实盘持仓接入。enabled=true 时，每日报告会用 trading_bot/.venv 的 ib_insync 以只读方式连本机 TWS 实盘(默认7496)，拉真实持仓+行情快照(昨收价)+持仓股昨日新闻(本地Ollama中文总结)。需 TWS/Gateway 实盘常开且启用 API 连接；绝不调用下单接口。",
+    "enabled": true,
+    "port": 7496,
+    "client_id": 123,
+    "venv_python": "/path/to/your/trading_bot/.venv/bin/python",
+    "holdings_meta": {
+      "NVDA": {
+        "name_cn": "英伟达",
+        "name_en": "NVIDIA",
+        "news_query": "NVDA NVIDIA stock"
+      },
+      "MSFT": {
+        "name_cn": "微软",
+        "name_en": "Microsoft",
+        "news_query": "MSFT Microsoft stock"
+      },
+      "BABA": {
+        "name_cn": "阿里巴巴",
+        "name_en": "Alibaba",
+        "news_query": "BABA Alibaba stock"
+      },
+      "9606": {
+        "name_cn": "Duality Bio",
+        "name_en": "Duality Bio",
+        "news_query": "Duality Bio 9606.HK stock"
+      }
+    }
+  },
+  "chanlun_a": {
+    "_说明": "缠论日线 A股机会筛选。stocks 为监控的 A股代码列表（6位代码，自动识别沪/深）；signal 为筛选方向(buy=仅买点机会/sell=仅卖点/both=都列)；top_n 为展示数量；lookback_bars 为取最近多少根日线(用于缠论判定，需≥40)；adjust 复权方式(qfq)。数据源 akshare 新浪日线(stock_zh_a_daily)，判定由标准缠论引擎(lib/chan)做确定性买卖点识别，不依赖大模型。要换监控池只改 stocks 即可。",
+    "enabled": true,
+    "top_n": 25,
+    "lookback_bars": 260,
+    "adjust": "qfq",
+    "signal": "both",
+    "stocks": [
+      {
+        "code": "600519",
+        "name": "贵州茅台"
+      },
+      {
+        "code": "601318",
+        "name": "中国平安"
+      },
+      {
+        "code": "600036",
+        "name": "招商银行"
+      },
+      {
+        "code": "600276",
+        "name": "恒瑞医药"
+      },
+      {
+        "code": "600900",
+        "name": "长江电力"
+      },
+      {
+        "code": "601899",
+        "name": "紫金矿业"
+      },
+      {
+        "code": "600030",
+        "name": "中信证券"
+      },
+      {
+        "code": "600887",
+        "name": "伊利股份"
+      },
+      {
+        "code": "601012",
+        "name": "隆基绿能"
+      },
+      {
+        "code": "600009",
+        "name": "上海机场"
+      },
+      {
+        "code": "600585",
+        "name": "海螺水泥"
+      },
+      {
+        "code": "601166",
+        "name": "兴业银行"
+      },
+      {
+        "code": "600048",
+        "name": "保利发展"
+      },
+      {
+        "code": "601888",
+        "name": "中国中免"
+      },
+      {
+        "code": "688981",
+        "name": "中芯国际"
+      },
+      {
+        "code": "000858",
+        "name": "五粮液"
+      },
+      {
+        "code": "000333",
+        "name": "美的集团"
+      },
+      {
+        "code": "000651",
+        "name": "格力电器"
+      },
+      {
+        "code": "300750",
+        "name": "宁德时代"
+      },
+      {
+        "code": "002594",
+        "name": "比亚迪"
+      },
+      {
+        "code": "000001",
+        "name": "平安银行"
+      },
+      {
+        "code": "000725",
+        "name": "京东方A"
+      },
+      {
+        "code": "002415",
+        "name": "海康威视"
+      },
+      {
+        "code": "000002",
+        "name": "万科A"
+      },
+      {
+        "code": "300059",
+        "name": "东方财富"
+      },
+      {
+        "code": "002714",
+        "name": "牧原股份"
+      },
+      {
+        "code": "300760",
+        "name": "迈瑞医疗"
+      }
+    ]
+  },
+  "mail": {
+    "_说明": "邮件发送配置。type='smtp'为云端推荐（无token过期），type='agently'为本地兼容。",
+    "type": "smtp",
+    "smtp_host": "smtp.gmail.com",
+    "smtp_port": 465,
+    "smtp_user": "your@gmail.com",
+    "smtp_password": "your_app_password",
+    "from_addr": "your@email.com"
+  },
+  "paths": {
+    "output_dir": "reports",
+    "cache_dir": "cache"
+  }
+}

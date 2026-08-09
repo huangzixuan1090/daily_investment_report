@@ -1,41 +1,0 @@
-00:37:25 [INFO] === 抓取期货 ===
-00:37:25 [INFO] 复用缓存 futures_20260721.json
-00:37:25 [INFO] 数据日期 = 2026-07-20 (周一, 前一交易日)
-00:37:25 [INFO] === 抓取板块 ===
-00:37:25 [INFO] 复用缓存 sectors_20260721.json
-00:37:25 [INFO] === 抓取ETF ===
-00:37:25 [INFO] 复用缓存 etf_20260721.json
-00:37:25 [INFO] === 抓取全球债券与货币市场 ===
-  0%|          | 0/19 [00:00<?, ?it/s]  5%|▌         | 1/19 [00:00<00:03,  4.61it/s] 11%|█         | 2/19 [00:01<00:13,  1.27it/s] 16%|█▌        | 3/19 [00:01<00:08,  1.93it/s] 21%|██        | 4/19 [00:01<00:06,  2.21it/s] 26%|██▋       | 5/19 [00:02<00:05,  2.76it/s] 32%|███▏      | 6/19 [00:02<00:03,  3.27it/s] 37%|███▋      | 7/19 [00:02<00:03,  3.70it/s] 42%|████▏     | 8/19 [00:02<00:02,  4.03it/s] 47%|████▋     | 9/19 [00:02<00:02,  4.24it/s] 53%|█████▎    | 10/19 [00:03<00:02,  4.31it/s] 58%|█████▊    | 11/19 [00:03<00:01,  4.39it/s] 63%|██████▎   | 12/19 [00:03<00:01,  4.34it/s] 68%|██████▊   | 13/19 [00:03<00:01,  4.10it/s] 74%|███████▎  | 14/19 [00:04<00:01,  4.30it/s] 79%|███████▉  | 15/19 [00:04<00:00,  4.52it/s] 84%|████████▍ | 16/19 [00:04<00:00,  4.66it/s] 89%|████████▉ | 17/19 [00:04<00:00,  4.09it/s] 95%|█████████▍| 18/19 [00:05<00:00,  4.36it/s]                                               00:37:32 [WARNING] 美元指数获取失败: HTTP Error 429: Too Many Requests
-00:37:32 [INFO] === 抓取美股 ===
-00:37:33 [WARNING] Yahoo quote(query1.finance.yahoo.com) 失败: HTTP Error 429: Too Many Requests
-00:37:34 [WARNING] Yahoo quote(query2.finance.yahoo.com) 失败: HTTP Error 429: Too Many Requests
-00:37:34 [WARNING] 批量 quote 接口失败，尝试 chart 端点兜底
-00:37:34 [WARNING] Yahoo chart(XLK) 失败: HTTP Error 429: Too Many Requests
-00:37:35 [WARNING] Yahoo chart(XLV) 失败: HTTP Error 429: Too Many Requests
-00:37:36 [WARNING] Yahoo chart(XLI) 失败: HTTP Error 429: Too Many Requests
-00:37:36 [WARNING] Yahoo chart(XLY) 失败: HTTP Error 429: Too Many Requests
-00:37:37 [WARNING] Yahoo chart(XLP) 失败: HTTP Error 429: Too Many Requests
-00:37:37 [WARNING] Yahoo chart(XLE) 失败: HTTP Error 429: Too Many Requests
-00:37:38 [WARNING] Yahoo chart(XLF) 失败: HTTP Error 429: Too Many Requests
-00:37:38 [WARNING] Yahoo chart(XLU) 失败: HTTP Error 429: Too Many Requests
-00:37:39 [WARNING] Yahoo chart(XLRE) 失败: HTTP Error 429: Too Many Requests
-00:37:39 [WARNING] Yahoo chart(XLC) 失败: HTTP Error 429: Too Many Requests
-00:37:40 [WARNING] Yahoo chart(MSFT) 失败: HTTP Error 429: Too Many Requests
-00:37:41 [WARNING] Yahoo chart(NVDA) 失败: HTTP Error 429: Too Many Requests
-00:37:41 [WARNING] Yahoo chart(BABA) 失败: HTTP Error 429: Too Many Requests
-00:37:44 [INFO] === 抓取博主 ===
-00:37:44 [INFO] 复用缓存 bloggers_20260721.json
-00:37:44 [INFO] === 抓取公众号文章监控 ===
-00:37:45 [INFO] 公众号 地平线全球策略 抓取 0 篇 (前一天 2026-07-20, indirect=True)
-00:37:48 [INFO] 公众号 行知交易员 抓取 0 篇 (前一天 2026-07-20, indirect=True)
-00:37:50 [INFO] === 抓取我的持仓(IBKR 实盘) ===
-00:37:50 [INFO] 调用 ibkr_collect（trading_bot venv）抓取实盘持仓 ...
-00:46:27 [INFO] Ollama 已生成市场总评
-00:46:59 [INFO] Ollama 已生成美股概览
-00:46:59 [INFO] === 渲染HTML ===
-00:46:59 [INFO] 已保存: /Users/michaelhuang/Workbuddy/老婆agent/reports/daily_report_20260721.html
-00:46:59 [INFO] --no-send，跳过发送
-
-报告: /Users/michaelhuang/Workbuddy/老婆agent/reports/daily_report_20260721.html
-数据: /Users/michaelhuang/Workbuddy/老婆agent/reports/bundle_20260721.json

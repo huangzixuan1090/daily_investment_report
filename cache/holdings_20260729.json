@@ -1,8 +1,0 @@
-{
-  "ok": false,
-  "error": "IBKR 连接/持仓获取失败: [Errno 61] Connect call failed ('127.0.0.1', 7496)",
-  "as_of": "2026-07-29",
-  "generated_at": "",
-  "holdings": [],
-  "sectors": null
-}

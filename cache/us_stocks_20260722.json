@@ -1,8 +1,0 @@
-{
-  "section": "us_stocks",
-  "date": "2026-07-22",
-  "ok": false,
-  "error": "美股板块行情暂不可用：Yahoo Finance 限流(HTTP 429) 且 IBKR/TWS 当前未连接。可在 TWS 开启后重跑获取。",
-  "sectors": [],
-  "sector_source": "unavailable"
-}

@@ -1,188 +1,0 @@
-23:03:28 [INFO] === 抓取期货 ===
-23:03:30 [INFO] 期货 rb(螺纹钢) 30分钟K线 50 根已取
-23:03:30 [INFO] 期货 rb(螺纹钢) 2026-07-20 涨-0.51% OI=1814838 流入=-119088万
-23:03:31 [INFO] 期货 hc(热轧卷板) 30分钟K线 50 根已取
-23:03:31 [INFO] 期货 hc(热轧卷板) 2026-07-20 涨-0.60% OI=1443924 流入=-54595万
-23:03:32 [INFO] 期货 i(铁矿石) 30分钟K线 50 根已取
-23:03:32 [INFO] 期货 i(铁矿石) 2026-07-20 涨-0.52% OI=496515 流入=-121530万
-23:03:33 [INFO] 期货 j(焦炭) 30分钟K线 50 根已取
-23:03:33 [INFO] 期货 j(焦炭) 2026-07-20 涨-1.29% OI=62551 流入=75679万
-23:03:35 [INFO] 期货 jm(焦煤) 30分钟K线 50 根已取
-23:03:35 [INFO] 期货 jm(焦煤) 2026-07-20 涨0.91% OI=407787 流入=-18653万
-23:03:36 [INFO] 期货 fu(燃油) 30分钟K线 50 根已取
-23:03:36 [INFO] 期货 fu(燃油) 2026-07-20 涨5.89% OI=229746 流入=27172万
-23:03:37 [INFO] 期货 bu(沥青) 30分钟K线 50 根已取
-23:03:37 [INFO] 期货 bu(沥青) 2026-07-20 涨4.15% OI=268340 流入=-18988万
-23:03:38 [INFO] 期货 ru(橡胶) 30分钟K线 50 根已取
-23:03:38 [INFO] 期货 ru(橡胶) 2026-07-20 涨1.07% OI=108642 流入=-65324万
-23:03:39 [INFO] 期货 nr(20号胶) 30分钟K线 50 根已取
-23:03:39 [INFO] 期货 nr(20号胶) 2026-07-20 涨0.99% OI=53187 流入=1163万
-23:03:40 [INFO] 期货 ss(不锈钢) 30分钟K线 50 根已取
-23:03:40 [INFO] 期货 ss(不锈钢) 2026-07-20 涨0.20% OI=101214 流入=10254万
-23:03:41 [INFO] 期货 sn(锡) 30分钟K线 50 根已取
-23:03:41 [INFO] 期货 sn(锡) 2026-07-20 涨2.11% OI=31622 流入=-64182万
-23:03:42 [INFO] 期货 cu(铜) 30分钟K线 50 根已取
-23:03:42 [INFO] 期货 cu(铜) 2026-07-20 涨0.41% OI=190685 流入=548115万
-23:03:44 [INFO] 期货 al(铝) 30分钟K线 50 根已取
-23:03:44 [INFO] 期货 al(铝) 2026-07-20 涨-0.78% OI=261373 流入=217790万
-23:03:45 [INFO] 期货 zn(锌) 30分钟K线 50 根已取
-23:03:45 [INFO] 期货 zn(锌) 2026-07-20 涨-0.41% OI=97218 流入=22050万
-23:03:46 [INFO] 期货 pb(铅) 30分钟K线 50 根已取
-23:03:46 [INFO] 期货 pb(铅) 2026-07-20 涨-0.41% OI=114495 流入=1036万
-23:03:47 [INFO] 期货 ni(镍) 30分钟K线 50 根已取
-23:03:47 [INFO] 期货 ni(镍) 2026-07-20 涨0.80% OI=220933 流入=-86371万
-23:03:48 [INFO] 期货 ao(氧化铝) 30分钟K线 50 根已取
-23:03:48 [INFO] 期货 ao(氧化铝) 2026-07-20 涨2.03% OI=331129 流入=-298458万
-23:03:49 [INFO] 期货 ag(白银) 30分钟K线 50 根已取
-23:03:49 [INFO] 期货 ag(白银) 2026-07-20 涨1.54% OI=210628 流入=244212万
-23:03:51 [INFO] 期货 au(黄金) 30分钟K线 50 根已取
-23:03:51 [INFO] 期货 au(黄金) 2026-07-20 涨0.05% OI=117065 流入=307788万
-23:03:53 [INFO] 期货 sp(纸浆) 30分钟K线 50 根已取
-23:03:53 [INFO] 期货 sp(纸浆) 2026-07-20 涨1.99% OI=258546 流入=-80802万
-23:03:54 [INFO] 期货 bc(国际铜) 30分钟K线 50 根已取
-23:03:54 [INFO] 期货 bc(国际铜) 2026-07-20 涨0.45% OI=9716 流入=-16518万
-23:03:55 [INFO] 期货 lu(低硫燃油) 30分钟K线 50 根已取
-23:03:55 [INFO] 期货 lu(低硫燃油) 2026-07-20 涨6.36% OI=82228 流入=34703万
-23:03:56 [INFO] 期货 sc(原油) 30分钟K线 50 根已取
-23:03:56 [INFO] 期货 sc(原油) 2026-07-20 涨7.42% OI=48527 流入=101399万
-23:03:57 [INFO] 期货 c(玉米) 30分钟K线 50 根已取
-23:03:57 [INFO] 期货 c(玉米) 2026-07-20 涨-0.57% OI=981708 流入=3625万
-23:03:58 [INFO] 期货 cs(淀粉) 30分钟K线 50 根已取
-23:03:58 [INFO] 期货 cs(淀粉) 2026-07-20 涨-0.30% OI=220289 流入=-6611万
-23:03:59 [INFO] 期货 a(豆一) 30分钟K线 50 根已取
-23:03:59 [INFO] 期货 a(豆一) 2026-07-20 涨0.34% OI=275385 流入=-41539万
-23:04:00 [INFO] 期货 m(豆粕) 30分钟K线 50 根已取
-23:04:00 [INFO] 期货 m(豆粕) 2026-07-20 涨2.22% OI=2000469 流入=179655万
-23:04:01 [INFO] 期货 y(豆油) 30分钟K线 50 根已取
-23:04:01 [INFO] 期货 y(豆油) 2026-07-20 涨0.75% OI=509318 流入=-148995万
-23:04:02 [INFO] 期货 p(棕榈油) 30分钟K线 50 根已取
-23:04:02 [INFO] 期货 p(棕榈油) 2026-07-20 涨1.70% OI=440227 流入=-310372万
-23:04:04 [INFO] 期货 rm(菜粕) 30分钟K线 50 根已取
-23:04:04 [INFO] 期货 rm(菜粕) 2026-07-20 涨2.06% OI=691041 流入=-40345万
-23:04:05 [INFO] 期货 oi(菜油) 30分钟K线 50 根已取
-23:04:05 [INFO] 期货 oi(菜油) 2026-07-20 涨1.15% OI=351566 流入=51637万
-23:04:06 [INFO] 期货 l(塑料) 30分钟K线 50 根已取
-23:04:06 [INFO] 期货 l(塑料) 2026-07-20 涨4.23% OI=350627 流入=-109231万
-23:04:07 [INFO] 期货 v(PVC) 30分钟K线 50 根已取
-23:04:07 [INFO] 期货 v(PVC) 2026-07-20 涨6.15% OI=1035544 流入=-221982万
-23:04:08 [INFO] 期货 pp(聚丙烯) 30分钟K线 50 根已取
-23:04:08 [INFO] 期货 pp(聚丙烯) 2026-07-20 涨5.20% OI=469323 流入=-102978万
-23:04:10 [INFO] 期货 eb(苯乙烯) 30分钟K线 50 根已取
-23:04:10 [INFO] 期货 eb(苯乙烯) 2026-07-20 涨4.32% OI=181176 流入=238339万
-23:04:11 [INFO] 期货 eg(乙二醇) 30分钟K线 50 根已取
-23:04:11 [INFO] 期货 eg(乙二醇) 2026-07-20 涨3.73% OI=323169 流入=-29098万
-23:04:13 [INFO] 期货 pg(LPG) 30分钟K线 50 根已取
-23:04:13 [INFO] 期货 pg(LPG) 2026-07-20 涨11.31% OI=68231 流入=442610万
-23:04:14 [INFO] 期货 ta(PTA) 30分钟K线 50 根已取
-23:04:14 [INFO] 期货 ta(PTA) 2026-07-20 涨3.51% OI=942801 流入=-2421万
-23:04:16 [INFO] 期货 ma(甲醇) 30分钟K线 50 根已取
-23:04:16 [INFO] 期货 ma(甲醇) 2026-07-20 涨6.54% OI=661579 流入=18773万
-23:04:17 [INFO] 期货 sa(纯碱) 30分钟K线 50 根已取
-23:04:17 [INFO] 期货 sa(纯碱) 2026-07-20 涨-0.10% OI=1412372 流入=-74891万
-23:04:18 [INFO] 期货 fg(玻璃) 30分钟K线 50 根已取
-23:04:18 [INFO] 期货 fg(玻璃) 2026-07-20 涨-1.11% OI=2059684 流入=-61164万
-23:04:20 [INFO] 期货 sr(白糖) 30分钟K线 50 根已取
-23:04:20 [INFO] 期货 sr(白糖) 2026-07-20 涨0.64% OI=736762 流入=-147299万
-23:04:21 [INFO] 期货 cf(棉花) 30分钟K线 50 根已取
-23:04:21 [INFO] 期货 cf(棉花) 2026-07-20 涨1.11% OI=428288 流入=-196785万
-23:04:22 [INFO] 期货 ap(苹果) 30分钟K线 50 根已取
-23:04:22 [INFO] 期货 ap(苹果) 2026-07-20 涨-0.67% OI=104152 流入=5833万
-23:04:23 [INFO] 期货 cj(红枣) 30分钟K线 50 根已取
-23:04:23 [INFO] 期货 cj(红枣) 2026-07-20 涨-0.06% OI=165639 流入=-13318万
-23:04:24 [INFO] 期货 sf(硅铁) 30分钟K线 50 根已取
-23:04:24 [INFO] 期货 sf(硅铁) 2026-07-20 涨-0.03% OI=214222 流入=-5106万
-23:04:25 [INFO] 期货 sm(锰硅) 30分钟K线 50 根已取
-23:04:25 [INFO] 期货 sm(锰硅) 2026-07-20 涨-0.34% OI=437473 流入=-13121万
-23:04:26 [INFO] 期货 ur(尿素) 30分钟K线 50 根已取
-23:04:26 [INFO] 期货 ur(尿素) 2026-07-20 涨1.96% OI=291007 流入=-131762万
-23:04:27 [INFO] 期货 pk(花生) 30分钟K线 50 根已取
-23:04:27 [INFO] 期货 pk(花生) 2026-07-20 涨-0.68% OI=172940 流入=18408万
-23:04:28 [INFO] 期货 if(沪深300) 30分钟K线 50 根已取
-23:04:28 [INFO] 期货 if(沪深300) 2026-07-20 涨1.61% OI=167899 流入=-850292万
-23:04:30 [INFO] 期货 ic(中证500) 30分钟K线 50 根已取
-23:04:30 [INFO] 期货 ic(中证500) 2026-07-20 涨-1.17% OI=204571 流入=159188万
-23:04:31 [INFO] 期货 ih(上证50) 30分钟K线 50 根已取
-23:04:31 [INFO] 期货 ih(上证50) 2026-07-20 涨2.77% OI=77528 流入=102688万
-23:04:32 [INFO] 期货 im(中证1000) 30分钟K线 50 根已取
-23:04:32 [INFO] 期货 im(中证1000) 2026-07-20 涨-3.05% OI=274654 流入=192068万
-23:04:33 [INFO] 期货 si(工业硅) 30分钟K线 50 根已取
-23:04:33 [INFO] 期货 si(工业硅) 2026-07-20 涨-0.60% OI=255859 流入=42500万
-23:04:34 [INFO] 期货 lc(碳酸锂) 30分钟K线 50 根已取
-23:04:34 [INFO] 期货 lc(碳酸锂) 2026-07-20 涨-4.16% OI=379802 流入=-74943万
-23:04:34 [INFO] 调用本地大模型对所有 55 个品种进行缠论分析...
-23:08:39 [INFO] 缠论 LLM 进度 10/55，已发现 0 个机会
-23:12:42 [INFO] 缠论 LLM 进度 20/55，已发现 0 个机会
-23:16:29 [INFO] 缠论 LLM 进度 30/55，已发现 0 个机会
-23:20:45 [INFO] 缠论 LLM 进度 40/55，已发现 2 个机会
-23:25:22 [INFO] 缠论 LLM 进度 50/55，已发现 2 个机会
-23:27:45 [INFO] 缠论 LLM 进度 55/55，已发现 2 个机会
-23:27:45 [INFO] 大模型缠论分析完成，发现 2 个机会
-23:27:45 [INFO] 数据日期 = 2026-07-20 (周一, 当日收盘)
-23:27:45 [INFO] === 抓取板块 ===
-23:27:47 [INFO] 板块 行业板块: 东财成功, 共496
-23:27:47 [INFO] === 抓取ETF ===
-23:27:59 [INFO] ETF: 东财成功 涨幅15 跌幅15 净流入15 净流出15
-23:27:59 [INFO] === 抓取全球债券与货币市场 ===
-  0%|          | 0/19 [00:00<?, ?it/s]  5%|▌         | 1/19 [00:00<00:03,  5.05it/s] 11%|█         | 2/19 [00:00<00:02,  6.16it/s] 16%|█▌        | 3/19 [00:00<00:02,  6.37it/s] 21%|██        | 4/19 [00:00<00:02,  6.06it/s] 26%|██▋       | 5/19 [00:00<00:02,  6.04it/s] 32%|███▏      | 6/19 [00:01<00:02,  4.38it/s] 37%|███▋      | 7/19 [00:01<00:02,  4.90it/s] 42%|████▏     | 8/19 [00:01<00:02,  5.31it/s] 47%|████▋     | 9/19 [00:01<00:01,  5.31it/s] 53%|█████▎    | 10/19 [00:01<00:01,  5.49it/s] 58%|█████▊    | 11/19 [00:02<00:01,  4.15it/s] 63%|██████▎   | 12/19 [00:02<00:01,  4.62it/s] 68%|██████▊   | 13/19 [00:02<00:01,  4.92it/s] 74%|███████▎  | 14/19 [00:02<00:00,  5.35it/s] 79%|███████▉  | 15/19 [00:02<00:00,  5.66it/s] 84%|████████▍ | 16/19 [00:02<00:00,  6.17it/s] 89%|████████▉ | 17/19 [00:03<00:00,  6.39it/s] 95%|█████████▍| 18/19 [00:03<00:00,  6.55it/s]                                               23:28:04 [WARNING] 美元指数获取失败: HTTP Error 403: Forbidden
-23:28:04 [INFO] === 抓取美股 ===
-23:28:13 [WARNING] Yahoo quote(query1.finance.yahoo.com) 失败: HTTP Error 403: Forbidden
-23:28:22 [WARNING] Yahoo quote(query2.finance.yahoo.com) 失败: HTTP Error 403: Forbidden
-23:28:22 [WARNING] 批量 quote 接口失败，尝试 chart 端点兜底
-23:28:27 [WARNING] Yahoo chart(XLK) 失败: HTTP Error 403: Forbidden
-23:28:31 [WARNING] Yahoo chart(XLV) 失败: HTTP Error 403: Forbidden
-23:28:36 [WARNING] Yahoo chart(XLI) 失败: HTTP Error 403: Forbidden
-23:28:40 [WARNING] Yahoo chart(XLB) 失败: HTTP Error 403: Forbidden
-23:28:45 [WARNING] Yahoo chart(XLY) 失败: HTTP Error 403: Forbidden
-23:28:50 [WARNING] Yahoo chart(XLP) 失败: HTTP Error 403: Forbidden
-23:28:54 [WARNING] Yahoo chart(XLE) 失败: HTTP Error 403: Forbidden
-23:28:59 [WARNING] Yahoo chart(XLF) 失败: HTTP Error 403: Forbidden
-23:29:03 [WARNING] Yahoo chart(XLU) 失败: HTTP Error 403: Forbidden
-23:29:08 [WARNING] Yahoo chart(XLRE) 失败: HTTP Error 403: Forbidden
-23:29:12 [WARNING] Yahoo chart(XLC) 失败: HTTP Error 403: Forbidden
-23:29:17 [WARNING] Yahoo chart(MSFT) 失败: HTTP Error 403: Forbidden
-23:29:21 [WARNING] Yahoo chart(NVDA) 失败: HTTP Error 403: Forbidden
-23:29:26 [WARNING] Yahoo chart(BABA) 失败: HTTP Error 403: Forbidden
-23:29:26 [WARNING] 美股行情首次获取失败，45s 后重试一次...
-23:30:20 [WARNING] Yahoo quote(query1.finance.yahoo.com) 失败: HTTP Error 403: Forbidden
-23:30:30 [WARNING] Yahoo quote(query2.finance.yahoo.com) 失败: HTTP Error 403: Forbidden
-23:30:30 [WARNING] 批量 quote 接口失败，尝试 chart 端点兜底
-23:30:34 [WARNING] Yahoo chart(XLK) 失败: HTTP Error 403: Forbidden
-23:30:39 [WARNING] Yahoo chart(XLV) 失败: HTTP Error 403: Forbidden
-23:30:43 [WARNING] Yahoo chart(XLI) 失败: HTTP Error 403: Forbidden
-23:30:48 [WARNING] Yahoo chart(XLB) 失败: HTTP Error 403: Forbidden
-23:30:53 [WARNING] Yahoo chart(XLY) 失败: HTTP Error 403: Forbidden
-23:30:57 [WARNING] Yahoo chart(XLP) 失败: HTTP Error 403: Forbidden
-23:31:02 [WARNING] Yahoo chart(XLE) 失败: HTTP Error 403: Forbidden
-23:31:06 [WARNING] Yahoo chart(XLF) 失败: HTTP Error 403: Forbidden
-23:31:11 [WARNING] Yahoo chart(XLU) 失败: HTTP Error 403: Forbidden
-23:31:16 [WARNING] Yahoo chart(XLRE) 失败: HTTP Error 403: Forbidden
-23:31:20 [WARNING] Yahoo chart(XLC) 失败: HTTP Error 403: Forbidden
-23:31:25 [WARNING] Yahoo chart(MSFT) 失败: HTTP Error 403: Forbidden
-23:31:29 [WARNING] Yahoo chart(NVDA) 失败: HTTP Error 403: Forbidden
-23:31:34 [WARNING] Yahoo chart(BABA) 失败: HTTP Error 403: Forbidden
-23:31:49 [WARNING] Google News(Microsoft stock) 获取失败: <urlopen error timed out>
-23:32:04 [WARNING] Google News(NVIDIA stock) 获取失败: <urlopen error timed out>
-23:32:19 [WARNING] Google News(Alibaba stock) 获取失败: <urlopen error timed out>
-23:32:19 [INFO] === 抓取博主 ===
-23:32:19 [INFO] 拉取推文: /Users/michaelhuang/.workbuddy/binaries/python/envs/default/bin/twitter user-posts aleabitoreddit --max
-23:32:55 [WARNING] twitter-cli 返回 1: WARNING twitter_cli.client: Failed to init ClientTransaction: Failed to perform, curl: (28) Connection timed out after 10002 milliseconds. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
-
-23:32:55 [INFO] 博主 @aleabitoreddit: 目标日['2026-07-20'] 命中 0 条
-23:32:55 [INFO] 拉取推文: /Users/michaelhuang/.workbuddy/binaries/python/envs/default/bin/twitter user-posts Ariston_Macro --max
-23:33:45 [WARNING] twitter-cli 返回 1: WARNING twitter_cli.client: Failed to init ClientTransaction: Failed to perform, curl: (28) Operation timed out after 10001 milliseconds with 0 bytes received. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
-
-23:33:45 [INFO] 博主 @Ariston_Macro: 目标日['2026-07-20'] 命中 0 条
-23:33:45 [INFO] === 抓取公众号文章监控 ===
-23:33:45 [INFO] 复用缓存 wechat_20260720.json
-23:33:45 [INFO] === 抓取我的持仓(IBKR 实盘) ===
-23:33:45 [INFO] 调用 ibkr_collect（trading_bot venv）抓取实盘持仓 ...
-23:33:45 [WARNING] 持仓采集失败: name 'script' is not defined
-23:34:17 [INFO] Ollama 已生成市场总评
-23:35:03 [INFO] Ollama 已生成公众号 地平线全球策略 总结
-23:35:47 [INFO] Ollama 已生成公众号 行知交易员 总结
-23:35:47 [INFO] === 渲染HTML ===
-23:35:47 [INFO] 已保存: /Users/michaelhuang/Workbuddy/老婆agent/reports/daily_report_20260720.html
-23:35:47 [INFO] --no-send，跳过发送
-
-报告: /Users/michaelhuang/Workbuddy/老婆agent/reports/daily_report_20260720.html
-数据: /Users/michaelhuang/Workbuddy/老婆agent/reports/bundle_20260720.json
