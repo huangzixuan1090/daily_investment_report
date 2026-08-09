@@ -4,7 +4,7 @@
 - 行情：yfinance（自动处理 Yahoo Finance cookie/crumb 认证，云端不被 429 封禁）
 - 新闻：yfinance .news（内置，无需额外 API key）
 
-板块用 11 个 GICS 行业 SPDR ETF 作涨跌代理，按涨跌幅排名。
+板块用覆盖 AI/半导体/新能源/生物科技等热门赛道的详细主题 ETF 作涨跌代理，按涨跌幅排名。
 """
 from __future__ import annotations
 
@@ -17,19 +17,49 @@ import yfinance as yf
 
 from lib import common
 
-# 11 个 GICS 行业 SPDR ETF：作为美股各板块涨跌的代理
+# 详细主题/概念 ETF：覆盖 AI、半导体、新能源、生物科技等热门赛道
 SECTOR_ETFS = [
-    ("XLK", "科技", "Technology"),
-    ("XLV", "医疗健康", "Health Care"),
-    ("XLI", "工业", "Industrials"),
-    ("XLB", "原材料", "Materials"),
-    ("XLY", "可选消费", "Consumer Discretionary"),
-    ("XLP", "必需消费", "Consumer Staples"),
-    ("XLE", "能源", "Energy"),
-    ("XLF", "金融", "Financials"),
-    ("XLU", "公用事业", "Utilities"),
-    ("XLRE", "房地产", "Real Estate"),
-    ("XLC", "通信服务", "Communication Services"),
+    # 科技细分
+    ("SOXX", "半导体", "Semiconductors"),
+    ("SMH",  "芯片制造", "Chip Manufacturing"),
+    ("SOXQ", "费城半导体", "PHLX Semis"),
+    ("WCLD", "云计算", "Cloud Computing"),
+    ("BOTZ", "机器人/AI", "Robotics & AI"),
+    ("AIQ",  "人工智能", "AI & Big Data"),
+    ("ROBO", "机器人自动化", "Robotics Automation"),
+    ("HACK", "网络安全", "Cybersecurity"),
+    ("CIBR", "网络安全2", "Cybersecurity 2"),
+    ("IGV",  "软件", "Software"),
+    ("SKYY", "云软件", "Cloud Software"),
+    # 半导体供应链
+    ("IPAX", "半导体设备", "Semis Equipment"),
+    ("FTXL", "科技精选", "Tech Select"),
+    # 清洁能源/新能源
+    ("ICLN", "清洁能源", "Clean Energy"),
+    ("TAN",  "太阳能", "Solar Energy"),
+    ("FAN",  "风能", "Wind Energy"),
+    ("LIT",  "锂电/电池", "Lithium & Battery"),
+    ("DRIV", "电动车", "EV & Driving"),
+    ("KARS", "电动汽车2", "EV 2"),
+    # 生物科技/医疗
+    ("XBI",  "生物科技", "Biotech"),
+    ("IBB",  "生物制药", "BioPharma"),
+    ("ARKG", "基因组学", "Genomics"),
+    ("IHI",  "医疗器械", "Medical Devices"),
+    # 金融/加密
+    ("FINX", "金融科技", "FinTech"),
+    ("BKCH", "区块链", "Blockchain"),
+    ("BLOK", "区块链2", "Blockchain 2"),
+    # 消费/其他
+    ("ONLN", "在线零售", "Online Retail"),
+    ("ESPO", "游戏", "Video Games"),
+    ("META", "元宇宙", "Metaverse"),
+    ("UFO",  "航天", "Space"),
+    ("JETS", "航空", "Airlines"),
+    ("XME",  "金属矿业", "Metals & Mining"),
+    ("REMX", "稀土", "Rare Earth"),
+    ("MOO",  "农业", "Agriculture"),
+    ("PHO",  "水资源", "Water"),
 ]
 
 DEFAULT_TRACKED = [

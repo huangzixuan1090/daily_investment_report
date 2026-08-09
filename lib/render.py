@@ -67,6 +67,12 @@ tr:hover td{background:#fafbff}
   .bd{padding:14px}
   .chan-card{padding:10px 12px}
 }
+.heatmap-wrap{display:flex;flex-wrap:wrap;gap:4px;margin:8px 0 14px}
+.hm-cell{display:flex;align-items:center;justify-content:center;border-radius:5px;
+  font-size:11px;font-weight:600;color:#fff;cursor:default;text-align:center;
+  padding:2px 4px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+  line-height:1.3;transition:opacity .15s}
+.hm-cell:hover{opacity:.85}
 """
 
 
@@ -453,6 +459,50 @@ def chan_structures_table(structs):
     return h + "</table>"
 
 
+def heatmap_html(rows, title: str = "", max_cells: int = 60) -> str:
+    """把板块列表渲染成按涨跌幅着色的热力图，格子大小与涨跌幅绝对值成比例。"""
+    if not rows:
+        return f'<div class="note">{title}暂无数据。</div>'
+    # 按涨跌幅降序排列
+    rows = sorted(rows, key=lambda x: (x.get("change_pct") or 0), reverse=True)[:max_cells]
+    max_abs = max((abs(r.get("change_pct") or 0) for r in rows), default=1) or 1
+
+    def _color(v):
+        if v is None: return "#aaa"
+        t = min(abs(v) / max_abs, 1.0)
+        if v > 0:
+            r2 = int(180 + 75 * t); g2 = int(50 - 30 * t); b2 = int(50 - 30 * t)
+        elif v < 0:
+            r2 = int(50 - 30 * t); g2 = int(160 + 60 * t); b2 = int(50 - 30 * t)
+        else:
+            return "#999"
+        return f"rgb({r2},{g2},{b2})"
+
+    def _size(v):
+        # min 52px, max 130px
+        t = min(abs(v or 0) / max_abs, 1.0) if max_abs else 0
+        return max(52, int(52 + 78 * t))
+
+    cells = []
+    for r in rows:
+        cp = r.get("change_pct")
+        name = _esc(r.get("name", ""))
+        pct_str = f"{cp:+.2f}%" if cp is not None else "-"
+        sz = _size(cp)
+        bg = _color(cp)
+        tooltip = pct_str
+        # A 股概念板块：显示领涨股
+        lead = r.get("leading_stock") or r.get("name_en") or ""
+        if lead:
+            tooltip += f" · {lead}"
+        cells.append(
+            f'<div class="hm-cell" style="background:{bg};width:{sz}px;height:{sz}px" title="{_esc(tooltip)}">'
+            f'{name}<br><span style="font-size:10px;opacity:.9">{pct_str}</span></div>'
+        )
+    h = f'<h4>{_esc(title)}</h4><div class="heatmap-wrap">{"".join(cells)}</div>'
+    return h
+
+
 def sina_sector_table(rows):
     """新浪兜底行业板：板块 / 涨跌幅 / 领涨股。"""
     if not rows:
@@ -756,7 +806,7 @@ def render_report(bundle: dict) -> str:
         f"<div class='sub'>行情数据日期：{dstr} ｜ {data_label} ｜ 生成于 {now:%Y-%m-%d %H:%M} (CST)</div></div>"
         f"<div class='bd'>")
     parts.append(f"<div class='note'>本报告汇总 <b>{dstr}</b>（{data_label}）收盘后的期货市场、"
-                 f"股市板块表现、全球债券与货币市场、X 博主当日公开观点、公众号文章监控、美股板块涨跌。"
+                 f"股市概念板块热力图（A股/美股）、全球债券与货币市场、X 博主当日公开观点。"
                  f"各模块数据来源与日期见对应小节标注。</div>")
     if commentary:
         parts.append(f"<div class='card' style='white-space:pre-wrap'>{_esc(commentary)}</div>")
@@ -782,28 +832,38 @@ def render_report(bundle: dict) -> str:
     if fut.get("chan_structures"):
         parts.append(chan_structures_table(fut.get("chan_structures", [])))
 
-    # 板块
-    parts.append("<h2>③ 股市板块表现</h2>")
-    for b in sec.get("boards", []):
-        bsrc = "新浪兜底" if b.get("source") == "sina" else ("东方财富" if b.get("source") == "eastmoney" else "—")
-        bdate = b.get("date") or data_date or ""
-        if "error" in b:
-            parts.append(f"<h3>{b['name']}</h3><div class='note'>⚠️ {b['error']}</div>")
-            continue
-        if b.get("source") == "sina":
-            parts.append(f"<h3>{b['name']} · 涨幅前（来源：新浪，数据日期 {bdate}）</h3>")
-            parts.append(sina_sector_table(b.get("top_gain", [])))
-            parts.append(f"<h3>{b['name']} · 跌幅前</h3>")
-            parts.append(sina_sector_table(b.get("top_loss", [])))
-        else:
-            parts.append(f"<h3>{b['name']} · 涨幅前{len(b.get('top_gain',[]))}（来源：{bsrc}，数据日期 {bdate}）</h3>")
-            parts.append(sector_table(b.get("top_gain", [])))
-            parts.append(f"<h3>{b['name']} · 跌幅前</h3>")
-            parts.append(sector_table(b.get("top_loss", [])))
-            parts.append(f"<h3>{b['name']} · 主力净流入前</h3>")
-            parts.append(sector_table(b.get("top_inflow", [])))
-        if b.get("key") == "industry":
-            parts.append(etf_section(etf))
+    # 板块 — 概念热力图
+    parts.append("<h2>③ 股市概念板块热力图</h2>")
+    parts.append(f"<div class='note'>数据来源：东方财富概念板块（m:90 t:3），数据日期 {data_date}。"
+                 "格子大小与涨跌幅绝对值成比例；颜色越深涨跌幅越大；悬停查看领涨股。</div>")
+    concept_board = next((b for b in sec.get("boards", []) if b.get("key") == "concept"), None)
+    if concept_board and "error" not in concept_board:
+        bdate = concept_board.get("date") or data_date or ""
+        # 合并涨跌，展示全部
+        all_rows = (concept_board.get("top_gain") or []) + (concept_board.get("top_loss") or [])
+        # 去重
+        seen = set(); uniq = []
+        for r in all_rows:
+            if r.get("name") not in seen:
+                seen.add(r.get("name")); uniq.append(r)
+        parts.append(heatmap_html(uniq, title=f"A股概念板块（{bdate}）", max_cells=80))
+    elif concept_board and "error" in concept_board:
+        parts.append(f"<div class='note'>⚠️ {_esc(concept_board['error'])}</div>")
+    else:
+        parts.append('<div class="note">A股概念板块数据暂缺。</div>')
+    parts.append(etf_section(etf))
+
+    # 美股概念热力图
+    us_sectors = us.get("sectors", [])
+    if us_sectors:
+        udate = us.get("date_label") or us.get("date") or ""
+        parts.append(heatmap_html(
+            [{"name": r.get("name_cn",""), "change_pct": r.get("change_pct"),
+              "name_en": r.get("name_en",""), "leading_stock": r.get("symbol","")}
+             for r in us_sectors],
+            title=f"美股主题ETF（{udate}）", max_cells=60))
+    else:
+        parts.append('<div class="note">美股主题数据暂缺。</div>')
 
     # 全球债券
     parts.append(f"<h2>④ 全球债券市场分析</h2>")
@@ -823,16 +883,12 @@ def render_report(bundle: dict) -> str:
     for b in blg_list:
         parts.append(blogger_section(b))
 
-    # 美股板块涨跌
-    parts.append(f"<h2>⑧ 美股板块涨跌分析</h2>")
-    parts.append(us_stocks_section(us))
-
     parts.append("</div>")
     parts.append(
         f"<div class='ft'>行情数据日期：{dstr}（{data_label}）。本报告由每日市场Agent自动生成。"
         "期货资金流入为估算口径；期货缠论由本地大模型分析；板块数据来自东方财富/新浪，"
         "债券收益率来自 akshare、主要货币对来自新浪外汇，"
-        "博主内容来自X公开推文，美股行情来自 yfinance。仅供研究参考，不构成投资建议。</div>")
+        "博主内容来自X公开推文，美股主题ETF行情来自 yfinance。仅供研究参考，不构成投资建议。</div>")
     parts.append("</div></body></html>")
     return "\n".join(parts)
 
